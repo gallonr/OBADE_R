@@ -1,4 +1,4 @@
-# OBADE : Outils d'analyses pur la BAse de Données ESTAMP
+# OBADE : Outils d'analyses pour la BAse de Données ESTAMP
 
 
 ## *Résumé*
