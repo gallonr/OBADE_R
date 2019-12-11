@@ -36,6 +36,6 @@ Il s’articule de la manière suivante :
 
 #### [**URCPIE Normandie **](https://www.urcpie-normandie.com/)
 
-<img src="figures_divers/logoURCPIENormandie.jpg" width="150" align="right">
+<img src="figures_divers/urcpienormandie.png" width="150" align="right">
 
 - *Léa Brieau* : Animatrice de l'Observatoire des activités de Pêche à pied de loisir sur la façade Manche-Mer du Nord
