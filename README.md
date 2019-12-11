@@ -34,7 +34,7 @@ Il s’articule de la manière suivante :
 - *Régis Gallon* : Maitre de conférences - expert en écologie numérique - phycologue macrobenthique. Expérience en gestion et analyses de bases de données environnementales et biologiques.
 
 
-#### [**L'URCPIE Normandie **](https://www.urcpie-normandie.com/)
+#### [**URCPIE Normandie **](https://www.urcpie-normandie.com/)
 
 <img src="figures_divers/logoURCPIENormandie.jpg" width="150" align="right">
 
