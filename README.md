@@ -10,4 +10,8 @@ Il s’articule de la manière suivante :
 
 - Un volet **Expertise**, qui consiste à analyser les **données écologiques** (ressources et habitats) et les **données d’usages** disponibles, valides, qualifiées et robustes de la BD ESTAMP. Ce volet permettra d’évaluer l’efficacité de l’Observatoire sur les ressources et/ou les habitats en les confrontant aux données de fréquentation et de sensibilisation.
 
-![Résumé graphique](figures_divers/resume.png "Description du projet OBADE")
+
+<p align="center">
+<img src="figures_divers/resume.png" width="400">
+</p>
+
