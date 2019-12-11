@@ -1,4 +1,4 @@
-# OBADE : Outils d'analyses pur la BAse de Données ESTAMP
+# OBADE : Outils d'analyses pour la BAse de Données ESTAMP
 
 
 ## *Résumé*
@@ -10,8 +10,26 @@ Il s’articule de la manière suivante :
 
 - Un volet **Expertise**, qui consiste à analyser les **données écologiques** (ressources et habitats) et les **données d’usages** disponibles, valides, qualifiées et robustes de la BD ESTAMP. Ce volet permettra d’évaluer l’efficacité de l’Observatoire sur les ressources et/ou les habitats en les confrontant aux données de fréquentation et de sensibilisation.
 
+<br>
 
 <p align="center">
-<img src="figures_divers/resume.png" width="400">
+<img src="figures_divers/resume.png" width="500">
 </p>
+
+<br>
+
+## *Partenaires*
+
+#### [**Le GEMEL-Normandie**](http://www.gemel-normandie.org/)
+<img src="figures_divers/gemeln.png" width="100" align="right">
+
+- *Alexandrine Baffreau* : Chargée de missions - experte en habitats macrobenthiques et cartographie
+- *Aurélie Garcia* : Chargée de missions - experte gestion de projet et écologie des communautés macrobenthiques 
+- *Olivier Timsit* : Taxonomiste - expert en écologie des communautés macrobenthiques
+
+#### [**Le Cnam-Intechmer**](http://www.intechmer.cnam.fr/l-institut/)
+
+<img src="figures_divers/cnam.png" width="150" align="right">
+
+- *Régis Gallon* : Maitre de conférences - expert en écologie numérique - phycologue macrobenthique. Expérience en gestion et analyses de bases de données environnementales et biologiques.
 
