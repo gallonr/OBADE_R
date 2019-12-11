@@ -9,3 +9,5 @@ Il s’articule de la manière suivante :
 - Un volet **Rapportage**, qui consiste en la création d’un outil automatique d’analyse des **données d’usage** qui en interrogeant la BD ESTAMP produira graphiques, statistiques et cartes. Cet outil permettrait d’harmoniser les pratiques, de valider la représentativité des données et de faciliter le rapportage pour animer l’Observatoire.
 
 - Un volet **Expertise**, qui consiste à analyser les **données écologiques** (ressources et habitats) et les **données d’usages** disponibles, valides, qualifiées et robustes de la BD ESTAMP. Ce volet permettra d’évaluer l’efficacité de l’Observatoire sur les ressources et/ou les habitats en les confrontant aux données de fréquentation et de sensibilisation.
+
+![Résumé graphique](figures_divers/resume.png "Description du projet OBADE")
