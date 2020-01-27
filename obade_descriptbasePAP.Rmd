@@ -1,0 +1,209 @@
+---
+title: 'OBADE : Pêche à pieds'
+author: "Régis GALLON & Aurélie GARCIA"
+date: "22/01/2020"
+output:
+  html_document: 
+    df_print: kable
+    keep_md: yes
+    theme: paper
+    toc: yes
+    toc_depth: 4
+subtitle: Description des jeux de données
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r load_data,include=FALSE}
+require(tidyverse)
+require(plotly)
+source("internal_function.R")
+load("./export/table/enquetePeche.Rdata")
+enquetePeche.resum <- descript.database(enquetePeche)
+enquetePeche.resum <- enquetePeche.resum %>% mutate(pourc_NA=(Nombre_NA/nrow(enquetePeche))*100)
+```
+
+
+## Contexte (à developper)
+
+- observatoire de la pêche à pieds
+- base de données ESTAMP
+- description de la base
+- si lacunes -> localisation spatio-temporelle
+
+On se focalise principalement sur les données de "pêche à pieds"
+
+
+### 1 Description des données extraites
+
+#### 1.1 `enquete_detail.csv`
+
+Le jeu de données `enquete_detail.csv` est composé de `r dim(pratPeche)[1]` lignes (= observations) et `r dim(pratPeche)[2]` colonnes (= variables)
+
+```{r detailPeche.resum, message=FALSE, warning=FALSE}
+detailPeche.resum <- descript.database(detailPeche)
+detailPeche.resum <- detailPeche.resum %>% mutate(pourc_NA=(Nombre_NA/nrow(detailPeche))*100)
+detailPeche.resum %>% select(-pourc_NA)
+```
+
+```{r detailPeche.na, echo=FALSE, fig.height=7, fig.width=8}
+ggplot(detailPeche.resum,aes(x =reorder(Variable,-pourc_NA),y=pourc_NA))+
+  geom_bar(stat="identity") + ylab("% de données non renseignées") + xlab("")+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle=90,vjust=0.5,hjust=1))
+```
+
+
+#### 1.2 `enquete_peche_jour.csv`
+
+
+Le jeu de données `enquete_peche_jour.csv` est composé de `r dim(jourPeche)[1]` lignes (= observations) et `r dim(jourPeche)[2]` colonnes (= variables)
+
+```{r jourPeche.resum, message=FALSE, warning=FALSE}
+jourPeche.resum <- descript.database(jourPeche)
+jourPeche.resum <- jourPeche.resum %>% mutate(pourc_NA=(Nombre_NA/nrow(jourPeche))*100)
+jourPeche.resum %>% select(-pourc_NA)
+```
+
+```{r jourPeche.na, echo=FALSE, fig.height=7, fig.width=8}
+ggplot(jourPeche.resum,aes(x =reorder(Variable,-pourc_NA),y=pourc_NA))+
+  geom_bar(stat="identity") + ylab("% de données non renseignées") + xlab("")+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle=90,vjust=0.5,hjust=1))
+```
+
+
+
+#### 1.3 `ficheterrain.csv`
+
+
+Le jeu de données `ficheterrain.csv` est composé de `r dim(ficheTerrain)[1]` lignes (= observations) et `r dim(ficheTerrain)[2]` colonnes (= variables)
+
+```{r ficheTerrain.resum, message=FALSE, warning=FALSE}
+ficheTerrain.resum <- descript.database(ficheTerrain)
+ficheTerrain.resum <- ficheTerrain.resum %>% mutate(pourc_NA=(Nombre_NA/nrow(ficheTerrain))*100)
+ficheTerrain.resum %>% select(-pourc_NA)
+```
+
+```{r ficheTerrain.na, echo=FALSE, fig.height=7, fig.width=8}
+ggplot(ficheTerrain.resum,aes(x =reorder(Variable,-pourc_NA),y=pourc_NA))+
+  geom_bar(stat="identity") + ylab("% de données non renseignées") + xlab("")+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle=90,vjust=0.5,hjust=1))
+```
+
+
+
+#### 1.4 `enquete_preparation_peche.csv`
+
+
+Le jeu de données `enquete_preparation_peche.csv` est composé de `r dim(prepPeche)[1]` lignes (= observations) et `r dim(prepPeche)[2]` colonnes (= variables)
+
+```{r prepPeche.resum, message=FALSE, warning=FALSE}
+prepPeche.resum <- descript.database(prepPeche)
+prepPeche.resum <- prepPeche.resum %>% mutate(pourc_NA=(Nombre_NA/nrow(prepPeche))*100)
+prepPeche.resum %>% select(-pourc_NA)
+```
+
+```{r prepPeche.na, echo=FALSE, fig.height=7, fig.width=8}
+ggplot(prepPeche.resum,aes(x =reorder(Variable,-pourc_NA),y=pourc_NA))+
+  geom_bar(stat="identity") + ylab("% de données non renseignées") + xlab("")+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle=90,vjust=0.5,hjust=1))
+```
+
+#### 1.5 `enquete_pratique_peche.csv`
+
+
+Le jeu de données `enquete_pratique_peche.csv` est composé de `r dim(pratPeche)[1]` lignes (= observations) et `r dim(pratPeche)[2]` colonnes (= variables)
+
+```{r pratPeche.resum, message=FALSE, warning=FALSE}
+pratPeche.resum <- descript.database(pratPeche)
+pratPeche.resum <- pratPeche.resum %>% mutate(pourc_NA=(Nombre_NA/nrow(pratPeche))*100)
+pratPeche.resum %>% select(-pourc_NA)
+```
+
+```{r pratPeche.na, echo=FALSE, fig.height=7, fig.width=8}
+ggplot(pratPeche.resum,aes(x =reorder(Variable,-pourc_NA),y=pourc_NA))+
+  geom_bar(stat="identity") + ylab("% de données non renseignées") + xlab("")+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle=90,vjust=0.5,hjust=1))
+```
+
+
+### **Points importants :**
+
+ - Au total `r as.numeric(enquetePeche.resum[3,3])` observateurs[^1] répartis selon les `r as.numeric(enquetePeche.resum[38,3])` territoires. Grande hétérogénéité dans la dénomination des observateurs qui peut poser un problème dans certains cas pour retrouver le ou les observateur(s).
+
+
+```{r echo=FALSE}
+enquetePeche%>% group_by(territoire) %>% count(Observateurs) %>% count(territoire)
+```
+
+- Sur les `r dim(enquetePeche.resum)[1]` variables, `r dim(enquetePeche.resum %>% filter(pourc_NA<50))[1]` possèdent moins de 50% d'observations non renseignées (`NA`). 
+
+```{r paged.print=TRUE}
+enquetePeche.ssna <- enquetePeche.resum %>% filter(pourc_NA<50)
+str_c(enquetePeche.ssna$Variable,collapse=" \ ")
+```
+
+
+[^1]: La liste des observateurs sera disponible en annexe
+
+
+### 2. Emprise temporelle et spatiale
+
+#### 2.1 Emprise spatiale
+
+```{r emprise_spat,fig.height=8, fig.width=8}
+ficheTerrain.spat <- ficheTerrain %>% group_by(territoire) %>% count(`site`) %>% count(`territoire`)
+ggplot(ficheTerrain.spat,aes(x=reorder(`territoire`,-n),y=n))+geom_bar(stat="identity")+
+  ylab("Nombre de sites")+xlab("Territoire")+theme_bw()+
+  theme(axis.text.x = element_text(angle=90,vjust=0.5,hjust=1))
+```
+
+
+
+
+#### 2.2 Emprise temporelle
+
+
+
+Les dates sont localisées dans le jeu de données `ficheterrain.csv`.
+
+
+```{r emprisetps, echo=FALSE, fig.height=6, fig.width=8}
+
+ficheTerrain.count <- ficheTerrain %>% count(`date sortie`)
+
+
+p <- ggplot(ficheTerrain.count,aes(x=`date sortie`,y=n))+geom_point()+
+  ylab("Nombre d'observation")+xlab("Date")+theme_bw()
+ggplotly(p)
+
+```
+
+
+
+
+```{r emprisetps_territoire, echo=FALSE, fig.height=15, fig.width=8}
+
+ficheTerrain.count <- ficheTerrain %>% group_by(territoire)%>%count(`date sortie`)
+
+
+p <- ggplot(ficheTerrain.count,aes(x=`date sortie`,y=n))+geom_point()+
+  ylab("Nombre d'observation")+xlab("Date")+theme_bw()+
+  facet_grid(territoire~.,labeller = label_wrap_gen(10),scales="free_y")
+ggplotly(p)
+
+```
+
+
+
+
+
+
+
+
