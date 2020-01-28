@@ -5,9 +5,13 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Description des données pêche à pieds"
+    - text: "Description des données d'usage"
       href: obade_descriptbasePAP.html
       
 output:
   html_document:
     theme: cosmo
+    df_print: kable
+    fig_caption: yes
+    toc: yes
+    toc_depth: 4

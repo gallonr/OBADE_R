@@ -1,5 +1,5 @@
 ---
-title: 'OBADE : Pêche à pieds'
+title: "Description des données *d'usage*"
 ---
 
 ```{r setup, include=FALSE}
@@ -16,14 +16,17 @@ enquetePeche.resum <- enquetePeche.resum %>% mutate(pourc_NA=(Nombre_NA/nrow(enq
 ```
 
 
-## Contexte (à developper)
+**Contexte**
 
-- observatoire de la pêche à pieds
-- base de données ESTAMP
-- description de la base
-- si lacunes -> localisation spatio-temporelle
+La réalisation des données d'usage nécessite au préalable de décrire les données présentes dans la base ESTAMP. Cette description permettra de mettre en avant les points forts et les points faibles permettant ainsi d'élaborer d'éventuelles solutions pour améliorer la robustesse[^2] de la base.
 
-On se focalise principalement sur les données de "pêche à pieds"
+Les données ont été extraites le `r format(Sys.Date(), "%d-%m-%Y")` via le site web (https://estamp.afbiodiversite.fr/). L'extraction est composer de  `r length(list.files("./data/enquete/"))` fichiers :
+```{r listdataenquete, comment=NA}
+
+cat(str_c(list.files("./data/enquete/"),collapse=" \n"))
+
+
+```
 
 
 ### 1 Description des données extraites
@@ -202,9 +205,9 @@ Grande hétérogénéité dans la dénomination des observateurs qui peut poser 
 
 Sur les `r dim(enquetePeche.resum)[1]` variables, `r dim(enquetePeche.resum %>% filter(pourc_NA<50))[1]` possèdent moins de 50% d'observations non renseignées (`NA`). 
 
-```{r paged.print=TRUE}
+```{r paged.print=TRUE, comment=NA}
 enquetePeche.ssna <- enquetePeche.resum %>% filter(pourc_NA<50)
-str_c(enquetePeche.ssna$Variable,collapse=" \ ")
+cat(str_c(enquetePeche.ssna$Variable,collapse="\n"))
 ```
 
 
