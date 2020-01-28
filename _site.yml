@@ -1,0 +1,13 @@
+name: "OBADE : Outils d analyses pour la BAse de Données ESTAMP"
+output_dir: "docs"
+navbar:
+  title: "OBADE"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Description des données pêche à pieds"
+      href: obade_descriptbasePAP.html
+      
+output:
+  html_document:
+    theme: cosmo

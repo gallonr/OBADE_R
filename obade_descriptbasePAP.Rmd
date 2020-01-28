@@ -1,18 +1,5 @@
 ---
 title: 'OBADE : Pêche à pieds'
-author: "Régis GALLON & Aurélie GARCIA"
-date: "22/01/2020"
-editor_options:
-  chunk_output_type: console
-output:
-  html_document: 
-    df_print: kable
-    fig_caption: yes
-    keep_md: yes
-    theme: paper
-    toc: yes
-    toc_depth: 4
-subtitle: Description des jeux de données
 ---
 
 ```{r setup, include=FALSE}

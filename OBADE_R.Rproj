@@ -11,3 +11,6 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+
+BuildType: Website
+WebsitePath: C:/Users/Régis Gallon/OneDrive - LECNAM/2019-2020/6-recherche/OBADE/OBADE_R

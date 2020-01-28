@@ -26,3 +26,12 @@ enquetePeche%>% group_by(territoire) %>% count(Observateurs)
 
 
 enquetePeche.resum %>% filter(pourc_NA>50)
+
+
+output:
+  html_document: 
+  df_print: kable
+fig_caption: yes
+theme: paper
+toc: yes
+toc_depth: 4
