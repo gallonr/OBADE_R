@@ -2,9 +2,12 @@
 title: 'OBADE : Pêche à pieds'
 author: "Régis GALLON & Aurélie GARCIA"
 date: "22/01/2020"
+editor_options:
+  chunk_output_type: console
 output:
   html_document: 
     df_print: kable
+    fig_caption: yes
     keep_md: yes
     theme: paper
     toc: yes
@@ -133,24 +136,6 @@ ggplot(pratPeche.resum,aes(x =reorder(Variable,-pourc_NA),y=pourc_NA))+
 ```
 
 
-### **Points importants :**
-
- - Au total `r as.numeric(enquetePeche.resum[3,3])` observateurs[^1] répartis selon les `r as.numeric(enquetePeche.resum[38,3])` territoires. Grande hétérogénéité dans la dénomination des observateurs qui peut poser un problème dans certains cas pour retrouver le ou les observateur(s).
-
-
-```{r echo=FALSE}
-enquetePeche%>% group_by(territoire) %>% count(Observateurs) %>% count(territoire)
-```
-
-- Sur les `r dim(enquetePeche.resum)[1]` variables, `r dim(enquetePeche.resum %>% filter(pourc_NA<50))[1]` possèdent moins de 50% d'observations non renseignées (`NA`). 
-
-```{r paged.print=TRUE}
-enquetePeche.ssna <- enquetePeche.resum %>% filter(pourc_NA<50)
-str_c(enquetePeche.ssna$Variable,collapse=" \ ")
-```
-
-
-[^1]: La liste des observateurs sera disponible en annexe
 
 
 ### 2. Emprise temporelle et spatiale
@@ -164,6 +149,7 @@ ggplot(ficheTerrain.spat,aes(x=reorder(`territoire`,-n),y=n))+geom_bar(stat="ide
   theme(axis.text.x = element_text(angle=90,vjust=0.5,hjust=1))
 ```
 
+**Le nombre d'bservation par site est mis en annexe**
 
 
 
@@ -201,9 +187,52 @@ ggplotly(p)
 ```
 
 
+### 3. Points à améliorer
+
+#### 3.1 Observateurs
+
+*Constat*
+
+Au total `r as.numeric(enquetePeche.resum[3,3])` observateurs[^1] répartis selon les `r as.numeric(enquetePeche.resum[38,3])` territoires. 
+
+```{r echo=FALSE}
+enquetePeche%>% group_by(territoire) %>% count(Observateurs) %>% count(territoire)
+```
+
+[^1]: La liste des observateurs sera disponible en annexe 
+ 
+*Problèmes éventuels*
+
+Grande hétérogénéité dans la dénomination des observateurs qui peut poser un problème dans certains cas pour retrouver le ou les observateur(s).
+
+*Solutions proposées*
 
 
 
+#### 3.2 Données non-disponibles
+
+*Constat*
+
+Sur les `r dim(enquetePeche.resum)[1]` variables, `r dim(enquetePeche.resum %>% filter(pourc_NA<50))[1]` possèdent moins de 50% d'observations non renseignées (`NA`). 
+
+```{r paged.print=TRUE}
+enquetePeche.ssna <- enquetePeche.resum %>% filter(pourc_NA<50)
+str_c(enquetePeche.ssna$Variable,collapse=" \ ")
+```
 
 
+*Problèmes éventuels*
 
+
+*Solutions proposées*
+
+
+#### 3.3 Données temporelles parcellaires
+
+*Constat*
+
+
+*Problèmes éventuels*
+
+
+*Solutions proposées*
