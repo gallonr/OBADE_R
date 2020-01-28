@@ -14,7 +14,12 @@ prepPeche.resum <- descript.database(prepPeche)
 ficheTerrain.resum <- descript.database(ficheTerrain)
 
 
-ficheTerrain %>% group_by(territoire) %>% count(`référent sortie`)
+ficheTerrain %>% group_by(territoire) %>% count(`site`)
+
+
+
+
+
 
 enquetePeche%>% group_by(territoire) %>% count(Observateurs)
 
