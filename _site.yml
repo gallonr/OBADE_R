@@ -3,6 +3,8 @@ output_dir: "docs"
 navbar:
   title: "OBADE"
   left:
+    - text: "Partenaires"
+      href: partenaires.html
     - text: "Description des données d'usage"
       href: obade_descriptbasePAP.html
       
@@ -11,5 +13,3 @@ output:
     theme: cosmo
     df_print: kable
     fig_caption: yes
-    toc: yes
-    toc_depth: 4
