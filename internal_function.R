@@ -1,6 +1,4 @@
 
-
-
 descript.database <- function(data)
 {
   resum.table <- data.frame(matrix(nc=5,nrow=ncol(data)))
@@ -30,3 +28,8 @@ descript.database <- function(data)
 }
 
 
+obade_theme <- theme_bw()+
+  theme(axis.title = element_text(face="bold",size=14),
+        axis.text = element_text(size=12),
+        strip.text = element_text(face="bold.italic",size=14),
+        strip.background = element_rect(fill=alpha('#1b65d1', 0.4)))
