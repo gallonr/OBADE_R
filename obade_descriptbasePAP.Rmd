@@ -211,7 +211,7 @@ Grande hétérogénéité dans la dénomination des observateurs qui peut poser 
 
 *Constat*
 
-Sur les `r dim(enquetePeche.resum)[1]` variables, `r dim(enquetePeche.resum %>% filter(pourc_NA<50))[1]` possèdent moins de 50% d'observations non renseignées (`NA`). 
+Sur les `r dim(enquetePeche.resum)[1]` variables, `r dim(enquetePeche.resum %>% filter(pourc_NA<50))[1]` possèdent moins de 50% d'observations non renseignées (`NA`). Elles sont affichées ci-dessous : 
 
 ```{r paged.print=TRUE, comment=NA}
 enquetePeche.ssna <- enquetePeche.resum %>% filter(pourc_NA<50)
