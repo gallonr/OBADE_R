@@ -20,7 +20,7 @@ enquetePeche.resum <- enquetePeche.resum %>% mutate(pourc_NA=(Nombre_NA/nrow(enq
 
 La réalisation des données d'usage nécessite au préalable de décrire les données présentes dans la base ESTAMP. Cette description permettra de mettre en avant les points forts et les points faibles permettant ainsi d'élaborer d'éventuelles solutions pour améliorer la robustesse[^2] de la base.
 
-Les données ont été extraites le `r format(Sys.Date(), "%d-%m-%Y")` via le site web (https://estamp.afbiodiversite.fr/). L'extraction est composer de  `r length(list.files("./data/enquete/"))` fichiers :
+Les données ont été extraites le `r format(Sys.Date(), "%d-%m-%Y")` via le site web (https://estamp.afbiodiversite.fr/). L'extraction est composée de  `r length(list.files("./data/enquete/"))` fichiers :
 ```{r listdataenquete, comment=NA}
 
 cat(str_c(list.files("./data/enquete/"),collapse=" \n"))
