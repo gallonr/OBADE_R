@@ -12,7 +12,7 @@ descript.database <- function(data)
     
     resum.table[i,1] <- names(data)[i]
     resum.table[i,2] <- class(data.df[,i])[1]
-    resum.table[i,3] <- dim(unique(data[,i]))[1]  
+    resum.table[i,3] <- dim(unique(na.omit(data[,i])))[1]  
     resum.table[i,4] <- length(which(is.na(data[,i])))
     
     if(as.numeric(resum.table[i,3])<=10)
