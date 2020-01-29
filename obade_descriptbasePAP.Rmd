@@ -43,7 +43,7 @@ cat(str_c(list.files("./data/enquete/"),collapse=" \n"))
 
 #### *1.1 `enquete_detail.csv`*
 
-Le jeu de données `enquete_detail.csv` est composé de `r dim(pratPeche)[1]` lignes (= observations) et `r dim(pratPeche)[2]` colonnes (= variables)
+Le jeu de données `enquete_detail.csv` est composé de `r dim(detailPeche)[1]` lignes (= observations) et `r dim(detailPeche)[2]` colonnes (= variables)
 
 ```{r detailPeche.resum, message=FALSE, warning=FALSE}
 detailPeche.resum <- descript.database(detailPeche)
