@@ -1,5 +1,10 @@
 ---
 title: "Description des données *d'usage*"
+
+output:
+  html_document:
+    toc: yes
+    toc_depth: 4
 ---
 
 ```{r setup, include=FALSE}
