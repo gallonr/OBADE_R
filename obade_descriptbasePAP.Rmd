@@ -179,7 +179,8 @@ ficheTerrain.count <- ficheTerrain %>% group_by(territoire)%>%count(`date sortie
 p <- ggplot(ficheTerrain.count,aes(x=`date sortie`,y=n))+geom_point()+
   ylab("Nombre d'observation")+xlab("Date")+theme_bw()+
   facet_grid(territoire~.,labeller = label_wrap_gen(10),scales="free_y")
-ggplotly(p)
+# ggplotly(p)
+p
 
 ```
 
