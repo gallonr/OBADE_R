@@ -4,7 +4,7 @@
 descript.database <- function(data)
 {
   resum.table <- data.frame(matrix(nc=5,nrow=ncol(data)))
-  names(resum.table) <- c("Variable","Class","Nombre_Elements","Nombre_NA","Description")
+  names(resum.table) <- c("Variable","Class","Nombre_Elements","Nombre_NA","Exemples")
   data.df <- as.data.frame(data)
   
   for (i in 1:ncol(data))
