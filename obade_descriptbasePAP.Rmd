@@ -5,6 +5,9 @@ output:
   html_document:
     toc: yes
     toc_depth: 4
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
 ---
 
 ```{r setup, include=FALSE}
