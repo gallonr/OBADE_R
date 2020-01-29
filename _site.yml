@@ -7,6 +7,11 @@ navbar:
       href: partenaires.html
     - text: "Description des données d'usage"
       href: obade_descriptbasePAP.html
+  right:
+    - icon: fa-envelope
+      href: mailto:par_obade@CNAM.onmicrosoft.com
+    - icon: fa-github
+      href: https://github.com/gallonr/OBADE_R
       
 output:
   html_document:
