@@ -3,8 +3,6 @@ output_dir: "docs"
 navbar:
   title: "OBADE"
   left:
-    - text: "Home"
-      href: index.html
     - text: "Description des données d'usage"
       href: obade_descriptbasePAP.html
       
