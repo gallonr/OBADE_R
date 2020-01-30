@@ -7,7 +7,7 @@ Compte-rendu du 30/01/2020
 >  - Léa Brieau (LB)  
 >  - Régis Gallon (RG)
 
-LB a été intégré dans la mailing-list du projet OBADE
+*LB* a été intégrée dans la mailing-list du projet OBADE
 
 ### **1. Description des variables et homogénéisation des libellés**
 
@@ -20,7 +20,7 @@ LB a été intégré dans la mailing-list du projet OBADE
 - *Terminé* : La fiche est terminée par l'opérateur
 - *Validé* : La fiche est validée par un référent local (structure) ou national
 
-RG : Pour la description des données j'utilise les données validées.
+*RG :* Pour la description des données j'utilise les données validées.
 
 ### **3. Mise en place du Comité de pilotage COPIL**
 #### 3.1 Participants
@@ -32,7 +32,9 @@ RG : Pour la description des données j'utilise les données validées.
 - Présentation des outils existants
 - Quelles questions à répondre pour OBADE sur **les données d'usage**
 
-RG : Pour le COPIL création d'un modèle de document d'analyse selon le fichier (.xlsx) développé par LB. (*e.g.* Côtes d'Armor tous sites confondus) 
+*RG :* Pour le COPIL création d'un modèle de document d'analyse selon le fichier (.xlsx) développé par *LB*. (*e.g.* Côtes d'Armor tous sites confondus) 
+
+Conformité des paniers: Difficile à analyser car données qui n'ont pas les mêmes unités (poids, volume, nombre d'individus)
 
 
 Voir l'intégration de la base SIG dans le site du projet OBADE [lien] (https://lizmap.afbiodiversite.fr/aamp/afb_mer/index.php/view/map/?repository=bdestampbasesig&project=ref_met_bdestamp_ref_geo_pol)
