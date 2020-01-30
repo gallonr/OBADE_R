@@ -2,12 +2,24 @@
 Compte-rendu 30/01/2020
 ---
 
-Aurélie Garcia  
-Léa Brieau
-Régis Gallon
+> Présent(e)s :  
+>  - Aurélie Garcia (AG)
+>  - Léa Brieau (LB)  
+>  - Régis Gallon (RG)
 
+LB a été intégré dans la mailing-list du projet OBADE
 
+**1. Description des variables et homogénéisation des libellés**
 
-1. Description des variables et homogénéisation des libellés
+- Il faudrait une description plus précise des variables
+- Pour une même variable, il peut y avoir des noms différents : `Libellé Sortie`= `libellé sortie`
 
-2. Le type de données à exploit
+**2. Le type de données à exploiter** 
+
+- *Brouillon* : La fiche est incomplète
+- *Terminé* : La fiche est terminée par l'opérateur
+- *Validé* : La fiche est validée par un référent local (structure) ou national
+
+RG : Pour la description des données j'utilise les données validées.
+
+**3. Mise en place du Comité de pilotage COPIL**
