@@ -1,0 +1,13 @@
+---
+Compte-rendu 30/01/2020
+---
+
+Aurélie Garcia  
+Léa Brieau
+Régis Gallon
+
+
+
+1. Description des variables et homogénéisation des libellés
+
+2. Le type de données à exploit
