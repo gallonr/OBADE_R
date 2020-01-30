@@ -1,5 +1,5 @@
 ---
-Compte-rendu 30/01/2020
+Compte-rendu du 30/01/2020
 ---
 
 > Présent(e)s :  
@@ -9,12 +9,12 @@ Compte-rendu 30/01/2020
 
 LB a été intégré dans la mailing-list du projet OBADE
 
-**1. Description des variables et homogénéisation des libellés**
+### **1. Description des variables et homogénéisation des libellés**
 
 - Il faudrait une description plus précise des variables
 - Pour une même variable, il peut y avoir des noms différents : `Libellé Sortie`= `libellé sortie`
 
-**2. Le type de données à exploiter** 
+### **2. Le type de données à exploiter** 
 
 - *Brouillon* : La fiche est incomplète
 - *Terminé* : La fiche est terminée par l'opérateur
@@ -22,4 +22,17 @@ LB a été intégré dans la mailing-list du projet OBADE
 
 RG : Pour la description des données j'utilise les données validées.
 
-**3. Mise en place du Comité de pilotage COPIL**
+### **3. Mise en place du Comité de pilotage COPIL**
+#### 3.1 Participants
+
+#### 3.2 Organisation
+
+- Présentation du projet OBADE
+- Description de la base
+- Présentation des outils existants
+- Quelles questions à répondre pour OBADE sur **les données d'usage**
+
+RG : Pour le COPIL création d'un modèle de document d'analyse selon le fichier (.xlsx) développé par LB. (*e.g.* Côtes d'Armor tous sites confondus) 
+
+
+Voir l'intégration de la base SIG dans le site du projet OBADE [lien] (https://lizmap.afbiodiversite.fr/aamp/afb_mer/index.php/view/map/?repository=bdestampbasesig&project=ref_met_bdestamp_ref_geo_pol)
