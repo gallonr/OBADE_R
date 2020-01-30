@@ -7,6 +7,8 @@ navbar:
       href: partenaires.html
     - text: "Description des données d'usage"
       href: obade_descriptbasePAP.html
+    - text: "Compte-rendu Réunion"
+      href: CR.html
   right:
     - icon: fa-envelope
       href: mailto:Projet_OBADE<par_obade@CNAM.onmicrosoft.com>?subject=[OBADE]
