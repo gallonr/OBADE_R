@@ -1,5 +1,7 @@
 ---
 title : "Compte-rendu du **30/01/2020**"
+output: 
+  pdf_document
 ---
 
 > Présent(e)s :  
