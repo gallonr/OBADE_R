@@ -2,4 +2,4 @@
 title: "Comptes-rendus de réunion"
 ---    
 
-- [Réunion du 30-01-2020](CR_30012020.html)
+- [Réunion du 30-01-2020](CR_30012020.pdf)
