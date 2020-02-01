@@ -1,0 +1,89 @@
+---
+title: "Analyse des données d'usage"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+require(tidyverse)
+require(plotly)
+library(bookdown)
+```
+
+```{r load_data,include=FALSE}
+
+source("internal_function.R")
+load("./export/table/enquetePeche.Rdata")
+enquetePeche.resum <- descript.database(enquetePeche)
+enquetePeche.resum <- enquetePeche.resum %>% mutate(pourc_NA=(Nombre_NA/nrow(enquetePeche))*100)
+```
+
+### 1. Acceuil
+
+## 1. Carastéristiques des pêcheurs
+
+### 2. Age
+
+### 3. Sexe
+
+### 4. Origine
+
+### 5. Catégorie socio-professionnelle
+
+### 6. Pêcheur sensibilisé
+
+### 7. Groupe
+
+## 2. Préparation de la pêche
+
+### 8. Espèce ciblée
+
+### 9. Outil de pêche
+
+### 10. Fréquence de la pratique
+
+### 11. Critère choix de site
+
+### 12. Motivation de la pêche
+
+### 13. Connaissance
+
+#### 13.1 Heure marée
+
+#### 13.2 Etat sanitaire
+
+#### 13.3 Réglementation
+
+#### 13.4 Période de pêche
+
+#### 14. Outils de mesure
+
+#### 15. Adhésion à une association
+
+## 3. La pêche
+
+#### 16. Tri de la récolte
+
+#### 17. Espèces pêchées
+
+#### 18. Quantité pêchée
+
+#### 19. Conformité du panier
+
+## 4. Divers
+
+#### 20. Temps moyen de pêche
+
+#### 21. Réactivité du pêcheur
+
+#### 22. Autre type de pêche
+
+#### 23. Lien avec le territoire
+
+
+
+
+
+
+
+
