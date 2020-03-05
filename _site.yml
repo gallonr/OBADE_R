@@ -4,11 +4,22 @@ navbar:
   title: "OBADE"
   left:
     - text: "Partenaires"
+      icon: fa-user-friends
       href: partenaires.html
+    - text: "Comptes-rendus Réunion"
+      icon: fa-handshake
+      href: CR.html
+    - text: "Bibliographie"
+      icon: fa-newspaper
+      href: bibliographie.html
     - text: "Description des données d'usage"
       href: obade_descriptbasePAP.html
-    - text: "Compte-rendu Réunion"
-      href: CR.html
+    - text: "Divers"
+      menu:
+        - text: "Exemple fiche doc"
+          href: analyse_usage.docx
+
+
   right:
     - icon: fa-envelope
       href: mailto:Projet_OBADE<par_obade@CNAM.onmicrosoft.com>?subject=[OBADE]
