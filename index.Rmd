@@ -2,9 +2,24 @@
 title: "OBADE : Outils d analyses pour la BAse de Données ESTAMP"
 ---    
 
-> **Appel à projet** :  Ministère de la Transition Ecologique et Solidaire   
+<img src="https://www.gide-normandie.fr/wp-content/uploads/MEDDE1.jpg" style="width:100px;" align="right">
+
+> **Appel à projet** :  Ministère de la Transition Ecologique et Solidaire  
 > **Financement** :  DREAL Normandie  
-> **Porteurs de projet** :  GEMEL Normandie et le cnam/Intechmer
+> **Porteurs de projet** :  GEMEL Normandie et le cnam/Intechmer  
+
+
+<div class="col2">
+
+<img src="figures_divers/gemeln.png" style="width:90px;" class="center">
+<br>
+<br>
+<br>
+<img src="https://www.salon-azimut.com/wp-content/uploads/2020/01/cnam.jpg" style="width:140px;" class="center">
+
+</div>
+
+
 
 # Contexte
 En mai 2019, le Ministère de la Transition Ecologique et Solidaire a emis un appel à projet *Acquisition de connaissances sur le milieu marin en appui à la mise en oeuvre de la directive-cadre « stratégie pour le milieu marin »*.(DCSMM, 2008/56/CE).
@@ -16,6 +31,8 @@ La DCSMM a pour objectif l'atteinte ou le maintien du bon état écologique des 
 4. la mise en oeuvre de programmes de surveillance et de programmes de mesures. 
 L'ensemble de ces éléments est révisé tous les 6 ans.
 Les connaissances sur l'état du milieu marin, sur les pressions qui s'y exercent et sur l'efficacité des mesures de gestion sont encore lacunaires.
+
+<br>
 
 #### Objectif de l'appel à projet
 > **Evaluation de l’efficacité écologique et économique de mesures de gestion prises en faveur de l’environnement marin.**
@@ -30,6 +47,8 @@ La mesure de gestion *"Mettre en place un observatoire des activités de pêche 
 Les données de ces démarches sont bancarisées par les opérateurs de l'observatoire dans la base de données [BD ESTAMP](https://estamp.afbiodiversite.fr).
 L’application BD ESTAMP a été développée afin d'héberger les données issues des suivis écologiques et d’usages, réalisés sur la frange côtière intertidale au sein des aires marines protégées.
 Le coordinateur de l'observatoire et les coordinateurs locaux doivent réaliser l’analyse des comptages et enquêtes.
+
+<br>
 
 # OBADE : Outils d analyses pour la BAse de Données ESTAMP
 
