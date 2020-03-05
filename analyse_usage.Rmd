@@ -1,5 +1,9 @@
 ---
 title: "Analyse des données d'usage"
+output: 
+  word_document: 
+    fig_caption: yes
+    toc: yes
 ---
 
 
@@ -22,9 +26,9 @@ armorPeche <- enquetePeche %>% filter(territoire=="Côtes d'Armor")
 
 ### 1. Acceuil
 
-```{r acceuil_cotearmor}
+```{r acceuil_cotearmor, eval=FALSE, include=FALSE}
 
-accueil_cotearmor <-   armorPeche %>% count("Accueil")
+accueil_cotearmor <-   armorPeche %>% count(Accueil)
 accueil_cotearmor$Accueil <- factor(accueil_cotearmor$Accueil,c("Bon","Moyen","Mauvais","Refus","NA"))
 ggplot(accueil_cotearmor,aes(x=Accueil,y=n))+geom_bar(stat="identity")+theme_bw()+
   xlab("Evaluation de l'accueil")+ylab("Effectif")+obade_theme
@@ -34,7 +38,7 @@ ggplot(accueil_cotearmor,aes(x=Accueil,y=n))+geom_bar(stat="identity")+theme_bw(
 
 ### 2. Age
 
-```{r age, warning=FALSE}
+```{r age, warning=FALSE, include=FALSE, eval=FALSE}
 
 armorPeche <- armorPeche %>% mutate(age=as.numeric(format(Sys.Date(),"%Y"))-armorPeche$`Annee Naissance - Pécheur`) %>% 
   mutate(agecut=cut(age,breaks = seq(0, 100, 5), right = FALSE))
@@ -127,11 +131,19 @@ ggplot(armorGroupe,aes(x=composition,y=mean,ymin=mean,ymax=mean+sd))+geom_bar(st
 ### 8. Espèce ciblée
 
 ```{r}
-armorPeche %>%  count(Espece) %>% mutate(n=)
+armorPeche.espciblee <- armorPeche %>%  count(Espece) %>% mutate(pourc=(n/sum(n))*100)
+ggplot(armorPeche.espciblee,aes(y=pourc,x=reorder(Espece,-pourc,desc)))+geom_bar(stat="identity")+
+  geom_text(aes(y=pourc+10,label = round(pourc,2)),position = position_dodge(0.9),)+
+coord_flip()+ylim(c(0,100))+theme_bw()+obade_theme+ylab("Pourcentage")+ xlab("Espèces ciblées")
 ```
 
 
 ### 9. Outil de pêche
+
+```{r}
+armorPeche.outils <- armorPeche %>% count(`Outils ou techniques`)
+```
+
 
 ### 10. Fréquence de la pratique
 
