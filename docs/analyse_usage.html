@@ -11,7 +11,7 @@
 
 
 
-<title>Partenaires</title>
+<title>Analyse des données d’usage</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -332,40 +332,172 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Partenaires</h1>
+<h1 class="title toc-ignore">Analyse des données d’usage</h1>
 
 </div>
 
 
-<div id="le-gemel-normandie" class="section level4">
-<h4><a href="http://www.gemel-normandie.org/"><strong>Le GEMEL-Normandie</strong></a></h4>
-<p><img src="figures_divers/gemeln.png" width="100" align="right"></p>
-<ul>
-<li><em>Alexandrine Baffreau</em> : Chargée de missions - experte en habitats macrobenthiques et cartographie</li>
-<li><em>Aurélie Garcia</em> : Chargée de missions - experte gestion de projet et écologie des communautés macrobenthiques</li>
-<li><em>Olivier Timsit</em> : Taxonomiste - expert en écologie des communautés macrobenthiques</li>
-</ul>
+<div id="acceuil" class="section level3">
+<h3>1. Acceuil</h3>
 </div>
-<div id="le-cnam-intechmer" class="section level4">
-<h4><a href="http://www.intechmer.cnam.fr/l-institut/"><strong>Le Cnam-Intechmer</strong></a></h4>
-<p><img src="figures_divers/cnam.png" width="150" align="right"></p>
-<ul>
-<li><em>Régis Gallon</em> : Maitre de conférences - expert en écologie numérique - phycologue macrobenthique. Expérience en gestion et analyses de bases de données environnementales et biologiques.</li>
-</ul>
+<div id="carastéristiques-des-pêcheurs" class="section level2">
+<h2>1. Carastéristiques des pêcheurs</h2>
+<div id="age" class="section level3">
+<h3>2. Age</h3>
 </div>
-<div id="lurcpie-normandie" class="section level4">
-<h4><a href="https://www.urcpie-normandie.com/"><strong>L’URCPIE Normandie</strong></a></h4>
-<p><img src="figures_divers/urcpie.png" width="150" align="right"></p>
-<ul>
-<li><em>Léa Brieau</em> : Animatrice de l’Observatoire des activités de Pêche à pied de loisir sur la façade Manche-Mer du Nord</li>
-</ul>
+<div id="sexe" class="section level3">
+<h3>3. Sexe</h3>
+<p><img src="analyse_usage_files/figure-html/sexe-1.png" width="672" /></p>
 </div>
-<div id="loffice-français-de-la-biodiversité" class="section level4">
-<h4><a href="https://ofb.gouv.fr/"><strong>L’Office Français de la Biodiversité</strong></a></h4>
-<p><img src="figures_divers/OFB.jpg" width="150" align="right"></p>
-<ul>
-<li><em>Elodie GAMP</em> : Chargée de mission “indicateurs et développements informatiques pour la gestion du milieu marin”</li>
-</ul>
+<div id="origine" class="section level3">
+<h3>4. Origine</h3>
+<div class="kable-table">
+<table>
+<thead>
+<tr class="header">
+<th align="left">Département</th>
+<th align="right">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="right">2333</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="catégorie-socio-professionnelle" class="section level3">
+<h3>5. Catégorie socio-professionnelle</h3>
+<p><img src="analyse_usage_files/figure-html/csp_pecheur-1.png" width="672" /></p>
+</div>
+<div id="pêcheur-sensibilisé" class="section level3">
+<h3>6. Pêcheur sensibilisé</h3>
+<div id="sensibilisés" class="section level4">
+<h4>6.1 Sensibilisés</h4>
+<div class="kable-table">
+<table>
+<thead>
+<tr class="header">
+<th align="left">Pecheur Sensibilisé</th>
+<th align="right">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Non renseigné</td>
+<td align="right">1801</td>
+</tr>
+<tr class="even">
+<td align="left">NA</td>
+<td align="right">532</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="enquêtés" class="section level4">
+<h4>6.2 Enquêtés</h4>
+<div class="kable-table">
+<table>
+<thead>
+<tr class="header">
+<th align="left">Pecheur enqueté</th>
+<th align="right">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Non renseigné</td>
+<td align="right">1801</td>
+</tr>
+<tr class="even">
+<td align="left">NA</td>
+<td align="right">532</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="groupe" class="section level3">
+<h3>7. Groupe</h3>
+<p><img src="analyse_usage_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<pre><code>## Warning: Removed 7 rows containing missing values (geom_bar).</code></pre>
+<pre><code>## Warning: Removed 7 rows containing missing values (geom_errorbar).</code></pre>
+<p><img src="analyse_usage_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+</div>
+</div>
+<div id="préparation-de-la-pêche" class="section level2">
+<h2>2. Préparation de la pêche</h2>
+<div id="espèce-ciblée" class="section level3">
+<h3>8. Espèce ciblée</h3>
+<p><img src="analyse_usage_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+</div>
+<div id="outil-de-pêche" class="section level3">
+<h3>9. Outil de pêche</h3>
+</div>
+<div id="fréquence-de-la-pratique" class="section level3">
+<h3>10. Fréquence de la pratique</h3>
+</div>
+<div id="critère-choix-de-site" class="section level3">
+<h3>11. Critère choix de site</h3>
+</div>
+<div id="motivation-de-la-pêche" class="section level3">
+<h3>12. Motivation de la pêche</h3>
+</div>
+<div id="connaissance" class="section level3">
+<h3>13. Connaissance</h3>
+<div id="heure-marée" class="section level4">
+<h4>13.1 Heure marée</h4>
+</div>
+<div id="etat-sanitaire" class="section level4">
+<h4>13.2 Etat sanitaire</h4>
+</div>
+<div id="réglementation" class="section level4">
+<h4>13.3 Réglementation</h4>
+</div>
+<div id="période-de-pêche" class="section level4">
+<h4>13.4 Période de pêche</h4>
+</div>
+<div id="outils-de-mesure" class="section level4">
+<h4>14. Outils de mesure</h4>
+</div>
+<div id="adhésion-à-une-association" class="section level4">
+<h4>15. Adhésion à une association</h4>
+</div>
+</div>
+</div>
+<div id="la-pêche" class="section level2">
+<h2>3. La pêche</h2>
+<div id="tri-de-la-récolte" class="section level4">
+<h4>16. Tri de la récolte</h4>
+</div>
+<div id="espèces-pêchées" class="section level4">
+<h4>17. Espèces pêchées</h4>
+</div>
+<div id="quantité-pêchée" class="section level4">
+<h4>18. Quantité pêchée</h4>
+</div>
+<div id="conformité-du-panier" class="section level4">
+<h4>19. Conformité du panier</h4>
+</div>
+</div>
+<div id="divers" class="section level2">
+<h2>4. Divers</h2>
+<div id="temps-moyen-de-pêche" class="section level4">
+<h4>20. Temps moyen de pêche</h4>
+</div>
+<div id="réactivité-du-pêcheur" class="section level4">
+<h4>21. Réactivité du pêcheur</h4>
+</div>
+<div id="autre-type-de-pêche" class="section level4">
+<h4>22. Autre type de pêche</h4>
+</div>
+<div id="lien-avec-le-territoire" class="section level4">
+<h4>23. Lien avec le territoire</h4>
+</div>
 </div>
 
 

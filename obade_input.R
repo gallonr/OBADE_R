@@ -45,10 +45,17 @@ detailPeche <- read_delim("./data/enquete/enquete_detail.csv",
                                                        "c","c","c","c","c","c"))
 
 
-enquetePeche <- full_join(prepPeche,ficheTerrain,by=c("Libellé Sortie"="libellé sortie")) %>% 
-  full_join(pratPeche,"Libellé Sortie") %>% full_join(jourPeche,"Libellé Sortie") %>% 
-  full_join(detailPeche,"Libellé Sortie")
+detailPeche <- detailPeche %>% unite("libelle_sortie",'Libellé Sortie':'Code Enquète',na.rm = TRUE, remove = FALSE)
+jourPeche <- jourPeche %>% unite("libelle_sortie",'Libellé Sortie':'Code Enquète',na.rm = TRUE, remove = FALSE)
+prepPeche <- prepPeche %>% unite("libelle_sortie",'Libellé Sortie':'Code Enquète',na.rm = TRUE, remove = FALSE)
+pratPeche <- pratPeche %>% unite("libelle_sortie",'Libellé Sortie':'Code Enquète',na.rm = TRUE, remove = FALSE)
 
-enquetePeche <- enquetePeche %>% select(-c(`Code Enquète.x.x`,`Code Enquète.y`,`Code Enquète.y.y`))
+
+enquetePeche <- full_join(prepPeche,ficheTerrain,by=c("libelle_sortie"="libellé sortie")) %>% 
+  full_join(pratPeche,"libelle_sortie") %>% full_join(jourPeche,"libelle_sortie") %>% 
+  full_join(detailPeche,"libelle_sortie")
+
+enquetePeche <- enquetePeche %>% select(-c(`Code Enquète.x.x`,`Code Enquète.y`,`Code Enquète.y.y`,
+                                           `Libellé Sortie.y`,`Libellé Sortie.x.x`,`Libellé Sortie.y.y`))
 
 save(enquetePeche,ficheTerrain,prepPeche,pratPeche,jourPeche,detailPeche,file="./export/table/enquetePeche.Rdata")
