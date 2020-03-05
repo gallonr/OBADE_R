@@ -1,0 +1,14 @@
+.col2 {
+  column-count: 2;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+text-align: justify}
