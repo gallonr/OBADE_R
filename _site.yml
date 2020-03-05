@@ -3,6 +3,9 @@ output_dir: "docs"
 navbar:
   title: "OBADE"
   left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
     - text: "Partenaires"
       icon: fa-user-friends
       href: partenaires.html
@@ -31,3 +34,4 @@ output:
     theme: cosmo
     df_print: kable
     fig_caption: yes
+    css: styles.css
