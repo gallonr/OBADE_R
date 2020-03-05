@@ -3,40 +3,133 @@ title: "Analyse des données d'usage"
 ---
 
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 require(tidyverse)
 require(plotly)
-library(bookdown)
 ```
 
 ```{r load_data,include=FALSE}
 
 source("internal_function.R")
 load("./export/table/enquetePeche.Rdata")
+
 enquetePeche.resum <- descript.database(enquetePeche)
 enquetePeche.resum <- enquetePeche.resum %>% mutate(pourc_NA=(Nombre_NA/nrow(enquetePeche))*100)
+armorPeche <- enquetePeche %>% filter(territoire=="Côtes d'Armor")
 ```
 
 ### 1. Acceuil
+
+```{r acceuil_cotearmor}
+
+accueil_cotearmor <-   armorPeche %>% count("Accueil")
+accueil_cotearmor$Accueil <- factor(accueil_cotearmor$Accueil,c("Bon","Moyen","Mauvais","Refus","NA"))
+ggplot(accueil_cotearmor,aes(x=Accueil,y=n))+geom_bar(stat="identity")+theme_bw()+
+  xlab("Evaluation de l'accueil")+ylab("Effectif")+obade_theme
+```
 
 ## 1. Carastéristiques des pêcheurs
 
 ### 2. Age
 
+```{r age, warning=FALSE}
+
+armorPeche <- armorPeche %>% mutate(age=as.numeric(format(Sys.Date(),"%Y"))-armorPeche$`Annee Naissance - Pécheur`) %>% 
+  mutate(agecut=cut(age,breaks = seq(0, 100, 5), right = FALSE))
+
+agePecheur <-  armorPeche %>% select(c('Sexe - Pécheur','agecut')) %>%  group_by('Sexe - Pécheur') %>% count()
+
+
+
+p <- ggplot(agePecheur,aes(x=age))+geom_histogram(breaks=seq(min(na.omit(agePecheur$age)),max(na.omit(agePecheur$age)),5))+
+  geom_freqpoly(breaks=seq(min(na.omit(agePecheur$age)),max(na.omit(agePecheur$age)),5))+
+  ylab("Effectifs")+xlab("Age")+
+  theme_bw()+obade_theme
+ggplotly(p)
+
+```
+
+
 ### 3. Sexe
+
+```{r sexe}
+sexePecheur <- armorPeche %>% count(`Sexe - Pécheur`)
+ggplot(sexePecheur,aes(x=`Sexe - Pécheur`,y=n))+
+         geom_bar(stat="identity")+theme_bw()+
+  xlab("Sexe")+ylab("Effectif")+obade_theme
+
+```
+
 
 ### 4. Origine
 
+```{r origine}
+armorPeche %>% count(Département)
+
+```
+
+
 ### 5. Catégorie socio-professionnelle
+
+```{r csp_pecheur,height=20,width=8}
+armorCSP <- armorPeche %>% count(`CSP - Pécheur`)
+ggplot(armorCSP,aes(x=`CSP - Pécheur`,y=n))+
+         geom_bar(stat="identity")+theme_bw()+
+  xlab("Sexe")+ylab("Effectif")+obade_theme+
+  theme(axis.text.x = element_text(angle=90,hjust=1))
+```
+
 
 ### 6. Pêcheur sensibilisé
 
+#### 6.1 Sensibilisés
+
+```{r}
+armor_sensibilisation <- armorPeche %>% count(`Pecheur Sensibilisé`)
+armor_sensibilisation
+```
+
+#### 6.2 Enquêtés
+
+```{r}
+armor_enquete <- armorPeche %>% count(`Pecheur enqueté`)
+armor_enquete
+```
+
 ### 7. Groupe
+
+```{r}
+armorGroupe <- armorPeche %>% count(`Constitution Groupe`)
+ggplot(armorGroupe,aes(x =`Constitution Groupe`,y=n ))+geom_bar(stat="identity")+
+  ylab("Effectif")+theme_bw()+obade_theme
+```
+
+```{r}
+armorGroupe <- armorPeche %>% filter(`Constitution Groupe`!='Pêcheur seul') %>% group_by(`Constitution Groupe`) %>% 
+  summarise_at(c("Nb pecheurs groupe","Nb adultes","Nb enfants","Nb tous petits"),list(~mean(.),~sd(.)))
+
+armorGroupe <- armorGroupe %>% gather("composition","effectif",-`Constitution Groupe`) %>% separate(composition,c("composition","fonction"),sep="_") %>% spread("fonction","effectif")
+
+armorGroupe$composition <- factor(armorGroupe$composition,c("Nb pecheurs groupe","Nb adultes","Nb enfants","Nb tous petits"),ordered=T)
+
+ggplot(armorGroupe,aes(x=composition,y=mean,ymin=mean,ymax=mean+sd))+geom_bar(stat="identity",position="dodge")+
+  facet_grid(.~`Constitution Groupe`)+geom_errorbar()+theme_bw()+obade_theme+ylab("Effectif (moy,et)")+xlab("")+
+  theme(axis.text.x = element_text(angle=90,hjust=1))
+  
+
+ ```
+
 
 ## 2. Préparation de la pêche
 
 ### 8. Espèce ciblée
+
+```{r}
+armorPeche %>%  count(Espece) %>% mutate(n=)
+```
+
 
 ### 9. Outil de pêche
 
