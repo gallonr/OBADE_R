@@ -1,0 +1,66 @@
+---
+title : "Compte-rendu du **06/03/2020**"
+# output: 
+#   pdf_document
+---
+
+> Présent(e)s :  
+>  - Aurélie Garcia (AG, GEMEL-N)  
+>  - Etienne Patin (EP, GEMEL-N)  
+>  - Régis Gallon (RG, CNAM)
+>  - Dominique Pelletier (DP, IFREMER)
+>  - Elodie Gamp (EG, OFB)
+
+Dominique Pelletier (Biostat, écologue, halieutique) 
+  - Dvpt AMP évaluation des écosystèmes côtiers (ressources, usages non pro, gouvernance)
+  - Développement indicateurs et statistiques
+  - Evalutation intégré des écosystèmes côtiers (aspect usage, écologie)
+  
+  
+  
+## Démonstration PAMPA écolo
+
+Interface : tcl/tk
+
+Utilisation d'un référentiel taxo et traits
+Génération de fichiers en local de manière systématique
+Si sélection création de nouveaux fichiers spécifiques en fonction sélection écrasés après nouvelle sélection
+
+Description des fichiers générés (nombre colonnes/lignes)
+
+Création graphique : choisir la mise en forme
+
+Mise en place de guides
+
+Extraction des données utilisées pour les analyses?
+
+Définir d'un fichier config pour les applications spécifiques par territoire pour OBADE
+Fonction multi-langue?
+
+Différents types d'utilisateurs pour l'interface comment l'adapter?
+
+*DP* : AMII Ifremer "Travail réseau avec les AMPs et les acteurs locaux : réseau obervation"
+
+**Stocker fichier source OBADE dans un serveur et pas d'interrogation**
+
+Séparation joursSemaines/joursWeekend
+
+Radar plot pour profil question
+
+Archimer STAVIRO pour exemples rapport pour tableau de bord / radar plot
+
+dvp d'un WIKI?
+
+
+**Objectifs :** 
+
+- Voir les données PAMPA et faire un PIPE avec OBADE
+- Voir pour mettre en place une étude technique 3^ème^ sur mise à jour de PAMPA
+- Travail sur la base application "usage" PAMPA
+
+
+
+
+
+
+
