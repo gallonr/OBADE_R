@@ -65,7 +65,7 @@ Une interface Web (Shiny) permettra aux coordinateurs d'interroger la base de do
 <br>
 
 <p align="center">
-<img src="figures_divers/resume.png" width="500">
+<img src="figures_divers/OBADE.png" width="800">
 </p>
 
 <br>
