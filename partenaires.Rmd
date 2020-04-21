@@ -8,6 +8,7 @@ title: "Partenaires"
 - *Alexandrine Baffreau* : Chargée de missions - experte en habitats macrobenthiques et cartographie
 - *Aurélie Garcia* : Chargée de missions - experte gestion de projet et écologie des communautés macrobenthiques 
 - *Olivier Timsit* : Taxonomiste - expert en écologie des communautés macrobenthiques
+- *Etienne Patin* : Stagiaire L3 "Restauration écologique et développement durable" - IUT "Grand Ouest-Normand"
 
 #### [**Le Cnam-Intechmer**](http://www.intechmer.cnam.fr/l-institut/)
 

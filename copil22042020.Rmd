@@ -2,6 +2,6 @@
 title: "COPIL du 22/04/2020"
 ---    
 
-Documents téléchargeable pour la réunion
+Documents téléchargeables pour la réunion
 
-- [Analyse de divers Rapport sur la pêche à pied récréative : Observatoire PAP](/Rmd_encours/Analyse_rapport_territoire.pdf)
+- [Analyse de divers Rapports sur la pêche à pied récréative : Observatoire PAP](./Rmd_encours/Analyse_rapport_territoire.pdf)

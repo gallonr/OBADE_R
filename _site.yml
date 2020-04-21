@@ -12,6 +12,9 @@ navbar:
     - text: "Comptes-rendus Réunion"
       icon: fa-handshake
       href: CR.html
+    - text: "CoPil 22-04-2020"
+      icon: fa-handshake
+      href: copil22042020.html
     - text: "Bibliographie"
       icon: fa-newspaper
       href: bibliographie.html
