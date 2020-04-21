@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Etienne Patin" />
+
+<meta name="date" content="2020-06-04" />
+
+<title>Analyse de divers Rapport sur la pêche à pied récréative</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">OBADE</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="partenaires.html">
+    <span class="fa fa-user-friends"></span>
+     
+    Partenaires
+  </a>
+</li>
+<li>
+  <a href="CR.html">
+    <span class="fa fa-handshake"></span>
+     
+    Comptes-rendus Réunion
+  </a>
+</li>
+<li>
+  <a href="bibliographie.html">
+    <span class="fa fa-newspaper"></span>
+     
+    Bibliographie
+  </a>
+</li>
+<li>
+  <a href="obade_descriptbasePAP.html">Description des données d'usage</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Divers
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="analyse_usage.docx">Exemple fiche doc</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:Projet_OBADE&lt;par_obade@CNAM.onmicrosoft.com&gt;?subject=[OBADE]">
+    <span class="fa fa-envelope"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/gallonr/OBADE_R">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Analyse de divers Rapport sur la pêche à pied récréative</h1>
+<h4 class="author">Etienne Patin</h4>
+<h4 class="date">06/04/2020</h4>
+
+</div>
+
+
+<p>Ce document a pour but de confronter l’analyse des comptages et des enquêtes de la pèche à pied aux données de la base de données ESTAMP. Plusieurs rapports furent analysés pour cerner les éléments essentiels à la constitution d’un rapport. L’étude de la base donnée ESTAMP va permettre d’informer l’état des données pour chaque élément constitutif des rapports.</p>
+<p>Le plan est tiré de la Trame Rapport de diagnostic de la pêche de loisir sur le territoire</p>
+<div id="evaluation-quantitative-de-lactivité-de-pêche-à-pied-les-comptages" class="section level1">
+<h1>Evaluation quantitative de l’activité de pêche à pied – Les comptages</h1>
+<p>L’étude de la base de données ESTAMP ne comprends pas les comptages, l’analyse de cette partie n’est pas effectuée.</p>
+</div>
+<div id="evaluation-qualitative-de-lactivité-de-pêche-à-pied-les-enquêtes" class="section level1">
+<h1>Evaluation qualitative de l’activité de pêche à pied – Les enquêtes</h1>
+<div id="une-méthodologie-issue-du-projet-life-pêche-à-pied-de-loisir" class="section level2">
+<h2>Une méthodologie issue du projet LIFE « Pêche à pied de loisir »</h2>
+<div id="le-questionnaire" class="section level3">
+<h3>Le questionnaire</h3>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5] ; [6]<br />
+Cette partie permet de connaitre le questionnaire utilisé pour les enquêtes. La version du questionnaire est citée et les changements, suppression de questions sont expliqués quand c’est le cas.<br />
+Les données sont bancarisées dans le jeu de données « ficheterrain », dans la variable « version protocole ».<br />
+Etat des données :<br />
+&gt; Nombre d’observation : 11804<br />
+&gt; Taux de remplissage : 88,04%<br />
+&gt; Commentaire : très grande diversité de modalité signe d’une utilisation de plusieurs protocoles. Cependant il existe plusieurs modalités pour un type de protocole (ex : Qlife2 ; QLife2)</p>
+</div>
+<div id="objectifs-et-calendrier" class="section level3">
+<h3>Objectifs et calendrier</h3>
+<p>Rapports : [2] ; [3] ; [4] ; [5] ; [6]<br />
+Les actions de l’organisme pour mener ces enquêtes sont décrites dans cette partie. Elle n’a pas d’interaction avec la Base de données ESTAMP.</p>
+</div>
+</div>
+<div id="résultats-denquêtes" class="section level2">
+<h2>Résultats d’enquêtes</h2>
+<div id="accueil-réservé-aux-enquêteurs" class="section level3">
+<h3>Accueil réservé aux enquêteurs</h3>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5] ; [6]<br />
+Cet élément est soit une sous partie ou est simplement inséré dans la conclusion de « résultats d’enquêtes ».<br />
+Les données sont bancarisées dans le jeu de données « enquête_detail », dans la variable « Accueil ».<br />
+Etat des données :<br />
+* Nombre d’observations : 7008<br />
+* Taux de remplissage : 46,44%</p>
+</div>
+<div id="part-des-pêcheurs-sensibilisés" class="section level3">
+<h3>Part des pêcheurs sensibilisés</h3>
+<p>Rapports : [3]<br />
+Les données sont bancarisées dans le jeu de données « enquête_preparation_peche », dans la variable « Pecheur Sensibilisé ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 13241<br />
+</em>Taux de remplissage : 98.8 %</p>
+</div>
+<div id="profils-des-pêcheurs-enquêtés" class="section level3">
+<h3>Profils des pêcheurs enquêtés</h3>
+<div id="sexe-ratio" class="section level4">
+<h4>Sexe ratio</h4>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5]</p>
+<p>Les résultats sont des pourcentages avec des modalités Femme ou Homme. Une autre peut aussi être rencontrée, il s’agit de la modalité « enfant ».<br />
+Les données sont bancarisées dans le jeu de données « enquête_details », dans la variable « Sexe pêcheurs » mais aussi dans la variable « Sexe – autre membre ».<br />
+Etat des données :<br />
+*Sexe pêcheurs<br />
++Nombre d’observations : 7855<br />
++Taux de remplissage : 52,1%<br />
++Sexe – autre membre<br />
++Nombre d’observations : 4621<br />
++Taux de remplissage : 30,6%</p>
+</div>
+<div id="constitution-du-groupe" class="section level4">
+<h4>Constitution du groupe</h4>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5]<br />
+Les données sont bancarisées dans le jeu de données « préparation_pêche », dans la variable « Constitution Groupe ».<br />
+L’analyse reprend les modalités de la base de données :<br />
+<em>En famille<br />
+</em>Pêcheur seul<br />
+<em>En couple<br />
+</em>En groupe d’amis<br />
+Etat des données :<br />
+<em>Nombre d’observations : 6510<br />
+</em>Taux de remplissage : 48,6%</p>
+</div>
+<div id="catégories-socio-professionnelles-des-pêcheurs-rencontrés" class="section level4">
+<h4>Catégories socio-professionnelles des pêcheurs rencontrés</h4>
+<p>Rapports : [5]<br />
+Les données sont bancarisées dans le jeu de données « enquête_detail », dans la variable « CSP – Pécheur ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 8615<br />
+</em>Taux de remplissage : 57,1%<br />
+*Commentaire : forte diversité de modalité</p>
+</div>
+<div id="classe-dâgeexpérience" class="section level4">
+<h4>Classe d’âge/expérience</h4>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5] ; [6]<br />
+Les résultats sont traités de différentes manières.<br />
+Elles sont soit réparties en plusieurs classes d’âge (soit par tranche de 15 ans, soit par tranche de 10 ans…). Certains rapports n’utilisent que la moyenne comme résultats.<br />
+Les données sont bancarisées dans le jeu de données « enquête_details », dans la variable « année naissance – Pêcheur » et dans la variable « année naissance – Autre membre ».<br />
+Etat des données :<br />
+<em>Année naissance – Pêcheur<br />
++Nombre d’observations : 7533<br />
++Taux de remplissage : 49,9%<br />
++Moyenne : 1958<br />
++Minimum : 1921<br />
++Maximum : 2005<br />
+</em>Année naissance – Autre membre<br />
++Nombre d’observations : 3925<br />
++Taux de remplissage : 26%<br />
++Moyenne : 1972<br />
++Minimum : 1921<br />
++Maximum : 2016</p>
+</div>
+<div id="origine-géographique" class="section level4">
+<h4>Origine géographique</h4>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5] ; [6]<br />
+Les données sont bancarisées dans le jeu de données « enquête détails », il y a plusieurs possibilités pour le choix de variable :<br />
+<em>« Commune résidence »<br />
+</em>« Départements »<br />
+<em>« Pays »<br />
+Etat des données :<br />
+</em>Commune résidence :<br />
++Nombre d’observations : 6906<br />
++Taux de remplissage : 45,8%<br />
+<em>Départements<br />
++Nombre d’observations : 12<br />
++Taux de remplissage : 0,08%<br />
+</em>Pays<br />
++Nombre d’observations : 3<br />
++Taux de remplissage : 0.02%</p>
+</div>
+<div id="pour-les-non-résidents-de-cette-partie-du-littoral" class="section level4">
+<h4>Pour les non-résidents de cette partie du littoral</h4>
+<p><strong>type de séjour et type d’hébergement pour les non-résidents</strong></p>
+<p>Rapports : [3]<br />
+Les données sont bancarisées dans le jeu de données « enquête détails », dans la variable « Hébergement ».<br />
+Etat des données :<br />
++Nombre d’observations : 2407<br />
++Taux de remplissage : 15,9%</p>
+<p><strong>Fréquentation du littoral</strong></p>
+<p>Rapports : [3]<br />
+Les données sont bancarisées dans le jeu de données « enquête_details », dans la variable « Durée séjour ». Etat des données :<br />
++Nombre d’observations : 3070<br />
++Taux de remplissage : 20,3%<br />
++Moyenne : 18,25<br />
++Minimum : 1<br />
++Maximum : 270</p>
+<p><strong>Influence de la pratique de pêche à pied sur choix du site et des dates de séjour</strong></p>
+<p>Rapports : [3] ; [6]<br />
+Les données sont bancarisées dans le jeu de données « enquête_details », dans la variable « influence destination ».<br />
+Etat des données :<br />
++Nombre d’observations : 3046<br />
++Taux de remplissage : 20,2%</p>
+<p>*Connaissance du site<br />
+Rapports : [6]<br />
+Il n’y a pas de données sur ESTAMP qui puissent répondre à cette</p>
+</div>
+</div>
+<div id="habitudes-et-pratiques-de-pêche-espèces-pêchées-et-engins-utilisés" class="section level3">
+<h3>Habitudes et pratiques de pêche (espèces pêchées et engins utilisés)</h3>
+<div id="milieux-de-pêche-prospectés" class="section level4">
+<h4>Milieux de pêche prospectés</h4>
+<p>Rapports : [1] ; [3] ; [5]<br />
+Cet élément est rempli par les observateurs locaux des enquêtes, ils se basent essentiellement sur leur connaissance du terrain. Mais des données sont disponible sur ESTAMP.<br />
+Les données sont bancarisées dans le jeu de données « enquête_pratique-peche », dans la variable « Milieu(x) ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 4656<br />
+</em>Taux de remplissage : 34,7%<br />
+*Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.</p>
+</div>
+<div id="espèces-ciblées-outils-utilisés" class="section level4">
+<h4>Espèces ciblées + outils utilisés</h4>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5]<br />
+Certains rapports veulent le nombre d’espèces recherchés par pécheur.<br />
+Les données sont bancarisées dans le jeu de données « enquête_pratique_peche », dans la variable « Espèces » pour les espèces ciblées, dans la variable « Outils ou technique » pour les outils utilisés.<br />
+Etat des données :<br />
+<em>Espèces<br />
++Nombre d’observations : 7707<br />
++Taux de remplissage : 57,5%<br />
++Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.<br />
+</em>Outils ou technique<br />
++Nombre d’observations : 6831<br />
++Taux de remplissage : 51%<br />
++Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.</p>
+</div>
+<div id="expérience-de-pêche" class="section level4">
+<h4>Expérience de pêche</h4>
+<p>Rapports : [2] ; [3]<br />
+Les données sont bancarisées dans le jeu de données « enquête_pratique_peche », dans la variable « Année Premiere Peche ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 4172<br />
+</em>Taux de remplissage : 31,2%<br />
+<em>Moyenne : 1982<br />
+</em>Minimum : 1931<br />
+*Maximum : 2017</p>
+</div>
+<div id="motivation-du-pécheur" class="section level4">
+<h4>Motivation du pécheur</h4>
+<p>Rapports : [5]<br />
+Les données sont bancarisées dans le jeu « enquête_pratique_peche », dans la variable « Motivation(s) ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 4121<br />
+</em>Taux de remplissage : 30,7%<br />
+*Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.</p>
+</div>
+<div id="autres-pratiques-de-pêche" class="section level4">
+<h4>Autres pratiques de pêche</h4>
+<p>Rapports : [2] ; [3] ; [5]<br />
+Les données sont bancarisées dans le jeu de données « enquête_pratiques_peche », dans la variable « Autres types de pêche ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 6756<br />
+</em>Taux de remplissage : 50,4%</p>
+</div>
+<div id="autres-sites-fréquentés" class="section level4">
+<h4>Autres sites fréquentés</h4>
+<p>Rapports : [2] ; [3]<br />
+Les données sont bancarisées dans le jeu de données « enquête_pratiques_peche », dans la variable « autres sites fréquentés », la variable « Départements » et la variable « Noms sites ».<br />
+Etat des données :<br />
+<em>Départements<br />
++Nombre d’observations : 1814<br />
++Taux de remplissage : 13,5%<br />
++Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.<br />
+</em>Autres sites fréquentés<br />
++Nombre d’observations : 6317<br />
++Taux de remplissage : 47.2%<br />
+*Noms sites :<br />
++Nombre d’observations : 2077<br />
++Taux de remplissage : 15,5%<br />
++Commentaires : grande diversité de format d’écriture pour les noms de sites (sigle, en toutes lettres…) et une grande diversité de séparation de modalité au sein d’une observation.</p>
+</div>
+<div id="critères-de-choix-de-la-marée" class="section level4">
+<h4>Critères de choix de la marée</h4>
+<p>Rapports : [2] ; [3] ; [5]<br />
+Les rapports n’utilisent pas tous la même analyse, certains rapports se concentre sur le coefficient de marée, quant à d’autres se basent plus sur les réponses du questionnaire<br />
+Les données sont bancarisées dans le jeu de données « enquête_pratique_peche », dans la variable « Coefficient Maree Mini ».<br />
+Ou les données sont bancarisées dans le jeu de données « enquete_pratique_peche », dans la variable « Choix des marées ».<br />
+Etat des données :<br />
+<em>Coefficient Maree Mini<br />
++Nombre d’observations : 4355<br />
++Taux de remplissage : 32,5%<br />
++Moyenne : 72.9<br />
++Minimum : 20<br />
++Maximum : 115<br />
+</em>Choix des marées<br />
++Nombre d’observations : 4284<br />
++Taux de remplissage : 32%<br />
++Commentaires : plusieurs modalités dans une observation. Elles sont séparées par “|”.</p>
+</div>
+<div id="critère-de-choix-de-site" class="section level4">
+<h4>Critère de choix de site</h4>
+<p>Rapports : [2] ; [3]<br />
+Les données sont bancarisées dans le jeu de données « enquête_preparation_peche », dans la variable « Critères choix site ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 4992<br />
+</em>Taux de remplissage : 37,2%<br />
+*Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.</p>
+</div>
+<div id="fréquence-de-pratique-de-pêche" class="section level4">
+<h4>Fréquence de pratique de pêche</h4>
+<p>Rapports : [2] ; [3]<br />
+Les données sont bancarisées dans le jeu de données « enquête_pratique_peche », dans la variable « Frequence Declaree Peche ».<br />
+Plusieurs variables « fréquence » existent dans les différents jeux de données de la Base ESTAMP, « Frequence Declaree Peche » semble correspondre le plus à cet élément.<br />
+Etat des données :<br />
+<em>Nombre d’observations : 356<br />
+</em>Taux de remplissage : 2,7%<br />
+<em>Moyenne : 0.86<br />
+</em>Minimum : 0.04<br />
+*Maximum : 42</p>
+</div>
+<div id="coefficient-minimum-de-pêche" class="section level4">
+<h4>Coefficient minimum de pêche</h4>
+<p>Rapports : [2] ; [5] ; [6]<br />
+Les données sont bancarisées dans le jeu de données « enquête_pratique_peche », dans la variable « Coefficient marée Mini ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 4355<br />
+</em>Taux de remplissage : 32,5%<br />
+<em>Moyenne : 72.9<br />
+</em>Minimum : 20<br />
+*Maximum : 115</p>
+</div>
+<div id="période-de-fréquentation-du-site" class="section level4">
+<h4>Période de fréquentation du site</h4>
+<p>Rapports : [2] ; [3] ; [5] ; [6]<br />
+Les données sont bancarisées dans le jeu de données « enquête_pratique_peche », dans la variable « Mois de peche ». Etat des données :<br />
+<em>Nombre d’observations : 4568<br />
+</em>Taux de remplissage : 34,1%<br />
+*Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.</p>
+</div>
+</div>
+<div id="connaissance-du-pêcheur" class="section level3">
+<h3>Connaissance du pêcheur</h3>
+<div id="renseignement-et-source-dinformation-sur-lheure-de-la-marée" class="section level4">
+<h4>Renseignement et source d’information sur l’heure de la marée</h4>
+<p>Rapports : [1] ; [3] ; [4] ; [5] ; [6]<br />
+L’origine des données n’est qu’une supposition :<br />
+Les données sont possiblement bancarisées dans le jeu de données « enquête_preparation_peche », dans la variable « Source d’information ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 4934<br />
+</em>Taux de remplissage : 36,8%<br />
+*Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.</p>
+</div>
+<div id="renseignement-et-source-dinformation-sur-laspect-sanitaires-du-site" class="section level4">
+<h4>Renseignement et source d’information sur l’aspect sanitaires du site</h4>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5] ; [6]<br />
+Les renseignements utilisent deux variables.<br />
+Les données sont bancarisées dans le jeu de données « enquête_preparation_peche », dans la variable « Etat Sanitaire » et dans la variable « Source d’information ».<br />
+Etat des données :<br />
+<em>Etat Sanitaire :<br />
++Nombre d’observations : 6715<br />
++Taux de remplissage : 50,1%<br />
+</em>Source d’information<br />
++Nombre d’observations : 4934<br />
++Taux de remplissage : 36,8%<br />
++Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.</p>
+</div>
+<div id="connaissance-et-source-dinformation-de-la-réglementation" class="section level4">
+<h4>Connaissance et source d’information de la réglementation</h4>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5] ; [6]<br />
+Plusieurs variables de la base ESTAMP sont utilisées pour cet analyse.<br />
+Les données sont bancarisées dans le jeu de données « enquete_connaissance_peche », dans les variables :<br />
+<em>« Connaissance réglementation »<br />
+</em>« Connaissance quotas »<br />
+<em>« Connaissance Période »<br />
+</em>« Source d’information »<br />
+<em>« Informé Législation » </em>« Déclaration connaissance »<br />
+<em>« Périodes déclarées »<br />
+</em>« Connaissance réglementation période »<br />
+<em>« Source d’information législation »<br />
+Etat des données :<br />
+</em>Connaissance réglementation<br />
++Nombre d’observations : 5881<br />
++Taux de remplissage : 43,9%<br />
+<em>Connaissance quotas<br />
++Nombre d’observations : 5837<br />
++Taux de remplissage : 43,6%<br />
+</em>Connaissance période<br />
++Nombre d’observations : 773<br />
++Taux de remplissage : 5,8%<br />
+<em>Source d’information<br />
++Nombre d’observations : 4934<br />
++Taux de remplissage : 36,8%<br />
++Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.<br />
+</em>Informé Législation<br />
++Nombre d’observations : 6584<br />
++Taux de remplissage : 49,1%<br />
+<em>Périodes déclarées<br />
++Nombre d’observations : 100<br />
++Taux de remplissage : 0,7<br />
+</em>Connaissance réglementation période<br />
++Nombre d’observations : 6584<br />
++Taux de remplissage : 49,1%<br />
+*Source information législation<br />
++Nombre d’observations : 4190<br />
++Taux de remplissage : 31,2%</p>
+</div>
+<div id="adhésion-à-une-association" class="section level4">
+<h4>Adhésion à une association</h4>
+<p>Rapports : [1] ; [3]<br />
+Les données sont bancarisées dans le jeu de données « enquete_connaissance_pecheur », dans la variable « Membre Association ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 6362<br />
+</em>Taux de remplissage : 47,5%</p>
+</div>
+<div id="pratique-du-dégorgement" class="section level4">
+<h4>Pratique du dégorgement</h4>
+<p>Rapports : [1] ; [2]<br />
+Les données sont bancarisées dans le jeu de données « enquete_connaissance_pecheur », dans la variable « Conseils consommation ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 6513<br />
+</em>Taux de remplissage : 48,6%</p>
+</div>
+<div id="utilisation-dun-outil-de-mesure" class="section level4">
+<h4>Utilisation d’un outil de mesure</h4>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5]<br />
+Plusieurs variables de la base ESTAMP sont utilisées pour cet analyse.<br />
+Les données sont bancarisées dans le jeu de données « enquete_connaissance_pecheur », dans la variable « Utilisation outil » et dans la variable « Source outil ».<br />
+Etat des données :<br />
+<em>Utilisation outil<br />
++Nombre d’observations : 11597<br />
++Taux de remplissage : 86,5%<br />
+</em>Source outil<br />
++Nombre d’observations : 4780<br />
++Taux de remplissage : 35,7%</p>
+</div>
+<div id="source-dinformation" class="section level4">
+<h4>Source d’information</h4>
+<p>Rapports : [2] ; [4] ; [5]<br />
+Les données sont bancarisées dans le jeu de données « enquête_connaissance_pecheur », dans la variable « Source d’information législation ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 4190<br />
+</em>Taux de remplissage : 31,2%</p>
+</div>
+</div>
+<div id="analyse-des-panierspêche-du-jour" class="section level3">
+<h3>Analyse des paniers/pêche du jour</h3>
+<div id="constitution-du-panier" class="section level4">
+<h4>Constitution du panier</h4>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5] ; [6]<br />
+Les données sont bancarisées dans le jeu de données « enquête_peche_jour », dans la variable « poids recolte », dans la variable « Espece », dans la variable « Nb individus », dans la variable « Panier vide » et dans « Poids maille ».<br />
+Etat des données :<br />
+<em>Espèce<br />
++Nombre d’observations : 8025<br />
++Taux de remplissage : 51,1%<br />
+</em>Nb individus<br />
++Nombre d’observations : 4535<br />
++Taux de remplissage : 28,9%<br />
++Moyenne : 27,75<br />
++Minimum : 1<br />
++Maximum : 2494<br />
+<em>Poids récolte<br />
++Nombre d’observations : 3195<br />
++Taux de remplissage : 20,3%<br />
++Moyenne : 2245,654<br />
++Maximum : 1600000<br />
++Minimum : 0<br />
++Commentaires : Données anormales soit trop importantes, soit petites<br />
+</em>Panier vide<br />
++Nombre d’observations : 15353<br />
++Taux d’observations : 97,7%</p>
+</div>
+<div id="analyse-de-la-conformité" class="section level4">
+<h4>Analyse de la conformité</h4>
+<p>Rapports : [1] ; [3] ; [4] ; [5]<br />
+Cette sous partie n’est pas toujours remplie ou alors mixée avec la partie précédente. Elle représente souvent qu’une seule phrase avec un pourcentage de conformité. Les données pouvant répondre à ces analyses sont possiblement bancarisées dans le jeu de données « enquête_peche_jour », dans la variable « Conformité maille » et/ou dans la variable « Conformité quantité ».<br />
+Etat des données :<br />
+<em>Conformité maille<br />
++Nombre d’observations : 3134<br />
++Taux de remplissage : 19,9%<br />
+</em>Conformité quantité<br />
++Nombre d’observations : 250<br />
++Taux de remplissage : 1,6%</p>
+</div>
+<div id="temps-de-pêche-moyen" class="section level4">
+<h4>Temps de pêche moyen</h4>
+<p>Rapports : [1] ; [2] ; [3] ; [4] ; [5] ; [6]<br />
+Les données sont bancarisées dans le jeu de données « enquête_peche_jour », dans la variable « Temps total Peche ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 7800<br />
+</em>Taux de remplissage : 49,7%<br />
+<em>Moyenne : 94,9%<br />
+</em>Minimum : 0<br />
+*Maximum : 602</p>
+</div>
+<div id="estimation-des-prélèvements" class="section level4">
+<h4>Estimation des prélèvements</h4>
+<p>Il y a peu de rapports qui ont rempli cette partie, leur démarche n’est pas expliquée. Il est donc difficile si des données de la base de données ESTAMP sont utilisés et si oui, lesquelles.</p>
+</div>
+<div id="périodes-privilégiées-de-pêche" class="section level4">
+<h4>Périodes privilégiées de pêche</h4>
+<p>Peu de rapports développent cette partie. Cependant un rapport semble utiliser les données dans le jeu « enquête_pratique_peche », dans la variable « Choix des marées ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 4284<br />
+</em>Taux de remplissage : 32%<br />
+*Commentaires : plusieurs modalités dans une observation. Elles sont séparées par |.</p>
+</div>
+<div id="qualité-de-la-récolte" class="section level4">
+<h4>Qualité de la récolte</h4>
+<p>Les rapports n’ont pas développé cette partie.</p>
+</div>
+</div>
+<div id="attitudes-des-pécheurs-à-pied-face-aux-enquêteurs" class="section level3">
+<h3>Attitudes des pécheurs à pied face aux enquêteurs</h3>
+<div id="réceptivité-des-pécheurs-face-aux-conseils-promulgués" class="section level4">
+<h4>Réceptivité des pécheurs face aux conseils promulgués</h4>
+<p>Rapports : [1] ; [3] ; [4] ; [5]<br />
+Les données sont bancarisées dans le jeu « enquête_detail », dans la variable « Sensibilisation ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 6267<br />
+</em>Taux de remplissage : 41,5%</p>
+</div>
+<div id="tri-des-récoltes" class="section level4">
+<h4>Tri des récoltes</h4>
+<p>Rapports : [1] ; [3] ; [4] ; [5]<br />
+Les données sont bancarisées dans le jeu « enquête_peche_jour », dans la variable « Tri du panier ».<br />
+Etat des données :<br />
+<em>Nombre d’observations : 228<br />
+</em>Taux de remplissage : 1,4%</p>
+</div>
+</div>
+</div>
+<div id="conclusion" class="section level2">
+<h2>Conclusion</h2>
+<p>Bibliographie :<br />
+[1] Rapport de diagnostic de la pêche de loisir sur le territoire de Guissény<br />
+[2] Bilan des actions sur le territoire du Pays de Morlaix<br />
+[3] Rapport de diagnostic de la pêche à pied de loisir sur le territoire Côtes d’Armor lot n°5 2018<br />
+[4] Rapport de diagnostic de la pêche à pied de loisir dans l’Ouest des Côtes d’Armor<br />
+[5] Rapport de diagnostic de la pêche à pied de loisir sur les territoires de la Rance et de la Côte d’Emeraude 2018<br />
+[6] Etat des lieux de la pêche à pied de loisir / Bilan d’actions 2015-2017 / CPIE LOIRE OCEANE</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
