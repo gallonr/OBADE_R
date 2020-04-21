@@ -288,19 +288,25 @@ $(document).ready(function () {
     Partenaires
   </a>
 </li>
-<li>
-  <a href="CR.html">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-handshake"></span>
      
-    Comptes-rendus Réunion
-  </a>
-</li>
-<li>
-  <a href="copil22042020.html">
-    <span class="fa fa-handshake"></span>
+    Réunion
      
-    CoPil 22-04-2020
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="CR_30012020.pdf">CR 30-01-2020</a>
+    </li>
+    <li>
+      <a href="CR_06032020.pdf">CR 06-03-2020</a>
+    </li>
+    <li>
+      <a href="copil22042020.html">CoPil 22-04-2020</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="bibliographie.html">
@@ -309,9 +315,6 @@ $(document).ready(function () {
     Bibliographie
   </a>
 </li>
-<li>
-  <a href="obade_descriptbasePAP.html">Description des données d'usage</a>
-</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     Divers
@@ -319,6 +322,9 @@ $(document).ready(function () {
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="obade_descriptbasePAP.html">Description des données d'usage</a>
+    </li>
     <li>
       <a href="analyse_usage.docx">Exemple fiche doc</a>
     </li>
@@ -354,33 +360,36 @@ $(document).ready(function () {
 
 <blockquote>
 <p>Présent(e)s :<br />
+- Régis Gallon (RG, Cnam-Intechmer)<br />
+- Elodie Gamp (EG, OFB)<br />
 - Aurélie Garcia (AG, GEMEL-N)<br />
-- Etienne Patin (EP, GEMEL-N)<br />
-- Régis Gallon (RG, CNAM) - Dominique Pelletier (DP, IFREMER) - Elodie Gamp (EG, OFB)</p>
+- Etienne Patin (EP, GEMEL-N, rédacteur du CR)<br />
+- Dominique Pelletier (DP, IFREMER)</p>
 </blockquote>
+<hr />
+<p><strong>Objectifs de la réunion</strong> :</p>
+<p>« Présentation du projet PAMPA en vue d’un transfert de connaissance pour le projet OBADE »</p>
+<div id="ouverture-de-la-réunion-ag-et-rg" class="section level2">
+<h2>Ouverture de la réunion : AG et RG</h2>
+<p>Après un tour de table, l’ouverture de la réunion s’est faite par la présentation du projet OBADE, de ses objectifs ainsi qu’un état des lieux de la complétude de la base de données ESTAMP. Le projet OBADE est issu d’un appel à projet (mai 2019) du Ministère de la Transition Ecologique et Solidaire ayant pour objectif l’évaluation de l’efficacité écologique et économique de mesures de gestion prises en faveur de l’environnement marin dans le cadre de la DCSMM. Le projet OBADE veut fournir un outil facilitant la compréhension et l’analyse de la base de données ESTAMP, qui est un outil d’accompagnement à la saisie, à la bancarisation, et à la diffusion de données regroupant des données d’usage (sensibilisation, comptages et enquêtes auprès des pécheurs à pied) et des données biologiques (herbier de zostères, champs de blocs, récif d’hermelles, gisement de coques) en zone intertidale. Une précision a été portée sur l’objectif final de l’outil OBADE qu’il serait une aide pour l’interprétation de la base donnée ESTAMP et non un outil d’analyse. Une discussion a eu lieu sur l’état de la base de données après une présentation des travaux déjà effectués. Des éclaircissements ont été apportés sur des données manquantes, de possible ajout dans la base de données venant de futur ou d’ancien projet de suivi d’activité de loisir sur l’estran (Projet FEAMP, LIFE pêche à pied…) mais aussi des données non validées disponibles sur la base.</p>
+<p>Il a été proposé de d’inviter au COPIL Valentin Guyonnard, le coordinateur du programme VALOBS (Valorisation de données et conception d’un observatoire des usages de loisir dans le Parc naturel marin de l’estuaire de la Gironde et de la mer des Pertuis)</p>
 <p>Dominique Pelletier (Biostat, écologue, halieutique) - Dvpt AMP évaluation des écosystèmes côtiers (ressources, usages non pro, gouvernance) - Développement indicateurs et statistiques - Evalutation intégré des écosystèmes côtiers (aspect usage, écologie)</p>
-<div id="démonstration-pampa-écolo" class="section level2">
-<h2>Démonstration PAMPA écolo</h2>
-<p>Interface : tcl/tk</p>
-<p>Utilisation d’un référentiel taxo et traits Génération de fichiers en local de manière systématique Si sélection création de nouveaux fichiers spécifiques en fonction sélection écrasés après nouvelle sélection</p>
-<p>Description des fichiers générés (nombre colonnes/lignes)</p>
-<p>Création graphique : choisir la mise en forme</p>
-<p>Mise en place de guides</p>
-<p>Extraction des données utilisées pour les analyses?</p>
-<p>Définir d’un fichier config pour les applications spécifiques par territoire pour OBADE Fonction multi-langue?</p>
-<p>Différents types d’utilisateurs pour l’interface comment l’adapter?</p>
-<p><em>DP</em> : AMII Ifremer “Travail réseau avec les AMPs et les acteurs locaux : réseau obervation”</p>
-<p><strong>Stocker fichier source OBADE dans un serveur et pas d’interrogation</strong></p>
-<p>Séparation joursSemaines/joursWeekend</p>
-<p>Radar plot pour profil question</p>
-<p>Archimer STAVIRO pour exemples rapport pour tableau de bord / radar plot</p>
-<p>dvp d’un WIKI?</p>
-<p><strong>Objectifs :</strong></p>
-<ul>
-<li>Voir les données PAMPA et faire un PIPE avec OBADE</li>
-<li>Voir pour mettre en place une étude technique 3<sup>ème</sup> sur mise à jour de PAMPA</li>
-<li>Travail sur la base application “usage” PAMPA</li>
-</ul>
+</div>
+<div id="présentation-du-projet-pampa-dp" class="section level2">
+<h2>Présentation du projet PAMPA (DP)</h2>
+<p>Le projet PAMPA (2008-2011) naquit suite du projet LITEAU II (2004-2006). C’est un outil informatique d’aide à la gestion des Aires Marines Protégés (AMP) qui permet de tester des indicateurs portant sur la biodiversité, sur les ressources ainsi que sur les usages dans les AMP. L’outil permet une prise de connaissance et/ou une évaluation des indicateurs échantillonnés lors des campagnes de comptages et d’enquête.</p>
+<div id="la-présentation-de-loutil-pampa-a-commencé-par-le-volet-biodiversité." class="section level3">
+<h3>La présentation de l’outil PAMPA a commencé par le volet biodiversité.</h3>
+<p>La création de référentiels (espèces, géographique…) est indispensable pour faire communiquer les informations de la base. Un guide des utilisateurs a été rédigé pour faciliter l’utilisation de l’outil PAMPA. La base de données au format Excel, doit être téléchargée dans PAMPA Bio. L’interface propose un système de sélection des données (années, lieux…) et des graphiques de sortie et une boite d’info identifie les données aberrantes et laisse le choix de les conserver ou non. Toutes les exportations sont en fonction du types d’entrées. Les différentes actions possibles grâce aux logiciels ont été abordées telle que la création de bar plot avec la sélection de critères/lieu/indicateurs choisis.</p>
+</div>
+<div id="la-présentation-sest-finie-par-la-découverte-du-volet-usage." class="section level3">
+<h3>La présentation s’est finie par la découverte du volet usage.</h3>
+<p>L’extrapolation des données et la sélection de l’unité géographique est une étape indispensable. La création de graphiques a été expliquée et une attention particulière a été portée sur la sélection et la personnalisation des jeux de données.</p>
+</div>
+</div>
+<div id="conclusion" class="section level2">
+<h2>Conclusion</h2>
+<p>Le projet PAMPA présente des similitudes avec le projet OBADE. Un partenariat a été envisagé pour que l’outil PAMPA serve de base de départ pour la création de l’outil OBADE. De futures réunions sont à prévoir pour exposer l’avancement de la réalisation de l’outil OBADE ainsi que la création d’un comité de pilotage technique, d’un comité technique et d’un comité consultatif.</p>
 </div>
 
 

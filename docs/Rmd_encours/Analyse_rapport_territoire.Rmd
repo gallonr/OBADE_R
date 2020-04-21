@@ -2,6 +2,8 @@
 title: "ESTAMP : Synthèse des résultats des données d'usage de la zone intertidale"
 author: "Etienne Patin"
 date: "21/04/2020"
+header-includes: 
+    - \usepackage{draftwatermark}
 output:
   pdf_document:
     df_print: kable
@@ -20,11 +22,12 @@ toc-title: Sommaire
 knitr::opts_chunk$set(echo = FALSE)
 require(ggplot2)
 require(ggmap)
-#register_google(key = "AIzaSyA4RfyP4pAjJoQJWNumnJB7avM98mHfkf0", write = TRUE)
 require(tidyverse)
 require(tinytex)
 require(ggmap)
 ```
+
+\SetWatermarkText{DRAFT} 
 
 ```{r importation_jdd, message=FALSE, warning=FALSE, include=FALSE}
 source("internal_function.R")

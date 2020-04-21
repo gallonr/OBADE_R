@@ -9,19 +9,22 @@ navbar:
     - text: "Partenaires"
       icon: fa-user-friends
       href: partenaires.html
-    - text: "Comptes-rendus Réunion"
+    - text: "Réunion"
       icon: fa-handshake
-      href: CR.html
-    - text: "CoPil 22-04-2020"
-      icon: fa-handshake
-      href: copil22042020.html
+      menu:
+        - text: "CR 30-01-2020"
+          href: CR_30012020.pdf
+        - text: "CR 06-03-2020"
+          href: CR_06032020.pdf
+        - text: "CoPil 22-04-2020"
+          href: copil22042020.html
     - text: "Bibliographie"
       icon: fa-newspaper
       href: bibliographie.html
-    - text: "Description des données d'usage"
-      href: obade_descriptbasePAP.html
     - text: "Divers"
       menu:
+        - text: "Description des données d'usage"
+          href: obade_descriptbasePAP.html
         - text: "Exemple fiche doc"
           href: analyse_usage.docx
 

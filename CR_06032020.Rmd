@@ -1,62 +1,56 @@
 ---
-title : "Compte-rendu du **06/03/2020**"
-# output: 
-#   pdf_document
+title: "Compte-rendu du **06/03/2020**"
+output: pdf_document
 ---
 
 > Présent(e)s :  
->  - Aurélie Garcia (AG, GEMEL-N)  
->  - Etienne Patin (EP, GEMEL-N)  
->  - Régis Gallon (RG, CNAM)
->  - Dominique Pelletier (DP, IFREMER)
->  - Elodie Gamp (EG, OFB)
+>  - Régis Gallon (RG, Cnam-Intechmer)  
+>  - Elodie Gamp (EG, OFB)  
+>  - Aurélie Garcia (AG, GEMEL-N)    
+>  - Etienne Patin (EP, GEMEL-N, rédacteur du CR)   
+>  - Dominique Pelletier (DP, IFREMER) 
+
+---
+
+**Objectifs de la réunion** :
+
+« Présentation du projet PAMPA en vue d’un transfert de connaissance pour le projet OBADE »
+
+
+## Ouverture de la réunion : AG et RG
+
+Après un tour de table, l’ouverture de la réunion s’est faite par la présentation du projet OBADE, de ses objectifs ainsi qu’un état des lieux de la complétude de la base de données ESTAMP. 
+Le projet OBADE est issu d’un appel à projet (mai 2019) du Ministère de la Transition Ecologique et Solidaire ayant pour objectif l’évaluation de l’efficacité écologique et économique de mesures de gestion prises en faveur de l’environnement marin dans le cadre de la DCSMM.
+Le projet OBADE veut fournir un outil facilitant la compréhension et l’analyse de la base de données ESTAMP, qui est un outil d'accompagnement à la saisie, à la bancarisation, et à la diffusion de données regroupant des données d’usage (sensibilisation, comptages et enquêtes auprès des pécheurs à pied) et des données biologiques (herbier de zostères, champs de blocs, récif d’hermelles, gisement de coques) en zone intertidale.
+Une précision a été portée sur l’objectif final de l’outil OBADE qu’il serait une aide pour l’interprétation de la base donnée ESTAMP et non un outil d’analyse.
+Une discussion a eu lieu sur l’état de la base de données après une présentation des travaux déjà effectués. Des éclaircissements ont été apportés sur des données manquantes, de possible ajout dans la base de données venant de futur ou d’ancien projet de suivi d’activité de loisir sur l’estran (Projet FEAMP, LIFE pêche à pied…) mais aussi des données non validées disponibles sur la base.
+
+Il a été proposé de d’inviter au COPIL Valentin Guyonnard, le coordinateur du programme VALOBS (Valorisation de données et conception d’un observatoire des usages de loisir dans le Parc naturel marin de l’estuaire de la Gironde et de la mer des Pertuis) 
+
 
 Dominique Pelletier (Biostat, écologue, halieutique) 
   - Dvpt AMP évaluation des écosystèmes côtiers (ressources, usages non pro, gouvernance)
   - Développement indicateurs et statistiques
   - Evalutation intégré des écosystèmes côtiers (aspect usage, écologie)
   
+
+## Présentation du projet PAMPA (DP)
   
-  
-## Démonstration PAMPA écolo
+Le projet PAMPA (2008-2011) naquit suite du projet LITEAU II (2004-2006). C’est un outil informatique d’aide à la gestion des Aires Marines Protégés (AMP) qui permet de tester des indicateurs portant sur la biodiversité, sur les ressources ainsi que sur les usages dans les AMP. L’outil permet une prise de connaissance et/ou une évaluation des indicateurs échantillonnés lors des campagnes de comptages et d’enquête.
 
-Interface : tcl/tk
+### La présentation de l’outil PAMPA a commencé par le volet biodiversité. 
 
-Utilisation d'un référentiel taxo et traits
-Génération de fichiers en local de manière systématique
-Si sélection création de nouveaux fichiers spécifiques en fonction sélection écrasés après nouvelle sélection
+La création de référentiels (espèces, géographique…) est indispensable pour faire communiquer les informations de la base. Un guide des utilisateurs a été rédigé pour faciliter l’utilisation de l’outil PAMPA. La base de données au format Excel, doit être téléchargée dans PAMPA Bio. L’interface propose un système de sélection des données (années, lieux…) et des graphiques de sortie et une boite d’info identifie les données aberrantes et laisse le choix de les conserver ou non. Toutes les exportations sont en fonction du types d’entrées. Les différentes actions possibles grâce aux logiciels ont été abordées telle que la création de bar plot avec la sélection de critères/lieu/indicateurs choisis.
 
-Description des fichiers générés (nombre colonnes/lignes)
+### La présentation s’est finie par la découverte du volet usage.
 
-Création graphique : choisir la mise en forme
+L’extrapolation des données et la sélection de l’unité géographique est une étape indispensable.
+La création de graphiques a été expliquée et une attention particulière a été portée sur la sélection et la personnalisation des jeux de données.
 
-Mise en place de guides
+## Conclusion 
 
-Extraction des données utilisées pour les analyses?
-
-Définir d'un fichier config pour les applications spécifiques par territoire pour OBADE
-Fonction multi-langue?
-
-Différents types d'utilisateurs pour l'interface comment l'adapter?
-
-*DP* : AMII Ifremer "Travail réseau avec les AMPs et les acteurs locaux : réseau obervation"
-
-**Stocker fichier source OBADE dans un serveur et pas d'interrogation**
-
-Séparation joursSemaines/joursWeekend
-
-Radar plot pour profil question
-
-Archimer STAVIRO pour exemples rapport pour tableau de bord / radar plot
-
-dvp d'un WIKI?
-
-
-**Objectifs :** 
-
-- Voir les données PAMPA et faire un PIPE avec OBADE
-- Voir pour mettre en place une étude technique 3^ème^ sur mise à jour de PAMPA
-- Travail sur la base application "usage" PAMPA
+Le projet PAMPA présente des similitudes avec le projet OBADE. Un partenariat a été envisagé pour que l’outil PAMPA serve de base de départ pour la création de l’outil OBADE. 
+De futures réunions sont à prévoir pour exposer l’avancement de la réalisation de l’outil OBADE ainsi que la création d’un comité de pilotage technique, d’un comité technique et d’un comité consultatif.
 
 
 

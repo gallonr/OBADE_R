@@ -288,19 +288,25 @@ $(document).ready(function () {
     Partenaires
   </a>
 </li>
-<li>
-  <a href="CR.html">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-handshake"></span>
      
-    Comptes-rendus Réunion
-  </a>
-</li>
-<li>
-  <a href="copil22042020.html">
-    <span class="fa fa-handshake"></span>
+    Réunion
      
-    CoPil 22-04-2020
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="CR_30012020.pdf">CR 30-01-2020</a>
+    </li>
+    <li>
+      <a href="CR_06032020.pdf">CR 06-03-2020</a>
+    </li>
+    <li>
+      <a href="copil22042020.html">CoPil 22-04-2020</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="bibliographie.html">
@@ -309,9 +315,6 @@ $(document).ready(function () {
     Bibliographie
   </a>
 </li>
-<li>
-  <a href="obade_descriptbasePAP.html">Description des données d'usage</a>
-</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     Divers
@@ -319,6 +322,9 @@ $(document).ready(function () {
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="obade_descriptbasePAP.html">Description des données d'usage</a>
+    </li>
     <li>
       <a href="analyse_usage.docx">Exemple fiche doc</a>
     </li>
