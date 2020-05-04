@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Description des données d’usage de la base ESTAMP</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">OBADE</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="partenaires.html">
+    <span class="fa fa-user-friends"></span>
+     
+    Partenaires
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-handshake"></span>
+     
+    Réunion
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="CR_30012020.pdf">CR 30-01-2020</a>
+    </li>
+    <li>
+      <a href="CR_06032020.pdf">CR 06-03-2020</a>
+    </li>
+    <li>
+      <a href="copil22042020.html">CoPil 22-04-2020</a>
+    </li>
+    <li>
+      <a href="CT_04052020.html">Réunion du 04-05-2020</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="bibliographie.html">
+    <span class="fa fa-newspaper"></span>
+     
+    Bibliographie
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Divers
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="obade_descriptbasePAP.html">Description des données d'usage</a>
+    </li>
+    <li>
+      <a href="analyse_usage.docx">Exemple fiche doc</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:Projet_OBADE&lt;par_obade@CNAM.onmicrosoft.com&gt;?subject=[OBADE]">
+    <span class="fa fa-envelope"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/gallonr/OBADE_R">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Description des données <em>d’usage</em> de la base ESTAMP</h1>
+<h3 class="subtitle">LifePAP</h3>
+
+</div>
+
+
+<p><strong>Contexte</strong></p>
+<p>La réalisation des données d’usage nécessite au préalable de décrire les données présentes dans la base ESTAMP. Cette description permettra de mettre en avant les points forts et les points faibles permettant ainsi d’élaborer d’éventuelles solutions pour améliorer la robustesse[^2] de la base.</p>
+<p>Les données ont été extraites le 04-05-2020 via le site web (<a href="https://estamp.afbiodiversite.fr/" class="uri">https://estamp.afbiodiversite.fr/</a>).</p>
+<p>L’extraction est composée de 3 fichiers :</p>
+<pre><code>ProtocolesEnquetesPaP.pdf 
+termine 
+valide</code></pre>
+<div id="description-des-données-extraites" class="section level3">
+<h3><strong>1 Description des données extraites</strong></h3>
+<p>Le jeu de données est composé de 5997 lignes (= observations) et 144 colonnes (= variables)</p>
+<div class="kable-table">
+<table>
+<thead>
+<tr class="header">
+<th align="left">Variable</th>
+<th align="left">Class</th>
+<th align="right">Nombre_Elements</th>
+<th align="right">Nombre_NA</th>
+<th align="left">Exemples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">libelle_sortie</td>
+<td align="left">character</td>
+<td align="right">5997</td>
+<td align="right">0</td>
+<td align="left">Le Veillon_22/09/2016_Justine VALLEE_S00006</td>
+</tr>
+<tr class="even">
+<td align="left">Libellé Sortie.x</td>
+<td align="left">character</td>
+<td align="right">5997</td>
+<td align="right">0</td>
+<td align="left">Le Veillon_22/09/2016_Justine VALLEE_S00006</td>
+</tr>
+<tr class="odd">
+<td align="left">Code Enquète.x</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Observateurs</td>
+<td align="left">character</td>
+<td align="right">81</td>
+<td align="right">162</td>
+<td align="left">Justine VALLEE</td>
+</tr>
+<tr class="odd">
+<td align="left">Num Enquéte</td>
+<td align="left">character</td>
+<td align="right">5997</td>
+<td align="right">0</td>
+<td align="left">S00006</td>
+</tr>
+<tr class="even">
+<td align="left">Heure Début</td>
+<td align="left">hms</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Enquete Hors Panier</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">Non renseigné : 5997</td>
+</tr>
+<tr class="even">
+<td align="left">Panier Complet</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">Non renseigné : 5997</td>
+</tr>
+<tr class="odd">
+<td align="left">Pecheur Sensibilisé</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">Non renseigné : 5997</td>
+</tr>
+<tr class="even">
+<td align="left">Pecheur enqueté</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">Non renseigné : 5997</td>
+</tr>
+<tr class="odd">
+<td align="left">Constitution Groupe</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Nb adultes</td>
+<td align="left">integer</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Nb enfants</td>
+<td align="left">integer</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Nb tous petits</td>
+<td align="left">integer</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Nb pecheurs groupe</td>
+<td align="left">integer</td>
+<td align="right">30</td>
+<td align="right">173</td>
+<td align="left">2</td>
+</tr>
+<tr class="even">
+<td align="left">Nb Pecheurs Sensibilises</td>
+<td align="left">integer</td>
+<td align="right">87</td>
+<td align="right">97</td>
+<td align="left">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Nb Reglettes</td>
+<td align="left">integer</td>
+<td align="right">78</td>
+<td align="right">105</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">Nb Depliants</td>
+<td align="left">integer</td>
+<td align="right">8</td>
+<td align="right">3287</td>
+<td align="left">0 : 2096 - 1 : 497 - 2 : 97 - 3 : 9 - 4 : 6 - 5 : 2 - 7 : 2 - 12 : 1</td>
+</tr>
+<tr class="odd">
+<td align="left">Observations</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">5973</td>
+<td align="left">PÃªche dans concession : 24</td>
+</tr>
+<tr class="even">
+<td align="left">Annuaire de marée</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Etat Sanitaire</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Source d’information</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Equipé Téléphone portable</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Connaissance Numéro Secours</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Numéro Secours</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Critéres choix site</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">ID fiche</td>
+<td align="left">character</td>
+<td align="right">5997</td>
+<td align="right">0</td>
+<td align="left">316971</td>
+</tr>
+<tr class="even">
+<td align="left">type de suivi</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">Suivi des enquêtes pêcheurs à pied : 5997</td>
+</tr>
+<tr class="odd">
+<td align="left">date sortie</td>
+<td align="left">POSIXct</td>
+<td align="right">243</td>
+<td align="right">0</td>
+<td align="left">2016-09-22</td>
+</tr>
+<tr class="even">
+<td align="left">heure début</td>
+<td align="left">hms</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">heure fin</td>
+<td align="left">hms</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">coefficient marée</td>
+<td align="left">integer</td>
+<td align="right">62</td>
+<td align="right">2</td>
+<td align="left">70</td>
+</tr>
+<tr class="odd">
+<td align="left">heure marée basse</td>
+<td align="left">hms</td>
+<td align="right">237</td>
+<td align="right">72</td>
+<td align="left">15:37:00</td>
+</tr>
+<tr class="even">
+<td align="left">hauteur basse mer</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">période</td>
+<td align="left">character</td>
+<td align="right">3</td>
+<td align="right">1856</td>
+<td align="left">Semaine : 941 - Vacances : 2896 - Week-end ou Jour Férié : 304</td>
+</tr>
+<tr class="even">
+<td align="left">libellé campagne</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">référent sortie</td>
+<td align="left">character</td>
+<td align="right">81</td>
+<td align="right">162</td>
+<td align="left">Justine VALLEE</td>
+</tr>
+<tr class="even">
+<td align="left">équipe terrain</td>
+<td align="left">character</td>
+<td align="right">81</td>
+<td align="right">162</td>
+<td align="left">Justine VALLEE</td>
+</tr>
+<tr class="odd">
+<td align="left">territoire</td>
+<td align="left">character</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">Estuaire de la Gironde et Mer des Pertuis : 4463 - Golfe Normand Breton : 1534</td>
+</tr>
+<tr class="even">
+<td align="left">code site</td>
+<td align="left">character</td>
+<td align="right">61</td>
+<td align="right">0</td>
+<td align="left">EGMP_003</td>
+</tr>
+<tr class="odd">
+<td align="left">site</td>
+<td align="left">character</td>
+<td align="right">61</td>
+<td align="right">0</td>
+<td align="left">Le Veillon</td>
+</tr>
+<tr class="even">
+<td align="left">zone</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">type protocole</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">Enquête sensibilisation : 5997</td>
+</tr>
+<tr class="even">
+<td align="left">version protocole</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">LifePAP : 5997</td>
+</tr>
+<tr class="odd">
+<td align="left">auteur saisie</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">SYSTEME : 5997</td>
+</tr>
+<tr class="even">
+<td align="left">organisme suivi</td>
+<td align="left">character</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">Mission d’étude du golfe normand-breton : 1534 - Parc naturel marin de l’estuaire de la Gironde et de la mer des Pertuis : 4463</td>
+</tr>
+<tr class="odd">
+<td align="left">couverture nuageuse</td>
+<td align="left">character</td>
+<td align="right">4</td>
+<td align="right">3597</td>
+<td align="left">0-25% (Peu ou pas nuageux) : 326 - 25-75% (Nuageux) : 1324 - 75-100% (Très nuageux) : 617 - Brouillard : 133</td>
+</tr>
+<tr class="even">
+<td align="left">précipitations</td>
+<td align="left">character</td>
+<td align="right">5</td>
+<td align="right">2052</td>
+<td align="left">Averses violentes ou orageuses - Grêles ou neige : 46 - Pas de précipitation : 3778 - Pluie continue : 29 - Pluie fine : 80 - Pluies éparses : 12</td>
+</tr>
+<tr class="odd">
+<td align="left">pression atmosphérique</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">température</td>
+<td align="left">numeric</td>
+<td align="right">55</td>
+<td align="right">2259</td>
+<td align="left">20</td>
+</tr>
+<tr class="odd">
+<td align="left">force du vent</td>
+<td align="left">character</td>
+<td align="right">6</td>
+<td align="right">2370</td>
+<td align="left">1-Très légère brise-1 à 5 km/h-Mer ridée : 84 - 2-Lègère brise-6 à 11 km/h-Vaguelettes : 480 - 3-Petite brise-12 à 19 km/h-Très petites vagues. Déferlement. : 1800 - 4-Jolie brise-20 à 28 km/h-Petites vagues. Moutons. : 991 - 5-Bonne brise-29 à 38 km/h-Vagues modérées. : 269 - 6-Vent frais-39 à 49 km/h-Crêtes d’écume blanches. : 3</td>
+</tr>
+<tr class="even">
+<td align="left">force du vent en rafale</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">direction du vent</td>
+<td align="left">character</td>
+<td align="right">8</td>
+<td align="right">2394</td>
+<td align="left">Est : 199 - Nord : 73 - Nord-Est : 509 - Nord-Ouest : 1311 - Ouest : 603 - Sud : 196 - Sud-Est : 215 - Sud-Ouest : 497</td>
+</tr>
+<tr class="even">
+<td align="left">état de la mer</td>
+<td align="left">character</td>
+<td align="right">4</td>
+<td align="right">4306</td>
+<td align="left">0-calme-0 m : 152 - 1-ridée-0 à 0,1 m : 778 - 2-belle-0,1 à 0,5 m : 487 - 3-peu agitée-0,5 à 1,25 m : 274</td>
+</tr>
+<tr class="odd">
+<td align="left">commentaires</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">Reprise de données Enquete</td>
+</tr>
+<tr class="even">
+<td align="left">: 5997</td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Milieu(x)</td>
+<td align="left">character</td>
+<td align="right">5</td>
+<td align="right">5760</td>
+<td align="left">Champs de blocs : 30 - Champs de blocs | Massifs d’hermelles : 73 - Concessions de culture : 100 - Herbiers zostères : 17 - Massifs d’hermelles : 17</td>
+</tr>
+<tr class="even">
+<td align="left">Espéces</td>
+<td align="left">character</td>
+<td align="right">37</td>
+<td align="right">4739</td>
+<td align="left">Palourdes croisées | Praire</td>
+</tr>
+<tr class="odd">
+<td align="left">Outils ou techniques</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Conformité outil(s)</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Estimation Reglement</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Connaissance Reglement</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Premiere Peche</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Annee Premiere Peche</td>
+<td align="left">integer</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Peche Chaque Annee</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Frequence Declaree Peche</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Mois de peche</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Nb Peches Annuelles</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Péche du jour</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Frequence Indiquee</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Espéces prélevées</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Prélèvement annuel poids</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Prélèvement annuel nombre</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Choix des marées</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Coefficient Maree Mini</td>
+<td align="left">integer</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Coefficient Maree NSP</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Autre Sites fréquentés</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Départements</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Nom sites</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Motivation(s)</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Autres types de peche</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Heure début récolte</td>
+<td align="left">hms</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Temps passé récolte</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Temps total Peche</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Nb pêcheurs récolte</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Panier vide</td>
+<td align="left">character</td>
+<td align="right">3</td>
+<td align="right">0</td>
+<td align="left">Non : 2684 - Non renseigné : 3311 - Oui : 2</td>
+</tr>
+<tr class="odd">
+<td align="left">Conformité maille</td>
+<td align="left">character</td>
+<td align="right">3</td>
+<td align="right">3169</td>
+<td align="left">Conformité &lt; 50% : 436 - Conformité &gt; 90% : 1421 - Conformité entre 50% et 90% : 971</td>
+</tr>
+<tr class="even">
+<td align="left">Conformité quantité</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Tri du panier</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Espece</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Poids récolte</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Nb individus</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Volume récolté</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Type évaluation</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Poids maille</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Nb maille</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Volume maille</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Type évaluation maille</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Taille échantillon</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Commune résidence</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Département</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Pays</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">De passage</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">en séjour sur une commune : 5997</td>
+</tr>
+<tr class="even">
+<td align="left">Commune séjour</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Durée séjour</td>
+<td align="left">integer</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Hebergement</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Premier Séjour</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Fréquence Visites</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Influence Destination</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Influence Date</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Sexe - Pécheur</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Annee Naissance - Pécheur</td>
+<td align="left">integer</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">CSP - Pécheur</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Sexe - Autre membre</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Annee Naissance - Autre membre</td>
+<td align="left">integer</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">CSP - Autre membre</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Tri récolte</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Accueil</td>
+<td align="left">character</td>
+<td align="right">1</td>
+<td align="right">5877</td>
+<td align="left">Refus : 120</td>
+</tr>
+<tr class="odd">
+<td align="left">Sensibilisation</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Remarques pécheur</td>
+<td align="left">character</td>
+<td align="right">4</td>
+<td align="right">2976</td>
+<td align="left">Conflits d’usage : 87 - Etat sanitaire : 113 - Réglementation : 1991 - Ressource/Environnement : 830</td>
+</tr>
+<tr class="odd">
+<td align="left">Précisions remarques</td>
+<td align="left">character</td>
+<td align="right">1016</td>
+<td align="right">4574</td>
+<td align="left">Intéressé par le panneau mis en place</td>
+</tr>
+<tr class="even">
+<td align="left">Libellé Sortie</td>
+<td align="left">character</td>
+<td align="right">5997</td>
+<td align="right">0</td>
+<td align="left">Le Veillon_22/09/2016_Justine VALLEE_S00006</td>
+</tr>
+<tr class="odd">
+<td align="left">Code Enquète</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Membre Association</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Nom Association</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Espéce maille</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">declaration Connaissance</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Taille déclarée</td>
+<td align="left">integer</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">connaissance réglementation</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Utilisation outil</td>
+<td align="left">character</td>
+<td align="right">3</td>
+<td align="right">512</td>
+<td align="left">Non : 4451 - Oui : 894 - Oui mais pas aujourd’hui : 140</td>
+</tr>
+<tr class="odd">
+<td align="left">Source outil</td>
+<td align="left">character</td>
+<td align="right">7</td>
+<td align="right">5047</td>
+<td align="left">Anatomique (phalange, largeur de paume, pouce) : 18 - Artisanal : 371 - Autre type de réglette : 83 - Commerce : 19 - Pied à coulisse FNPPSF : 43 - Réglette à visuels (Type Vivarmor) : 35 - Reglette LIFE : 381</td>
+</tr>
+<tr class="even">
+<td align="left">Type d’outil</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Outil Conforme</td>
+<td align="left">character</td>
+<td align="right">2</td>
+<td align="right">3973</td>
+<td align="left">Non : 1472 - Oui : 552</td>
+</tr>
+<tr class="even">
+<td align="left">Espèce quantité</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Connaissance quota</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Quantité déclarée</td>
+<td align="left">integer</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Unite</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Reglementation Quantité</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Espèce période</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Connaissance Période</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Périodes Déclarées</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Connaissance Règlementation Période</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Informé Législation</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="even">
+<td align="left">Source information législation</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+<tr class="odd">
+<td align="left">Conseils consommation</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">5997</td>
+<td align="left">:</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="obade_descriptbaseLifePAP_files/figure-html/pratPeche.na-1.png" width="960" /></p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

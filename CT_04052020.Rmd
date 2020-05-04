@@ -1,0 +1,9 @@
+---
+title: "Réunion du 04/05/2020"
+---    
+
+Documents téléchargeables pour la réunion
+
+- [Rapport de synthèse Côte d'Armor 2019](./Rmd_encours/Analyse_rapport_2019_Armor.pdf)  
+- [Fichier synthèse des protocole](./presentation/detail_protocole.xlsx)
+- [Prototype shiny App](https://regisgallon.shinyapps.io/OBADE_Shiny/)

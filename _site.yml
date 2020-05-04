@@ -18,6 +18,8 @@ navbar:
           href: CR_06032020.pdf
         - text: "CoPil 22-04-2020"
           href: copil22042020.html
+        - text: "Réunion du 04-05-2020"
+          href: CT_04052020.html
     - text: "Bibliographie"
       icon: fa-newspaper
       href: bibliographie.html

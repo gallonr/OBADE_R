@@ -1,5 +1,6 @@
 ---
 title: "Description des données *d'usage* de la base ESTAMP"
+subtitle: "Tous les protocoles"
 
 output:
   html_document:

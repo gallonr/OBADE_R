@@ -195,7 +195,7 @@ groupe.count <- drop_na(groupe.count)
 ggplot(groupe.count, aes(x = `Constitution Groupe`, y = n))+
   geom_bar(stat = "identity")+
   obade_theme+
-  ylab("Nomnre de pêcheurs")
+  ylab("Nombre de pêcheurs")
 
 ```
   

@@ -1,0 +1,439 @@
+"ID Fiche Terrain";"Libellé Sortie";"ID Fiche Fréquentation";"Libellé Territoire";"Code Site";"Libellé Site";"Code Sous Site";"Libellé Sous Site";"Heure Comptage";"Type Activite";"Nb Total";"Nb Adultes";"Nb Enfants";"Autres usages";"Commentaires"
+365855;"2018-08-12-EGMP-FRE-079";365902;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_151";"Les Cantines - Les Arros - Les Olives";"EGMP_151_2";"Les Arros";"12:15";"total de pêcheurs à pied de loisir";31;;;"";
+365855;"2018-08-12-EGMP-FRE-079";365900;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_151";"Les Cantines - Les Arros - Les Olives";"EGMP_151_1";"Les Cantines";"11:30";"total de pêcheurs à pied de loisir";104;;;"";
+365855;"2018-08-12-EGMP-FRE-079";365908;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_151";"Les Cantines - Les Arros - Les Olives";"EGMP_151_3";"Les Olives";"11:55";"total de pêcheurs à pied de loisir";27;;;"";
+365924;"2018-08-12-EGMP-FRE-082";365929;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_158";"Maison à pointe de Grave";"EGMP_158_1";"Maison de Grave";"11:40";"total de pêcheurs à pied de loisir";0;;;"";
+365924;"2018-08-12-EGMP-FRE-082";365932;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_158";"Maison à pointe de Grave";"EGMP_158_2";"Plage Océane";"12:00";"total de pêcheurs à pied de loisir";11;;;"";
+365924;"2018-08-12-EGMP-FRE-082";365931;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_158";"Maison à pointe de Grave";"EGMP_158_3";"Rocher de Saint-Nicolas";"11:30";"total de pêcheurs à pied de loisir";6;;;"";
+368033;"2018-09-11-EGMP-FRE-001";368035;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_023-024";"Pointe de l'Aiguillon - Plage de la Batterie";"EGMP_024";"Plage de la Batterie";"10:30";"total de pêcheurs à pied de loisir";64;64;0;"";
+369482;"2018-08-13-BRES-FRE-105";369485;"Rade de Brest";"BRES_B";"Lanvéoc jusqu'au pont de l'Aulne";"BRES_B_EN";"Ecole navale à  Lomergat";"13:15";"total de pêcheurs à pied de loisir";0;;;"";
+369482;"2018-08-13-BRES-FRE-105";369486;"Rade de Brest";"BRES_B";"Lanvéoc jusqu'au pont de l'Aulne";"BRES_B6";"Hirgars Le Stang";"13:15";"total de pêcheurs à pied de loisir";45;;;"";
+369482;"2018-08-13-BRES-FRE-105";369487;"Rade de Brest";"BRES_B";"Lanvéoc jusqu'au pont de l'Aulne";"BRES_B5";"Lomergat";"13:30";"total de pêcheurs à pied de loisir";4;;;"";
+369482;"2018-08-13-BRES-FRE-105";369489;"Rade de Brest";"BRES_B";"Lanvéoc jusqu'au pont de l'Aulne";"BRES_B4";"Le Loc'h";"13:30";"total de pêcheurs à pied de loisir";15;;;"";
+369482;"2018-08-13-BRES-FRE-105";369492;"Rade de Brest";"BRES_B";"Lanvéoc jusqu'au pont de l'Aulne";"BRES_B1";"Cale Porz Maria > Sillon du pâl";"13:30";"total de pêcheurs à pied de loisir";11;;;"";
+369482;"2018-08-13-BRES-FRE-105";369494;"Rade de Brest";"BRES_B";"Lanvéoc jusqu'au pont de l'Aulne";"BRES_B2";"Sillon des Anglais > Cale de Porz Maria";"13:30";"total de pêcheurs à pied de loisir";21;;;"";
+371930;"2018-10-10-EPMO-FRE-001";371931;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_1";"Le Portel_Cap d'Alprech";"07:57";"total de pêcheurs à pied de loisir";173;;;"";"3 vélos
+2 pêcheurs au filet "
+371930;"2018-10-10-EPMO-FRE-001";371932;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_1";"Le Portel_Cap d'Alprech";"07:57";"total de pêcheurs à pied de loisir";173;;;"";"3 vélos
+2 pêcheurs avec des filets "
+372915;"2018-08-13-EPMO-FRE-130";372917;"Estuaires Picards et Mer d'Opale";"EPMO_04";"Authie Fort Mahon";"EPMO_04_1";"Authie Fort Mahon_Mollière sud";;"total de pêcheurs récréatifs de coques";12;;;"";
+372918;"2018-08-13-EPMO-FRE-131";372920;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_5";"Boulogne-sur-Mer_Digue Nord";;"pêcheurs récréatifs à la canne";2;;;"";
+372918;"2018-08-13-EPMO-FRE-131";372921;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_1";"Boulogne-sur-Mer_Plage";;"pêcheurs récréatifs de vers à la pompe";8;;;"";
+372918;"2018-08-13-EPMO-FRE-131";372922;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_4";"Boulogne-sur-Mer_Platier proche crèche";;"total de pêcheurs récréatifs de moules sur rochers total";12;;;"";
+372918;"2018-08-13-EPMO-FRE-131";372923;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_2";"Boulogne-sur-Mer_Platier quelques rochers";;"total de pêcheurs récréatifs de moules sur rochers total";17;;;"";
+372924;"2018-08-13-EPMO-FRE-132";372926;"Estuaires Picards et Mer d'Opale";"EPMO_16";"Cise Onival";"EPMO_16_1";"Cise_Onival_Plage";;"total de pêcheurs récréatifs de coques";2;;;"";
+372924;"2018-08-13-EPMO-FRE-132";372927;"Estuaires Picards et Mer d'Opale";"EPMO_16";"Cise Onival";"EPMO_16_2";"Cise_Onival_Platier Ault";;"total de pêcheurs récréatifs de moules total";7;;;"";
+372924;"2018-08-13-EPMO-FRE-132";372928;"Estuaires Picards et Mer d'Opale";"EPMO_16";"Cise Onival";"EPMO_16_3";"Cise_Onival_Platier Cise";;"total de pêcheurs récréatifs de moules total";4;;;"";
+372931;"2018-08-13-EPMO-FRE-134";372933;"Estuaires Picards et Mer d'Opale";"EPMO_19";"Equihen";"EPMO_19_2";"Equihen_Platier Equihen Nord";;"total de pêcheurs récréatifs de moules total";201;;;"";
+372931;"2018-08-13-EPMO-FRE-134";372934;"Estuaires Picards et Mer d'Opale";"EPMO_19";"Equihen";"EPMO_19_3";"Equihen_Platier Equihen Sud";;"total de pêcheurs récréatifs de moules total";3;;;"";
+381067;"2018-08-15-EPMO-FRE-002";381071;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_1";"Pointe aux oies_Plage";;"total de pêcheurs récréatifs de moules total";96;;;"";
+381073;"2018-08-13-EPMO-FRE-134";381077;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";;"total de pêcheurs récréatifs de moules total";16;;;"";
+381073;"2018-08-13-EPMO-FRE-134";381075;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_5";"Wimereux_Digue";;"total de pêcheurs récréatifs de moules total";2;;;"";
+381073;"2018-08-13-EPMO-FRE-134";381078;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_2";"Wimereux_Platier Ailette";;"total de pêcheurs récréatifs de moules total";16;;;"";
+381073;"2018-08-13-EPMO-FRE-134";381079;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_4";"Wimereux_Platier crèche concession";;"total de pêcheurs récréatifs de moules total";8;;;"";
+381073;"2018-08-13-EPMO-FRE-134";381080;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";;"total de pêcheurs récréatifs de moules total";53;;;"";
+381073;"2018-08-13-EPMO-FRE-134";381076;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_1";"Wimereux_Plage";;"pêcheurs récréatifs de vers à la  fourche/bêche";6;;;"";
+381081;"2018-08-13-EPMO-FRE-136";381084;"Estuaires Picards et Mer d'Opale";"EPMO_31";"Mers les Bains";"EPMO_31_1";"Mers les Bains_Plage";;"pêcheurs récréatifs à la canne";1;;;"";
+381081;"2018-08-13-EPMO-FRE-136";381085;"Estuaires Picards et Mer d'Opale";"EPMO_31";"Mers les Bains";"EPMO_31_3";"Mers les Bains_Platier Digues du Tréport";;"total de pêcheurs récréatifs de moules total";15;;;"";
+381081;"2018-08-13-EPMO-FRE-136";381086;"Estuaires Picards et Mer d'Opale";"EPMO_31";"Mers les Bains";"EPMO_31_1";"Mers les Bains_Plage";;"pêcheurs récréatifs de vers à la pompe";1;;;"";
+381081;"2018-08-13-EPMO-FRE-136";381087;"Estuaires Picards et Mer d'Opale";"EPMO_31";"Mers les Bains";"EPMO_31_2";"Mers les Bains_Platier Cise-Mers";;"total de pêcheurs récréatifs de moules total";16;;;"";
+381081;"2018-08-13-EPMO-FRE-136";381083;"Estuaires Picards et Mer d'Opale";"EPMO_31";"Mers les Bains";"EPMO_31_1";"Mers les Bains_Plage";;"total de pêcheurs récréatifs de crevettes grises";6;;;"";
+383906;"2018-10-09-EPMO-FRE-006";383909;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_1";"Le Portel_Cap d'Alprech";;"pêcheurs professionnels de moules";3;;;"";
+383906;"2018-10-09-EPMO-FRE-006";383910;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_4";"Le Portel_Platier Rieu de Cat";;"total de pêcheurs récréatifs de moules total";40;;;"";
+383906;"2018-10-09-EPMO-FRE-006";383911;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_3";"Le Portel_Platier Fort de l'Heurt";;"total de pêcheurs récréatifs de moules total";55;;;"";
+383906;"2018-10-09-EPMO-FRE-006";383912;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_2";"Le Portel_Plage";;"pêcheurs récréatifs de vers à la pompe";10;;;"";
+383906;"2018-10-09-EPMO-FRE-006";383908;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_1";"Le Portel_Cap d'Alprech";;"total de pêcheurs récréatifs de moules total";169;;;"";
+383913;"2018-10-09-EPMO-FRE-008";383916;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_4";"Portel-Equihen_Platier Ningles";;"total de pêcheurs récréatifs de moules total";24;;;"";
+383913;"2018-10-09-EPMO-FRE-008";383917;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_2";"Portel-Equihen_Platier Cap Alprech";;"total de pêcheurs récréatifs de moules total";77;;;"";
+383913;"2018-10-09-EPMO-FRE-008";383915;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_2";"Portel-Equihen_Platier Cap Alprech";;"total de pêcheurs récréatifs de moules sur rochers total";20;;;"";
+383928;"2018-10-09-EPMO-FRE-011";383930;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_1";"Pointe aux oies_Plage";;"total de pêcheurs récréatifs de moules total";14;;;"";
+383931;"2018-10-09-EPMO-FRE-012";383934;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";;"total de pêcheurs récréatifs de moules total";7;;;"";
+383931;"2018-10-09-EPMO-FRE-012";383935;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";;"total de pêcheurs récréatifs de moules total";3;;;"";
+383931;"2018-10-09-EPMO-FRE-012";383933;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_2";"Wimereux_Platier Ailette";;"total de pêcheurs récréatifs de moules total";0;;;"";
+383936;"2018-10-09-EPMO-FRE-013";383938;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_4";"Boulogne-sur-Mer_Platier proche crèche";;"total de pêcheurs récréatifs de moules total";6;;;"";
+383943;"2018-10-11-EPMO-FRE-005";383946;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";;"pêcheurs professionnels de moules";1;;;"";
+383943;"2018-10-11-EPMO-FRE-005";383947;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";;"total de pêcheurs récréatifs de moules total";18;;;"";
+383943;"2018-10-11-EPMO-FRE-005";383945;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";;"total de pêcheurs récréatifs de moules total";4;;;"";
+383943;"2018-10-11-EPMO-FRE-005";383948;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_2";"Wimereux_Platier Ailette";;"total de pêcheurs récréatifs de moules total";6;;;"";
+383949;"2018-10-11-EPMO-FRE-006";383951;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_2";"Pointe aux oies_Platier";;"total de pêcheurs récréatifs de moules total";29;;;"";
+383949;"2018-10-11-EPMO-FRE-006";383952;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_2";"Pointe aux oies_Platier";;"pêcheurs professionnels de moules";1;;;"";
+383953;"2018-10-11-EPMO-FRE-007";383956;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_3";"Ambleteuse_Platier d'Ambleteuse";;"total de pêcheurs à pied de loisir";0;;;"";
+383953;"2018-10-11-EPMO-FRE-007";383955;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_1";"Ambleteuse_Platier Liettes";;"total de pêcheurs récréatifs de moules total";8;;;"";
+383953;"2018-10-11-EPMO-FRE-007";383957;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_5";"Ambleteuse_Platier langue chien";;"total de pêcheurs récréatifs de moules total";35;;;"";
+386144;"2018-11-05-EPMO-FRE-005";386146;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_4";"Portel-Equihen_Platier Ningles";"16:57";"total de pêcheurs récréatifs de moules total";6;;;"";
+386147;"2018-11-05-EPMO-FRE-006";386149;"Estuaires Picards et Mer d'Opale";"EPMO_19";"Equihen";"EPMO_19_2";"Equihen_Platier Equihen Nord";;"total de pêcheurs récréatifs de moules total";5;;;"";
+386152;"2018-10-09-EPMO-FRE-013";386155;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_4";"Le Portel_Platier Rieu de Cat";;"total de pêcheurs récréatifs de moules total";46;;;"";
+386152;"2018-10-09-EPMO-FRE-013";386156;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_3";"Le Portel_Platier Fort de l'Heurt";;"total de pêcheurs récréatifs de moules total";55;;;"";
+386152;"2018-10-09-EPMO-FRE-013";386154;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_1";"Le Portel_Cap d'Alprech";"07:57";"total de pêcheurs récréatifs de moules total";172;;;"";
+386157;"2018-10-09-EPMO-FRE-015";386160;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_4";"Portel-Equihen_Platier Ningles";;"total de pêcheurs récréatifs de moules total";24;;;"";
+386157;"2018-10-09-EPMO-FRE-015";386161;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_2";"Portel-Equihen_Platier Cap Alprech";;"total de pêcheurs récréatifs de moules total";77;;;"";
+386157;"2018-10-09-EPMO-FRE-015";386159;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_3";"Portel-Equihen_Platier Equihen";;"total de pêcheurs récréatifs de moules total";20;;;"";
+386162;"2018-10-09-EPMO-FRE-016";386164;"Estuaires Picards et Mer d'Opale";"EPMO_19";"Equihen";"EPMO_19_2";"Equihen_Platier Equihen Nord";"08:00";"total de pêcheurs récréatifs de moules total";18;;;"";
+386165;"2018-10-09-EPMO-FRE-017";386168;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_5";"Ambleteuse_Platier langue chien";;"total de pêcheurs récréatifs de moules total";76;;;"";
+386165;"2018-10-09-EPMO-FRE-017";386169;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_3";"Ambleteuse_Platier d'Ambleteuse";;"total de pêcheurs récréatifs de moules total";2;;;"";
+386165;"2018-10-09-EPMO-FRE-017";386167;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_1";"Ambleteuse_Platier Liettes";"09:36";"total de pêcheurs récréatifs de moules total";35;;;"";
+386170;"2018-10-09-EPMO-FRE-018";386172;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_2";"Pointe aux oies_Platier";;"total de pêcheurs récréatifs de moules total";14;;;"";
+386173;"2018-10-09-EPMO-FRE-019";386176;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";;"total de pêcheurs récréatifs de moules total";7;;;"";
+386173;"2018-10-09-EPMO-FRE-019";386177;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";;"total de pêcheurs récréatifs de moules total";3;;;"";
+386173;"2018-10-09-EPMO-FRE-019";386175;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_2";"Wimereux_Platier Ailette";;"total de pêcheurs récréatifs de moules total";0;;;"";
+386178;"2018-10-09-EPMO-FRE-020";386180;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_4";"Boulogne-sur-Mer_Platier proche crèche";;"total de pêcheurs récréatifs de moules total";6;;;"";
+386181;"2018-10-11-EPMO-FRE-007";386183;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_4";"Boulogne-sur-Mer_Platier proche crèche";"08:25";"total de pêcheurs à pied de loisir";0;;;"";
+386184;"2018-10-11-EPMO-FRE-009";386186;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";;"total de pêcheurs récréatifs de moules total";4;;;"";
+386184;"2018-10-11-EPMO-FRE-009";386187;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";;"total de pêcheurs récréatifs de moules total";14;;;"";
+386184;"2018-10-11-EPMO-FRE-009";386188;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";;"pêcheurs professionnels de moules";1;;;"";
+386184;"2018-10-11-EPMO-FRE-009";386189;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_2";"Wimereux_Platier Ailette";;"total de pêcheurs à pied de loisir";6;;;"";
+386190;"2018-10-11-EPMO-FRE-010";386193;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_2";"Pointe aux oies_Platier";;"pêcheurs professionnels de moules";1;;;"";"avec 1 tracteur
+"
+386190;"2018-10-11-EPMO-FRE-010";386192;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_2";"Pointe aux oies_Platier";;"total de pêcheurs récréatifs de moules total";30;;;"";
+386194;"2018-10-11-EPMO-FRE-011";386197;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_5";"Ambleteuse_Platier langue chien";;"total de pêcheurs récréatifs de moules total";35;;;"";
+386194;"2018-10-11-EPMO-FRE-011";386196;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_1";"Ambleteuse_Platier Liettes";;"total de pêcheurs récréatifs de moules total";8;;;"";
+386646;"2018-11-09-EPMO-FRE-001";386654;"Estuaires Picards et Mer d'Opale";"EPMO_19";"Equihen";"EPMO_19_2";"Equihen_Platier Equihen Nord";"07:35";"total de pêcheurs récréatifs de moules total";1;;;"";
+386646;"2018-11-09-EPMO-FRE-001";386656;"Estuaires Picards et Mer d'Opale";"EPMO_19";"Equihen";"EPMO_19_2";"Equihen_Platier Equihen Nord";"07:35";"total de pêcheurs à pied de loisir";1;;;"";
+386658;"2018-11-09-EPMO-FRE-003";386667;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_4";"Portel-Equihen_Platier Ningles";"08:05";"total de pêcheurs récréatifs de moules total";2;;;"";
+386658;"2018-11-09-EPMO-FRE-003";386669;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_2";"Portel-Equihen_Platier Cap Alprech";"08:05";"total de pêcheurs récréatifs de moules total";4;;;"";
+386676;"2018-11-09-EPMO-FRE-004";386686;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_1";"Le Portel_Cap d'Alprech";"08:35";"total de pêcheurs récréatifs de moules total";2;;;"";
+386676;"2018-11-09-EPMO-FRE-004";386687;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_1";"Le Portel_Cap d'Alprech";"08:35";"pêcheurs professionnels de moules";1;;;"";
+386676;"2018-11-09-EPMO-FRE-004";386690;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_3";"Le Portel_Platier Fort de l'Heurt";"08:35";"total de pêcheurs récréatifs de moules total";2;;;"";
+386701;"2018-11-09-EPMO-FRE-005";386733;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_1";"Ambleteuse_Platier Liettes";"07:35";"total de pêcheurs récréatifs de moules total";0;;;"";
+386701;"2018-11-09-EPMO-FRE-005";386734;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_5";"Ambleteuse_Platier langue chien";"07:35";"total de pêcheurs récréatifs de moules total";6;;;"";
+386701;"2018-11-09-EPMO-FRE-005";386732;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_3";"Ambleteuse_Platier d'Ambleteuse";"07:35";"total de pêcheurs récréatifs de moules total";0;;;"";
+386701;"2018-11-09-EPMO-FRE-005";386735;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_5";"Ambleteuse_Platier langue chien";;"pêcheurs professionnels de moules";1;;;"";
+386736;"2018-11-09-EPMO-FRE-006";386739;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_2";"Pointe aux oies_Platier";"08:04";"pêcheurs professionnels de moules";2;;;"";
+386736;"2018-11-09-EPMO-FRE-006";386738;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_2";"Pointe aux oies_Platier";"08:04";"total de pêcheurs récréatifs de moules total";2;;;"";
+386740;"2018-11-09-EPMO-FRE-007";386742;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_2";"Wimereux_Platier Ailette";"08:14";"total de pêcheurs récréatifs de moules total";0;;;"";
+386740;"2018-11-09-EPMO-FRE-007";386745;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";"08:14";"pêcheurs professionnels de moules";2;;;"";
+386740;"2018-11-09-EPMO-FRE-007";386743;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";"08:14";"total de pêcheurs récréatifs de moules total";1;;;"";
+386740;"2018-11-09-EPMO-FRE-007";386744;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";"08:14";"total de pêcheurs récréatifs de moules total";6;;;"";
+386746;"2018-11-09-EPMO-FRE-008";386750;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_4";"Boulogne-sur-Mer_Platier proche crèche";"08:41";"total de pêcheurs à pied de loisir";1;;;"";
+390418;"2018-11-08-LEGD-FRE-011";390420;"Côte des Légendes";"LEGD_00";"Guissény";"LEGD_00_1";"Baies de Tresseny et de la Digue";"14:00";"total de pêcheurs à pied de loisir";0;;;"";"1 pêcheur pause palangres"
+390418;"2018-11-08-LEGD-FRE-011";390421;"Côte des Légendes";"LEGD_00";"Guissény";"LEGD_00_2";"Curnic Vougo";"13:00";"total de pêcheurs à pied de loisir";0;;;"";"comptage tardif par rapport à BM"
+390527;"2018-11-26-EPMO-FRE-002";390529;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_4";"Boulogne-sur-Mer_Platier proche crèche";"08:10";"total de pêcheurs récréatifs de moules total";0;;;"";
+390530;"2018-11-26-EPMO-FRE-004";390535;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_2";"Wimereux_Platier Ailette";"08:35";"total de pêcheurs récréatifs de moules total";0;;;"";
+390530;"2018-11-26-EPMO-FRE-004";390532;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";"08:35";"total de pêcheurs récréatifs de moules total";2;;;"";
+390530;"2018-11-26-EPMO-FRE-004";390533;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";"08:35";"pêcheurs professionnels de moules";2;;;"";
+390530;"2018-11-26-EPMO-FRE-004";390534;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";"08:35";"total de pêcheurs récréatifs de moules total";7;;;"";
+390536;"2018-11-26-EPMO-FRE-005";390538;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_1";"Pointe aux oies_Plage";"09:04";"total de pêcheurs récréatifs de moules total";1;;;"";
+390539;"2018-11-26-EPMO-FRE-006";390541;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_1";"Ambleteuse_Platier Liettes";"09:20";"total de pêcheurs récréatifs de moules total";5;;;"";
+390539;"2018-11-26-EPMO-FRE-006";390543;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_5";"Ambleteuse_Platier langue chien";"09:20";"total de pêcheurs récréatifs de moules total";0;;;"";
+390539;"2018-11-26-EPMO-FRE-006";390542;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_1";"Ambleteuse_Platier Liettes";"09:20";"pêcheurs professionnels de moules";2;;;"";
+390539;"2018-11-26-EPMO-FRE-006";390544;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_3";"Ambleteuse_Platier d'Ambleteuse";"09:20";"total de pêcheurs à pied de loisir";0;;;"";
+391649;"2018-08-13-GONB-FRE-156";391650;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"18:50";"total de pêcheurs à pied de loisir";0;;;"";
+391649;"2018-08-13-GONB-FRE-156";391651;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"18:50";"total de pêcheurs à pied de loisir";1;1;0;"";" pêcheur sur zone rocheuse sans outils"
+391649;"2018-08-13-GONB-FRE-156";391652;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"18:50";"total de pêcheurs à pied de loisir";0;;;"";
+391653;"2018-08-13-GONB-FRE-157";391658;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"19:15";"total de pêcheurs à pied de loisir";4;4;0;"";" 1 sur fouisseur avec griffe (gisement fermé) - 2 sur zone rocheuse avec croc - 1 sur vers avec fourche/bêche"
+391653;"2018-08-13-GONB-FRE-157";391654;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"19:10";"total de pêcheurs à pied de loisir";0;0;0;"";""
+391653;"2018-08-13-GONB-FRE-157";391656;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"19:10";"total de pêcheurs à pied de loisir";0;;;"";
+391653;"2018-08-13-GONB-FRE-157";391657;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"19:10";"total de pêcheurs à pied de loisir";0;;;"";
+391659;"2018-08-13-GONB-FRE-158";391661;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"19:25";"total de pêcheurs à pied de loisir";0;;;"";
+391659;"2018-08-13-GONB-FRE-158";391660;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"19:30";"total de pêcheurs à pied de loisir";2;2;0;"";" 2 pêcheurs loisirs sur fouisseurs sans outils - présence de 10 pêcheurs à pied pro sur fouisseurs"
+401016;"2018-08-12-EGMP-FRE-239";401017;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_149-150";"Cordouan";"EGMP_150";"Cordouan (Plateau rocheux)";"11:50";"total de pêcheurs à pied de loisir";34;;;"";
+401016;"2018-08-12-EGMP-FRE-239";401018;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_149-150";"Cordouan";"EGMP_149";"Cordouan (Sable)";"11:50";"total de pêcheurs à pied de loisir";0;;;"";
+403436;"2018-08-14-GONB-FRE-053";403437;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";;"total de pêcheurs à pied de loisir";0;;;"";
+403436;"2018-08-14-GONB-FRE-053";403459;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";;"total de pêcheurs à pied de loisir";0;;;"";
+403436;"2018-08-14-GONB-FRE-053";403458;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";;"total de pêcheurs à pied de loisir";0;;;"";
+403438;"2018-08-14-GONB-FRE-055";403462;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";;"total de pêcheurs à pied de loisir";3;3;0;"";"pêche sur fouisseurs - à la main - touristes"
+403438;"2018-08-14-GONB-FRE-055";403439;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";;"total de pêcheurs à pied de loisir";0;;;"";"fouisseurs - pêche à la main - touristes"
+403438;"2018-08-14-GONB-FRE-055";403460;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";;"total de pêcheurs à pied de loisir";0;;;"";
+403438;"2018-08-14-GONB-FRE-055";403461;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";;"total de pêcheurs à pied de loisir";0;;;"";
+403440;"2018-08-14-GONB-FRE-056";403463;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";;"total de pêcheurs à pied de loisir";0;;;"Pêche à pied professionnelle";"9 pêcheurs pro sur palourdes"
+403440;"2018-08-14-GONB-FRE-056";403441;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";;"total de pêcheurs à pied de loisir";0;;;"Pêche à pied professionnelle";""
+403661;"2018-08-17-GONB-FRE-043";403663;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"09:25";"total de pêcheurs à pied de loisir";0;;;"";
+403661;"2018-08-17-GONB-FRE-043";403664;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"09:25";"total de pêcheurs à pied de loisir";0;;;"";
+403661;"2018-08-17-GONB-FRE-043";403662;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"09:25";"total de pêcheurs à pied de loisir";0;;;"";
+403667;"2018-08-17-GONB-FRE-045";403668;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"09:30";"total de pêcheurs à pied de loisir";0;;;"";
+403667;"2018-08-17-GONB-FRE-045";403669;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"09:30";"total de pêcheurs à pied de loisir";0;;;"";
+403667;"2018-08-17-GONB-FRE-045";403671;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"09:30";"total de pêcheurs à pied de loisir";0;;;"";
+403667;"2018-08-17-GONB-FRE-045";403670;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"09:30";"total de pêcheurs à pied de loisir";0;;;"Autres pêches de loisir";"3 pêcheurs appâts (vers marins)"
+403672;"2019-08-02-EGMP-FRE-003";403679;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_241-242-243-244-245";"Fier d'Ars Nord";"EGMP_244";"Chenal du Riveau";"12:30";"total de pêcheurs à pied de loisir";12;;;"";
+403672;"2019-08-02-EGMP-FRE-003";403689;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_241-242-243-244-245";"Fier d'Ars Nord";"EGMP_242";"RNN Lilleau des Niges - Gros Sable";"12:10";"total de pêcheurs à pied de loisir";52;;;"";
+403672;"2019-08-02-EGMP-FRE-003";403690;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_241-242-243-244-245";"Fier d'Ars Nord";"EGMP_241";"Chenal des villages";"12:00";"total de pêcheurs à pied de loisir";38;;;"";
+403672;"2019-08-02-EGMP-FRE-003";403691;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_241-242-243-244-245";"Fier d'Ars Nord";"EGMP_243";"La Patache";"12:15";"total de pêcheurs à pied de loisir";55;;;"";
+403682;"2018-08-17-GONB-FRE-050";403683;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"09:45";"total de pêcheurs à pied de loisir";1;1;0;"Pêche à pied professionnelle";"pêcheur loisir avec râteau + 9 pro (sur palourdes)"
+403682;"2018-08-17-GONB-FRE-050";403684;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"09:45";"total de pêcheurs à pied de loisir";0;;;"";
+403717;"2018-08-27-GONB-FRE-016";403718;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"18:00";"total de pêcheurs à pied de loisir";0;;;"";
+403717;"2018-08-27-GONB-FRE-016";403719;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"17:55";"total de pêcheurs à pied de loisir";0;;;"";
+403717;"2018-08-27-GONB-FRE-016";403720;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"18:00";"total de pêcheurs à pied de loisir";0;;;"Autres pêches de loisir";"1 pêcheur appâts (vers marins)"
+403726;"2018-08-27-GONB-FRE-019";403727;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"18:15";"total de pêcheurs à pied de loisir";0;;;"";
+403726;"2018-08-27-GONB-FRE-019";403728;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"18:15";"total de pêcheurs à pied de loisir";1;1;0;"";"1 pêcheur sur vasière avec râteau court"
+403726;"2018-08-27-GONB-FRE-019";403729;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"18:25";"total de pêcheurs à pied de loisir";1;;;"Autres pêches de loisir";"1 pêcheur sur vasière (râteau) + 1 pêcheur appâts (vers marins)"
+403726;"2018-08-27-GONB-FRE-019";403730;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"18:15";"total de pêcheurs à pied de loisir";0;;;"";
+403738;"2019-08-02-EGMP-FRE-004";403743;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_239-240";"Fier d'Ars Gâtines/ Ours";"EGMP_240";"Fier d'Ars entre le chenal d'Ars et le russon des ours";"12:30";"total de pêcheurs à pied de loisir";123;;;"Engins motorisés nautiques";
+403738;"2019-08-02-EGMP-FRE-004";403745;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_239-240";"Fier d'Ars Gâtines/ Ours";"EGMP_239";"Fier d'Ars entre Russon des ours et la Lasse";"12:20";"total de pêcheurs à pied de loisir";46;;;"";
+403746;"2018-08-27-GONB-FRE-026";403747;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"19:00";"total de pêcheurs à pied de loisir";0;;;"Pêche à pied professionnelle";"3 pêcheurs pro (palourdes)"
+403746;"2018-08-27-GONB-FRE-026";403748;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"19:00";"total de pêcheurs à pied de loisir";0;;;"Autres pêches de loisir";"1 pêcheur appâts (vers marins) (sur ile aux oiseaux)"
+403952;"2018-09-05-GONB-FRE-023";403954;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"11:45";"total de pêcheurs à pied de loisir";0;;;"";
+403952;"2018-09-05-GONB-FRE-023";403953;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"11:40";"total de pêcheurs à pied de loisir";0;;;"";
+403952;"2018-09-05-GONB-FRE-023";403955;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"11:45";"total de pêcheurs à pied de loisir";0;;;"";
+403960;"2018-09-05-GONB-FRE-026";403964;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"11:50";"total de pêcheurs à pied de loisir";0;;;"";
+403960;"2018-09-05-GONB-FRE-026";403961;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"11:55";"total de pêcheurs à pied de loisir";0;;;"";
+403960;"2018-09-05-GONB-FRE-026";403962;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"11:55";"total de pêcheurs à pied de loisir";1;;;"";"pêcheur sur fouisseur (à la main)"
+403960;"2018-09-05-GONB-FRE-026";403963;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"12:05";"total de pêcheurs à pied de loisir";0;;;"";
+403981;"2018-09-05-GONB-FRE-035";403982;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"12:35";"total de pêcheurs à pied de loisir";0;;;"";"7 pêcheurs pro sur palourdes"
+403981;"2018-09-05-GONB-FRE-035";403983;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"12:35";"total de pêcheurs à pied de loisir";0;;;"";
+404068;"2018-09-06-GONB-FRE-018";404071;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"13:50";"total de pêcheurs à pied de loisir";2;2;0;"";"2 sur fouisseurs avec râteaux"
+404068;"2018-09-06-GONB-FRE-018";404069;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"13:50";"total de pêcheurs à pied de loisir";0;;;"";
+404068;"2018-09-06-GONB-FRE-018";404070;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"13:50";"total de pêcheurs à pied de loisir";12;;;"Conchyliculture";"12 sur fouisseurs "
+404076;"2018-09-06-GONB-FRE-021";404080;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"14:10";"total de pêcheurs à pied de loisir";3;3;0;"";"3 substrat dur + 2 pêcheurs appâts (vers marins)"
+404076;"2018-09-06-GONB-FRE-021";404077;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"14:05";"total de pêcheurs à pied de loisir";0;;;"";
+404076;"2018-09-06-GONB-FRE-021";404078;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"14:05";"total de pêcheurs à pied de loisir";0;;;"";
+404076;"2018-09-06-GONB-FRE-021";404082;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"14:05";"total de pêcheurs à pied de loisir";1;1;0;"";"1 fouisseur (main) + 1 pêcheur pro (palourdes)"
+404102;"2018-09-06-GONB-FRE-029";404104;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"14:25";"total de pêcheurs à pied de loisir";2;2;0;"Pêche à pied professionnelle | Autres pêches de loisir";"2 sur palourdes + 1 vers marins + 9 pêcheurs pro sur palourdes"
+404102;"2018-09-06-GONB-FRE-029";404105;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"14:25";"total de pêcheurs à pied de loisir";1;;;"";"sur vasière avec haveneau"
+404106;"2019-08-02-EGMP-FRE-023";404113;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_005";"Rochers et port de Jard";"EGMP_005_3";"Port de Jard";"12:43";"total de pêcheurs à pied de loisir";68;56;12;"";
+404106;"2019-08-02-EGMP-FRE-023";404112;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_005";"Rochers et port de Jard";"EGMP_005_2";"Goffineaux";"12:02";"total de pêcheurs à pied de loisir";92;62;30;"";
+404106;"2019-08-02-EGMP-FRE-023";404114;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_005";"Rochers et port de Jard";"EGMP_005_1";"Ragounite";"11:34";"total de pêcheurs à pied de loisir";161;132;29;"";
+404119;"2019-08-02-EGMP-FRE-026";404122;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_004";"Pointe du Payré - Plage de la Mine";"EGMP_004_2";"Plage de la Mine";"11:25";"total de pêcheurs à pied de loisir";103;76;27;"Sports de glisse (surf, body-board, kite surf, etc.) | Plagistes, baigneurs";"Environ 200 baigneurs et 3 planchistes"
+404119;"2019-08-02-EGMP-FRE-026";404123;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_004";"Pointe du Payré - Plage de la Mine";"EGMP_004_1";"Pointe du Payré";"12:20";"total de pêcheurs à pied de loisir";16;15;1;"";
+404132;"2019-08-02-EGMP-FRE-031";404133;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_014-015";"Pointes du Grouin du Cou et de la République";"EGMP_014";"Pointe du Grouin du Cou";;"total de pêcheurs à pied de loisir";330;;;"Plagistes, baigneurs";"Nombreux plagistes.
+Sur les 330 personnes présentes sur le site, on peut estimer qu'il n'y avait qu'une centaine de pêcheurs. Les autres sont des familles en observation. 
+
+Les pêcheurs de crabes habituels en ont trouvé très peu. Les pêcheurs d’huîtres étaient assez satisfaits de leur pêche, très raisonnable à ce que j'ai pu constater. Il semble qu'il y ai peu de crevettes bouquets."
+404132;"2019-08-02-EGMP-FRE-031";404134;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_014-015";"Pointes du Grouin du Cou et de la République";"EGMP_015";"Pointe de la République";"11:40";"total de pêcheurs à pied de loisir";130;;;"Plagistes, baigneurs";"Nombreux plagistes.
+
+La moitié des personnes présentes sur ce site sont des familles avec enfants. Ils sont sur l'estran plutôt pour observer ce qu'il s'y trouve que pour pêcher."
+404140;"2019-08-02-EGMP-FRE-034";404141;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_019-020";"Sainte-Anne / Pointe du Rocher - Les Rouillières";"EGMP_019";"Pointe du Rocher";"12:30";"total de pêcheurs à pied de loisir";195;175;20;"";"Espèces pêchées: Crevettes et palourdes
+Filet raclettes 3 dents"
+404140;"2019-08-02-EGMP-FRE-034";404142;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_019-020";"Sainte-Anne / Pointe du Rocher - Les Rouillières";"EGMP_020";"Les Bouchots - Les Rouillères";"11:45";"total de pêcheurs à pied de loisir";213;;;"";
+404172;"2018-09-07-GONB-FRE-019";404174;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"15:05";"total de pêcheurs à pied de loisir";2;2;0;"";"2 fouisseurs avec râteaux"
+404172;"2018-09-07-GONB-FRE-019";404173;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"15:05";"total de pêcheurs à pied de loisir";0;;;"";
+404172;"2018-09-07-GONB-FRE-019";404175;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"15:05";"total de pêcheurs à pied de loisir";0;;;"";
+404209;"2019-08-02-EGMP-FRE-035";404623;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_151";"Les Cantines - Les Arros - Les Olives";"EGMP_151_1";"Les Cantines";;"total de pêcheurs à pied de loisir";10;;;"";
+404209;"2019-08-02-EGMP-FRE-035";404624;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_151";"Les Cantines - Les Arros - Les Olives";"EGMP_151_3";"Les Olives";;"total de pêcheurs à pied de loisir";20;;;"";
+404209;"2019-08-02-EGMP-FRE-035";404622;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_151";"Les Cantines - Les Arros - Les Olives";"EGMP_151_2";"Les Arros";;"total de pêcheurs à pied de loisir";64;;;"";
+404220;"2019-08-02-EGMP-FRE-036";404628;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_158";"Maison à pointe de Grave";"EGMP_158_2";"Plage Océane";;"total de pêcheurs à pied de loisir";0;;;"";
+404220;"2019-08-02-EGMP-FRE-036";404627;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_158";"Maison à pointe de Grave";"EGMP_158_1";"Maison de Grave";;"total de pêcheurs à pied de loisir";4;;;"";
+404220;"2019-08-02-EGMP-FRE-036";404629;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_158";"Maison à pointe de Grave";"EGMP_158_3";"Rocher de Saint-Nicolas";;"total de pêcheurs à pied de loisir";3;;;"";
+404225;"2018-09-07-GONB-FRE-021";404229;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"15:10";"total de pêcheurs à pied de loisir";1;;;"";"1 pêcheur fouisseur (main)"
+404225;"2018-09-07-GONB-FRE-021";404226;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"15:10";"total de pêcheurs à pied de loisir";2;;;"";"2 pêcheurs sur fouisseurs (main)"
+404225;"2018-09-07-GONB-FRE-021";404227;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"15:10";"total de pêcheurs à pied de loisir";2;;;"";"2 pêcheurs sur fouisseurs (bêche)"
+404225;"2018-09-07-GONB-FRE-021";404228;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"15:15";"total de pêcheurs à pied de loisir";0;;;"Autres pêches de loisir";"2 pêcheurs appâts (vers marins - bêche)"
+404244;"2018-09-07-GONB-FRE-029";404248;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"15:25";"total de pêcheurs à pied de loisir";0;;;"";
+404244;"2018-09-07-GONB-FRE-029";404246;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"15:25";"total de pêcheurs à pied de loisir";5;5;0;"Pêche à pied professionnelle";"5 pêcheurs fouisseurs (râteau) + 7 pêcheurs pro (palourdes)"
+404358;"2019-08-02-EGMP-FRE-052";420113;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_8";"Grande Côte";;"total de pêcheurs à pied de loisir";0;;;"";
+404358;"2019-08-02-EGMP-FRE-052";420102;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_10";"Bureau";"12:15";"total de pêcheurs à pied de loisir";5;;;"";
+404358;"2019-08-02-EGMP-FRE-052";420112;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_7";"Palmyre";;"total de pêcheurs à pied de loisir";0;;;"";
+404358;"2019-08-02-EGMP-FRE-052";420111;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_9";"Platin";;"total de pêcheurs à pied de loisir";49;;;"";"20 pêcheurs qui ramassaient des huître sur un espace interdit pour risque de contamination au cadmium.
+"
+404358;"2019-08-02-EGMP-FRE-052";420109;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_13";"Pontaillac";;"total de pêcheurs à pied de loisir";5;2;3;"Promeneurs, joggeurs | Plagistes, baigneurs";
+404358;"2019-08-02-EGMP-FRE-052";420108;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_12";"Conches de Vaux sur Mer";"12:05";"total de pêcheurs à pied de loisir";30;;;"";
+404358;"2019-08-02-EGMP-FRE-052";420103;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_11";"Nauzan";;"total de pêcheurs à pied de loisir";0;;;"";
+404389;"2018-09-19-GONB-FRE-021";404391;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"12:35";"total de pêcheurs à pied de loisir";0;;;"";
+404389;"2018-09-19-GONB-FRE-021";404390;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"12:35";"total de pêcheurs à pied de loisir";0;;;"";
+404389;"2018-09-19-GONB-FRE-021";404392;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"12:35";"total de pêcheurs à pied de loisir";0;;;"";
+404395;"2018-09-19-GONB-FRE-023";404396;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"12:45";"total de pêcheurs à pied de loisir";1;;;"";"pêcheur sur fouisseur (râteau)"
+404395;"2018-09-19-GONB-FRE-023";404399;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"12:40";"total de pêcheurs à pied de loisir";0;;;"Pêche à pied professionnelle";"1 pêcheur pro sur fouisseur"
+404395;"2018-09-19-GONB-FRE-023";404398;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"12:45";"total de pêcheurs à pied de loisir";0;;;"";
+404395;"2018-09-19-GONB-FRE-023";404397;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"12:45";"total de pêcheurs à pied de loisir";0;;;"";
+404487;"2018-09-19-GONB-FRE-032";404489;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"12:55";"total de pêcheurs à pied de loisir";0;;;"Pêche à pied professionnelle";"3 pêcheurs pro sur palourdes"
+404487;"2018-09-19-GONB-FRE-032";404490;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"12:55";"total de pêcheurs à pied de loisir";0;;;"Autres pêches de loisir";"1 pêcheur appât (vers marins)"
+404521;"2018-09-20-GONB-FRE-019";404522;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"12:20";"total de pêcheurs à pied de loisir";0;;;"";
+404521;"2018-09-20-GONB-FRE-019";404523;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"12:20";"total de pêcheurs à pied de loisir";1;;;"";"pêcheur sur fouisseur (à la main)"
+404521;"2018-09-20-GONB-FRE-019";404524;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"12:20";"total de pêcheurs à pied de loisir";1;;;"";"pêcheur sur substrat dur et vasière (crochet)"
+404527;"2018-09-20-GONB-FRE-021";404531;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"12:20";"total de pêcheurs à pied de loisir";0;;;"Pêche à pied professionnelle";"1 pêcheur pro sur palourdes"
+404527;"2018-09-20-GONB-FRE-021";404528;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"12:25";"total de pêcheurs à pied de loisir";0;;;"";
+404527;"2018-09-20-GONB-FRE-021";404529;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"12:20";"total de pêcheurs à pied de loisir";0;;;"";
+404527;"2018-09-20-GONB-FRE-021";404530;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"12:30";"total de pêcheurs à pied de loisir";1;;;"";"pêcheur sur fouisseur (action en haut de grève)"
+404546;"2018-09-20-GONB-FRE-029";404547;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"12:50";"total de pêcheurs à pied de loisir";0;;;"Pêche à pied professionnelle";"8 pêcheurs pro sur palourdes"
+404546;"2018-09-20-GONB-FRE-029";404548;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"12:50";"total de pêcheurs à pied de loisir";0;;;"";
+404581;"2018-10-08-GONB-FRE-013";404599;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"16:25";"total de pêcheurs à pied de loisir";46;;;"Conchyliculture";"sur fouisseurs"
+404581;"2018-10-08-GONB-FRE-013";404600;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"16:25";"total de pêcheurs à pied de loisir";5;5;0;"";"fouisseurs"
+404581;"2018-10-08-GONB-FRE-013";404596;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"16:25";"total de pêcheurs à pied de loisir";10;;;"";"sur fouisseurs"
+404668;"2018-10-08-GONB-FRE-029";404671;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"16:40";"total de pêcheurs à pied de loisir";1;1;0;"";"1 sur vasière avec râteau"
+404668;"2018-10-08-GONB-FRE-029";404669;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"16:35";"total de pêcheurs à pied de loisir";22;22;0;"";"22 sur fouisseurs (certains avec râteaux - observation difficile)"
+404668;"2018-10-08-GONB-FRE-029";404670;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"16:35";"total de pêcheurs à pied de loisir";22;22;0;"";"22 sur fouisseurs"
+404668;"2018-10-08-GONB-FRE-029";404672;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"16:35";"total de pêcheurs à pied de loisir";0;;;"";
+404689;"2018-10-08-GONB-FRE-037";404690;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"16:50";"total de pêcheurs à pied de loisir";2;2;0;"";"2 sur palourdes (râteaux)"
+404689;"2018-10-08-GONB-FRE-037";404691;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"16:50";"total de pêcheurs à pied de loisir";0;;;"";
+405009;"2019-08-02-EGMP-FRE-099";406067;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_031-032";"Nieul sur mer (Lauzières-Digolet)";"EGMP_031";"Pointe de Digolet";;"total de pêcheurs à pied de loisir";3;;;"";
+405009;"2019-08-02-EGMP-FRE-099";406066;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_031-032";"Nieul sur mer (Lauzières-Digolet)";"EGMP_032";"Lauzières";;"total de pêcheurs à pied de loisir";23;;;"";
+405023;"2019-08-02-EGMP-FRE-106";406068;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_072-073";"Besselue - Sud Minimes";"EGMP_073";"Besselue";;"total de pêcheurs à pied de loisir";70;;;"";
+405023;"2019-08-02-EGMP-FRE-106";406069;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_072-073";"Besselue - Sud Minimes";"EGMP_072";"Sud Minimes";;"total de pêcheurs à pied de loisir";37;;;"";
+405154;"2018-10-09-GONB-FRE-028";405158;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"17:30";"total de pêcheurs à pied de loisir";4;4;0;"";"sur fouisseurs"
+405154;"2018-10-09-GONB-FRE-028";405159;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"17:30";"total de pêcheurs à pied de loisir";15;15;0;"Conchyliculture";"15 sur fouisseurs"
+405154;"2018-10-09-GONB-FRE-028";405160;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"17:30";"total de pêcheurs à pied de loisir";0;;;"";
+405356;"2018-10-09-GONB-FRE-045";405357;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"17:35";"total de pêcheurs à pied de loisir";0;;;"";
+405356;"2018-10-09-GONB-FRE-045";405358;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"17:35";"total de pêcheurs à pied de loisir";1;1;0;"";"sur fouisseur"
+405356;"2018-10-09-GONB-FRE-045";405359;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"17:40";"total de pêcheurs à pied de loisir";4;4;0;"";"4 sur fouisseurs avec râteaux + 1 sur vers de pêche (bêche)"
+405356;"2018-10-09-GONB-FRE-045";405360;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"17:35";"total de pêcheurs à pied de loisir";0;;;"";
+405375;"2018-10-09-GONB-FRE-053";405376;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"17:55";"total de pêcheurs à pied de loisir";6;6;0;"";"6 sur fouisseurs avec râteaux"
+405375;"2018-10-09-GONB-FRE-053";405377;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"17:55";"total de pêcheurs à pied de loisir";0;;;"";
+405426;"2018-10-10-GONB-FRE-038";405427;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"18:35";"total de pêcheurs à pied de loisir";0;;;"";
+405426;"2018-10-10-GONB-FRE-038";405429;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"18:35";"total de pêcheurs à pied de loisir";0;;;"";
+405426;"2018-10-10-GONB-FRE-038";405428;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"18:35";"total de pêcheurs à pied de loisir";2;2;0;"Conchyliculture";"2 sur fouisseurs"
+405434;"2018-10-10-GONB-FRE-041";405437;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"18:45";"total de pêcheurs à pied de loisir";2;2;0;"";"2 sur fouisseurs"
+405434;"2018-10-10-GONB-FRE-041";405438;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"18:40";"total de pêcheurs à pied de loisir";0;;;"";
+405434;"2018-10-10-GONB-FRE-041";405435;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"18:35";"total de pêcheurs à pied de loisir";0;;;"";
+405434;"2018-10-10-GONB-FRE-041";405436;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"18:40";"total de pêcheurs à pied de loisir";0;;;"";
+405453;"2018-10-10-GONB-FRE-049";405455;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"18:55";"total de pêcheurs à pied de loisir";0;;;"";
+405453;"2018-10-10-GONB-FRE-049";405454;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"18:55";"total de pêcheurs à pied de loisir";0;;;"";
+405484;"2018-11-20-GONB-FRE-015";405487;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"14:45";"total de pêcheurs à pied de loisir";0;;;"";
+405484;"2018-11-20-GONB-FRE-015";405486;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"14:45";"total de pêcheurs à pied de loisir";0;;;"";
+405484;"2018-11-20-GONB-FRE-015";405485;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"14:50";"total de pêcheurs à pied de loisir";0;;;"";
+405492;"2018-11-20-GONB-FRE-018";405495;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"14:50";"total de pêcheurs à pied de loisir";0;;;"";
+405492;"2018-11-20-GONB-FRE-018";405496;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"14:45";"total de pêcheurs à pied de loisir";0;;;"";
+405492;"2018-11-20-GONB-FRE-018";405494;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"14:40";"total de pêcheurs à pied de loisir";1;1;0;"";"1 sur fouisseur (râteau) + apnéistes (CSJ)"
+405492;"2018-11-20-GONB-FRE-018";405493;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"14:40";"total de pêcheurs à pied de loisir";0;;;"";
+405511;"2018-11-20-GONB-FRE-026";405512;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"15:05";"total de pêcheurs à pied de loisir";0;;;"";
+405511;"2018-11-20-GONB-FRE-026";405513;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"15:05";"total de pêcheurs à pied de loisir";0;;;"";
+405544;"2018-11-21-GONB-FRE-016";405547;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"14:45";"total de pêcheurs à pied de loisir";1;1;0;"";"sur fouisseurs"
+405544;"2018-11-21-GONB-FRE-016";405545;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"14:45";"total de pêcheurs à pied de loisir";2;2;0;"";"2 sur fouisseurs"
+405544;"2018-11-21-GONB-FRE-016";405546;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"14:45";"total de pêcheurs à pied de loisir";0;;;"";"apnéistes (CSJ)"
+405552;"2018-11-21-GONB-FRE-019";405553;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"14:50";"total de pêcheurs à pied de loisir";12;12;0;"";"12 sur fouisseurs (main et râteaux)"
+405552;"2018-11-21-GONB-FRE-019";405554;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"14:55";"total de pêcheurs à pied de loisir";1;1;0;"Zone de mouillage";"1 sur fouisseurs - apnéistes (CSJ)"
+405552;"2018-11-21-GONB-FRE-019";405556;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"14:55";"total de pêcheurs à pied de loisir";0;;;"";
+405552;"2018-11-21-GONB-FRE-019";405555;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"15:00";"total de pêcheurs à pied de loisir";1;1;0;"";"1 sur fouisseur (râteau)"
+405571;"2018-11-21-GONB-FRE-027";405572;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"15:20";"total de pêcheurs à pied de loisir";0;;;"";
+405571;"2018-11-21-GONB-FRE-027";405573;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"15:20";"total de pêcheurs à pied de loisir";0;;;"";
+405648;"2019-08-02-EGMP-FRE-110";406072;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_074-075-076";"Aytre";"EGMP_076";"Plage d'Aytré";;"total de pêcheurs à pied de loisir";36;;;"";
+405648;"2019-08-02-EGMP-FRE-110";406071;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_074-075-076";"Aytre";"EGMP_074";"Pointe du Roux";;"total de pêcheurs à pied de loisir";16;;;"";
+405648;"2019-08-02-EGMP-FRE-110";406070;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_074-075-076";"Aytre";"EGMP_075";"Le Florin";;"total de pêcheurs à pied de loisir";57;;;"";
+405654;"2018-11-22-GONB-FRE-016";405656;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"15:50";"total de pêcheurs à pied de loisir";0;;;"";
+405654;"2018-11-22-GONB-FRE-016";405657;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"15:50";"total de pêcheurs à pied de loisir";0;;;"";
+405654;"2018-11-22-GONB-FRE-016";405655;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"15:50";"total de pêcheurs à pied de loisir";0;;;"";
+405664;"2018-11-22-GONB-FRE-019";405667;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"16:00";"total de pêcheurs à pied de loisir";0;;;"";
+405664;"2018-11-22-GONB-FRE-019";405665;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"15:55";"total de pêcheurs à pied de loisir";0;;;"";
+405664;"2018-11-22-GONB-FRE-019";405666;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"15:50";"total de pêcheurs à pied de loisir";0;;;"";"apnéiste (CSJ)"
+405664;"2018-11-22-GONB-FRE-019";405668;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";;"total de pêcheurs à pied de loisir";1;1;0;"";"1 pêcheur sur fouisseur (peut être pro)"
+405683;"2018-11-22-GONB-FRE-027";405686;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"16:20";"total de pêcheurs à pied de loisir";0;;;"";
+405683;"2018-11-22-GONB-FRE-027";405685;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"16:20";"total de pêcheurs à pied de loisir";0;;;"Pêche à pied professionnelle";
+405718;"2018-12-17-GONB-FRE-014";405720;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"11:05";"total de pêcheurs à pied de loisir";0;;;"";"apnéistes (CSJ)"
+405718;"2018-12-17-GONB-FRE-014";405719;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"11:05";"total de pêcheurs à pied de loisir";0;;;"";
+405718;"2018-12-17-GONB-FRE-014";405721;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"11:05";"total de pêcheurs à pied de loisir";0;;;"";
+405726;"2018-12-17-GONB-FRE-017";405727;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"11:20";"total de pêcheurs à pied de loisir";0;;;"";
+405726;"2018-12-17-GONB-FRE-017";405728;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"11:20";"total de pêcheurs à pied de loisir";0;;;"";"1 pêcheur pro palourde + apnéistes (CSJ)"
+405726;"2018-12-17-GONB-FRE-017";405729;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"11:30";"total de pêcheurs à pied de loisir";0;;;"";
+405726;"2018-12-17-GONB-FRE-017";405730;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"11:25";"total de pêcheurs à pied de loisir";0;;;"";"apnéistes (CSJ)"
+405747;"2018-12-17-GONB-FRE-026";405748;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"11:55";"total de pêcheurs à pied de loisir";0;;;"Pêche à pied professionnelle";"7 pêcheurs pro sur palourdes"
+405747;"2018-12-17-GONB-FRE-026";405749;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"11:55";"total de pêcheurs à pied de loisir";0;;;"";
+405778;"2018-12-21-GONB-FRE-014";405780;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";"14:45";"total de pêcheurs à pied de loisir";4;4;0;"";"4 sur fouisseurs"
+405778;"2018-12-21-GONB-FRE-014";405779;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";"14:45";"total de pêcheurs à pied de loisir";0;;;"";
+405778;"2018-12-21-GONB-FRE-014";405781;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";"14:45";"total de pêcheurs à pied de loisir";1;1;0;"";"1 sur fouisseurs - apnéistes (CSJ)"
+405786;"2018-12-21-GONB-FRE-017";405789;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";"14:55";"total de pêcheurs à pied de loisir";2;2;0;"";"2 sur fouisseurs + apnéiste (CSJ)"
+405786;"2018-12-21-GONB-FRE-017";405788;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";"14:55";"total de pêcheurs à pied de loisir";4;4;0;"";"4 sur fouisseurs avec râteaux - 1 pro sur palourdes + apnéistes (CSJ)"
+405786;"2018-12-21-GONB-FRE-017";405790;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";"15:05";"total de pêcheurs à pied de loisir";4;4;0;"";"4 sur cailloux"
+405786;"2018-12-21-GONB-FRE-017";405787;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";"14:55";"total de pêcheurs à pied de loisir";0;;;"";
+405805;"2018-12-21-GONB-FRE-025";405807;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";"15:45";"total de pêcheurs à pied de loisir";0;;;"";
+405805;"2018-12-21-GONB-FRE-025";405806;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";"15:45";"total de pêcheurs à pied de loisir";9;9;0;"Pêche à pied professionnelle";"9 sur fouisseurs avec râteaux + 8 pro sur palourdes"
+406014;"2019-08-02-OUMO-FRE-119";406065;"Ouest Morbihan";"OUMO_86";"Mendu";"OUMO_86A";"Plage du Mendu";;"total de pêcheurs à pied de loisir";300;250;50;"";
+406014;"2019-08-02-OUMO-FRE-119";406016;"Ouest Morbihan";"OUMO_86";"Mendu";"OUMO_86B";"Plage du Poulbert";"11:50";"total de pêcheurs à pied de loisir";63;63;0;"Promeneurs, joggeurs | Plagistes, baigneurs";
+406077;"2019-08-02-GONB-FRE-123";406110;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_1";"Pointe de Saint Caast le Guildo à Pointe de la Garde";"15:30";"total de pêcheurs à pied de loisir";136;;;"";
+406077;"2019-08-02-GONB-FRE-123";406111;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_2";"Pointe de la Garde à la Pointe de la Bay";"15:34";"total de pêcheurs à pied de loisir";26;;;"";
+407909;"2019-08-02-EGMP-FRE-219";407911;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_023-024";"Pointe de l'Aiguillon - Plage de la Batterie";"EGMP_023";"Pointe de l'Aiguillon";"12:00";"total de pêcheurs à pied de loisir";49;25;24;"";"Présence d'huïtres, vers de vase et palourdes"
+407909;"2019-08-02-EGMP-FRE-219";407912;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_023-024";"Pointe de l'Aiguillon - Plage de la Batterie";"EGMP_024";"Plage de la Batterie";"12:00";"total de pêcheurs à pied de loisir";71;50;21;"";
+409640;"2019-08-01-GONB-FRE-073";409643;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";;"total de pêcheurs à pied de loisir";0;;;"";
+409640;"2019-08-01-GONB-FRE-073";409641;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";;"total de pêcheurs à pied de loisir";0;;;"";
+409640;"2019-08-01-GONB-FRE-073";409642;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";;"total de pêcheurs à pied de loisir";0;;;"";
+409644;"2019-08-01-GONB-FRE-075";409645;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";;"total de pêcheurs à pied de loisir";0;;;"";
+409644;"2019-08-01-GONB-FRE-075";409646;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";;"total de pêcheurs à pied de loisir";0;;;"";
+409644;"2019-08-01-GONB-FRE-075";409647;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";;"total de pêcheurs à pied de loisir";3;;;"";
+409644;"2019-08-01-GONB-FRE-075";409648;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";;"total de pêcheurs à pied de loisir";0;;;"";
+409658;"2019-08-02-GONB-FRE-294";409661;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";;"total de pêcheurs à pied de loisir";0;;;"";
+409658;"2019-08-02-GONB-FRE-294";409659;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";;"total de pêcheurs à pied de loisir";0;;;"";
+409658;"2019-08-02-GONB-FRE-294";409660;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";;"total de pêcheurs à pied de loisir";0;;;"";
+409662;"2019-08-03-GONB-FRE-157";409664;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra18";"Pointe du Puits";;"total de pêcheurs à pied de loisir";3;;;"";
+409662;"2019-08-03-GONB-FRE-157";409665;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra12";"Val ès Bouillis";;"total de pêcheurs à pied de loisir";1;;;"";
+409662;"2019-08-03-GONB-FRE-157";409663;"Golfe Normand Breton";"GONB_12A";"Bras de Châteauneuf";"GONB_Ra13";"Le Valion";;"total de pêcheurs à pied de loisir";0;;;"";
+409666;"2019-08-02-GONB-FRE-296";409669;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";;"total de pêcheurs à pied de loisir";1;;;"";
+409666;"2019-08-02-GONB-FRE-296";409667;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";;"total de pêcheurs à pied de loisir";0;;;"";
+409666;"2019-08-02-GONB-FRE-296";409670;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";;"total de pêcheurs à pied de loisir";0;;;"";
+409666;"2019-08-02-GONB-FRE-296";409668;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";;"total de pêcheurs à pied de loisir";0;;;"";
+409671;"2019-08-03-GONB-FRE-158";409674;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra22";"Banche";;"total de pêcheurs à pied de loisir";0;;;"";
+409671;"2019-08-03-GONB-FRE-158";409672;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra17";"Grève de Garel";;"total de pêcheurs à pied de loisir";1;;;"";
+409671;"2019-08-03-GONB-FRE-158";409673;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra21";"La Herviais";;"total de pêcheurs à pied de loisir";0;;;"";
+409671;"2019-08-03-GONB-FRE-158";409675;"Golfe Normand Breton";"GONB_12B";"Grêve des Marais - Grêve de Morlet";"GONB_Ra23";"Grève de Morlet";;"total de pêcheurs à pied de loisir";0;;;"";
+409676;"2019-08-03-GONB-FRE-159";409677;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";;"total de pêcheurs à pied de loisir";0;;;"";
+409676;"2019-08-03-GONB-FRE-159";409678;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";;"total de pêcheurs à pied de loisir";0;;;"";
+409679;"2019-08-02-GONB-FRE-297";409680;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";;"total de pêcheurs à pied de loisir";0;;;"";
+409679;"2019-08-02-GONB-FRE-297";409681;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";;"total de pêcheurs à pied de loisir";0;;;"";
+409682;"2019-08-01-GONB-FRE-075";409684;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra27";"Port Saint-Jean";;"total de pêcheurs à pied de loisir";0;;;"";
+409682;"2019-08-01-GONB-FRE-075";409683;"Golfe Normand Breton";"GONB_12C";"Plaine de la Ville Ger et Bas Champs";"GONB_Ra31";"La Ville Ger";;"total de pêcheurs à pied de loisir";0;;;"";
+409702;"2019-08-03-FLAM-FRE-161";409704;"Côte d'Opale";"FLAM_10";"Escalles";"FLAM_10a";"Cran d’Escalles";"09:35";"total de pêcheurs à pied de loisir";0;;;"";
+409702;"2019-08-03-FLAM-FRE-161";409741;"Côte d'Opale";"FLAM_10";"Escalles";"FLAM_10b";"Petit-Blanc-Nez";"09:35";"total de pêcheurs récréatifs de moules total";40;;;"";
+409706;"2019-08-03-FLAM-FRE-162";409710;"Côte d'Opale";"FLAM_09";"Sangatte";"FLAM_09b";"Descenderie et Digue";"09:00";"total de pêcheurs récréatifs de crevettes grises";2;;;"";
+409706;"2019-08-03-FLAM-FRE-162";409708;"Côte d'Opale";"FLAM_09";"Sangatte";"FLAM_09c";"Cap Blanc-Nez";"09:30";"total de pêcheurs récréatifs de moules total";17;;;"";
+409706;"2019-08-03-FLAM-FRE-162";409711;"Côte d'Opale";"FLAM_09";"Sangatte";"FLAM_09a";"Dunes du Fort Mahon - Blériot-Plage";"08:35";"pêcheurs récréatifs de vers à la pompe";4;;;"";
+409720;"2019-08-03-FLAM-FRE-167";409724;"Côte d'Opale";"FLAM_04";"Dunkerque";"FLAM_04b";"Feu de Saint-Pol";"09:30";"pêcheurs récréatifs à la canne";27;;;"";
+409720;"2019-08-03-FLAM-FRE-167";409725;"Côte d'Opale";"FLAM_04";"Dunkerque";"FLAM_04a";"Dunkerque-Plage";"09:00";"pêcheurs récréatifs à la canne";3;;;"";
+409720;"2019-08-03-FLAM-FRE-167";409723;"Côte d'Opale";"FLAM_04";"Dunkerque";"FLAM_04a";"Dunkerque-Plage";"09:00";"total de pêcheurs à pied de loisir";147;;;"Surfcasting | Sports de glisse (surf, body-board, kite surf, etc.) | Promeneurs, joggeurs | Plagistes, baigneurs | Autres pêches de loisir";"Beaucoup de plagistes et de promeneurs (200)
+Chiens
+
+Crevettes (filets), vers arénicoles (pompe ou fourche) et moules (cuillères ou râteau)"
+409720;"2019-08-03-FLAM-FRE-167";409726;"Côte d'Opale";"FLAM_04";"Dunkerque";"FLAM_04a";"Dunkerque-Plage";"09:00";"total de pêcheurs récréatifs de crevettes grises";54;;;"";"filets de différentes tailles"
+409720;"2019-08-03-FLAM-FRE-167";409722;"Côte d'Opale";"FLAM_04";"Dunkerque";"FLAM_04b";"Feu de Saint-Pol";"09:30";"total de pêcheurs à pied de loisir";28;;;"Surfcasting | Promeneurs, joggeurs | Autres pêches de loisir";"Espèces pêche à pied : Moules sur mur et enrochements (rateaux) et vers arénicoles (pompes et rateaux)
+Autres pêches de loisirs : bateaux embarqués
+
+Autres usages : chasseurs"
+409720;"2019-08-03-FLAM-FRE-167";409727;"Côte d'Opale";"FLAM_04";"Dunkerque";"FLAM_04a";"Dunkerque-Plage";"09:00";"total de pêcheurs récréatifs de moules total";67;;;"";"Cuillères ou rateaux"
+409720;"2019-08-03-FLAM-FRE-167";409728;"Côte d'Opale";"FLAM_04";"Dunkerque";"FLAM_04a";"Dunkerque-Plage";"09:00";"pêcheurs récréatifs de vers à la pompe";26;;;"";"Pompe OU FOURCHE"
+413767;"2019-03-22-GONB-FRE-015";413769;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_1";"Pointe de Saint Caast le Guildo à Pointe de la Garde";"14:40";"total de pêcheurs à pied de loisir";225;;;"";
+413767;"2019-03-22-GONB-FRE-015";413770;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_2";"Pointe de la Garde à la Pointe de la Bay";"14:34";"total de pêcheurs à pied de loisir";11;;;"";
+413773;"2019-03-20-GONB-FRE-007";413775;"Golfe Normand Breton";"GONB_02C";"Pointe de la roche Pelée à Pointe du Moulinet";"GONB_02C_1";"Pointe de la roche Pelée à la Pointe de la Malouine";"13:00";"total de pêcheurs à pied de loisir";21;;;"";
+413787;"2019-07-05-GONB-FRE-012";413790;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_2";"Pointe de la Garde à la Pointe de la Bay";"16:00";"total de pêcheurs à pied de loisir";0;;;"";
+413787;"2019-07-05-GONB-FRE-012";413789;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_1";"Pointe de Saint Caast le Guildo à Pointe de la Garde";"16:06";"total de pêcheurs à pied de loisir";39;;;"";
+413792;"2019-07-05-GONB-FRE-014";413794;"Golfe Normand Breton";"GONB_02B";"Pointe du Décollé à la Pointe de la roche Pelée";"GONB_02B_1";"Pointe du Décollé à la Pointe du Nick";"16:30";"total de pêcheurs à pied de loisir";0;;;"";
+413795;"2019-07-05-GONB-FRE-015";413798;"Golfe Normand Breton";"GONB_02C";"Pointe de la roche Pelée à Pointe du Moulinet";"GONB_02C_1";"Pointe de la roche Pelée à la Pointe de la Malouine";"16:45";"total de pêcheurs à pied de loisir";11;;;"";
+413803;"2019-07-04-GONB-FRE-011";413805;"Golfe Normand Breton";"GONB_02G";"Fort National à la Pointe de la Varde";"GONB_02G_1";"Fort National à la Pointe de Rochebonne";"15:45";"total de pêcheurs à pied de loisir";3;;;"";
+413810;"2019-08-02-GONB-FRE-315";413812;"Golfe Normand Breton";"GONB_02B";"Pointe du Décollé à la Pointe de la roche Pelée";"GONB_02B_1";"Pointe du Décollé à la Pointe du Nick";"15:20";"total de pêcheurs à pied de loisir";88;;;"";
+413813;"2019-08-02-GONB-FRE-316";413815;"Golfe Normand Breton";"GONB_02C";"Pointe de la roche Pelée à Pointe du Moulinet";"GONB_02C_1";"Pointe de la roche Pelée à la Pointe de la Malouine";"15:00";"total de pêcheurs à pied de loisir";40;;;"";
+413851;"2019-09-03-GONB-FRE-005";413852;"Golfe Normand Breton";"GONB_02B";"Pointe du Décollé à la Pointe de la roche Pelée";"GONB_02B_1";"Pointe du Décollé à la Pointe du Nick";"17:20";"total de pêcheurs à pied de loisir";1;;;"";
+413854;"2019-09-03-GONB-FRE-006";413856;"Golfe Normand Breton";"GONB_02C";"Pointe de la roche Pelée à Pointe du Moulinet";"GONB_02C_1";"Pointe de la roche Pelée à la Pointe de la Malouine";"17:40";"total de pêcheurs à pied de loisir";7;;;"";
+413864;"2019-09-30-GONB-FRE-004";413866;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_1";"Pointe de Saint Caast le Guildo à Pointe de la Garde";"16:00";"total de pêcheurs à pied de loisir";129;;;"";
+413864;"2019-09-30-GONB-FRE-004";413867;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_2";"Pointe de la Garde à la Pointe de la Bay";"15:55";"total de pêcheurs à pied de loisir";25;;;"";
+413868;"2019-09-30-GONB-FRE-005";413870;"Golfe Normand Breton";"GONB_02G";"Fort National à la Pointe de la Varde";"GONB_02G_1";"Fort National à la Pointe de Rochebonne";"16:00";"total de pêcheurs à pied de loisir";138;;;"";
+413871;"2019-10-01-GONB-FRE-005";413873;"Golfe Normand Breton";"GONB_02B";"Pointe du Décollé à la Pointe de la roche Pelée";"GONB_02B_1";"Pointe du Décollé à la Pointe du Nick";"16:20";"total de pêcheurs à pied de loisir";10;;;"";
+413874;"2019-10-01-GONB-FRE-006";413876;"Golfe Normand Breton";"GONB_02C";"Pointe de la roche Pelée à Pointe du Moulinet";"GONB_02C_1";"Pointe de la roche Pelée à la Pointe de la Malouine";"15:47";"total de pêcheurs à pied de loisir";15;;;"";
+414558;"2019-09-02-GONB-FRE-008";414560;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_2";"Pointe de la Garde à la Pointe de la Bay";"17:10";"total de pêcheurs à pied de loisir";4;;;"";
+414564;"2019-09-02-GONB-FRE-010";414566;"Golfe Normand Breton";"GONB_02G";"Fort National à la Pointe de la Varde";"GONB_02G_1";"Fort National à la Pointe de Rochebonne";"17:00";"total de pêcheurs à pied de loisir";23;;;"";
+420129;"2019-09-02-EGMP-FRE-016";420142;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_10";"Bureau";;"total de pêcheurs à pied de loisir";0;;;"";
+420129;"2019-09-02-EGMP-FRE-016";420143;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_14";"Chay Pigeonnier";;"total de pêcheurs à pied de loisir";1;;;"";
+420129;"2019-09-02-EGMP-FRE-016";420144;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_12";"Conches de Vaux sur Mer";;"total de pêcheurs à pied de loisir";42;;;"";
+420129;"2019-09-02-EGMP-FRE-016";420145;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_8";"Grande Côte";;"total de pêcheurs à pied de loisir";0;;;"";
+420129;"2019-09-02-EGMP-FRE-016";420146;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_11";"Nauzan";;"total de pêcheurs à pied de loisir";0;;;"";
+420129;"2019-09-02-EGMP-FRE-016";420147;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_9";"Platin";;"total de pêcheurs à pied de loisir";38;;;"";
+420129;"2019-09-02-EGMP-FRE-016";420150;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_13";"Pontaillac";;"total de pêcheurs à pied de loisir";1;;;"";
+420129;"2019-09-02-EGMP-FRE-016";420152;"Estuaire de la Gironde et Mer des Pertuis";"EGMP_154";"Côte des Conches";"EGMP_154_11";"Nauzan";;"total de pêcheurs à pied de loisir";2;;;"";
+429120;"2020-01-15-EPMO-FRE-001";429121;"Estuaires Picards et Mer d'Opale";"EPMO_19";"Equihen";"EPMO_19_3";"Equihen_Platier Equihen Sud";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429120;"2020-01-15-EPMO-FRE-001";429122;"Estuaires Picards et Mer d'Opale";"EPMO_19";"Equihen";"EPMO_19_2";"Equihen_Platier Equihen Nord";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429124;"2020-01-15-EPMO-FRE-003";429125;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_2";"Portel-Equihen_Platier Cap Alprech";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429124;"2020-01-15-EPMO-FRE-003";429126;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_3";"Portel-Equihen_Platier Equihen";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429124;"2020-01-15-EPMO-FRE-003";429127;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_4";"Portel-Equihen_Platier Ningles";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429129;"2020-01-15-EPMO-FRE-004";429130;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_3";"Le Portel_Platier Fort de l'Heurt";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429129;"2020-01-15-EPMO-FRE-004";429131;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_4";"Le Portel_Platier Rieu de Cat";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429129;"2020-01-15-EPMO-FRE-004";429132;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_1";"Le Portel_Cap d'Alprech";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429134;"2020-01-15-EPMO-FRE-005";429135;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_2";"Boulogne-sur-Mer_Platier quelques rochers";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429134;"2020-01-15-EPMO-FRE-005";429136;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_5";"Boulogne-sur-Mer_Digue Nord";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429134;"2020-01-15-EPMO-FRE-005";429137;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_4";"Boulogne-sur-Mer_Platier proche crèche";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429139;"2020-01-15-EPMO-FRE-006";429140;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429139;"2020-01-15-EPMO-FRE-006";429141;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429139;"2020-01-15-EPMO-FRE-006";429142;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_2";"Wimereux_Platier Ailette";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429144;"2020-01-15-EPMO-FRE-007";429145;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_2";"Pointe aux oies_Platier";"08:45";"total de pêcheurs à pied de loisir";1;1;0;"";
+429147;"2020-01-15-EPMO-FRE-008";429148;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_3";"Ambleteuse_Platier d'Ambleteuse";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429147;"2020-01-15-EPMO-FRE-008";429149;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_5";"Ambleteuse_Platier langue chien";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429147;"2020-01-15-EPMO-FRE-008";429150;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_1";"Ambleteuse_Platier Liettes";"08:45";"total de pêcheurs à pied de loisir";0;;;"";
+429152;"2020-01-13-EPMO-FRE-001";429153;"Estuaires Picards et Mer d'Opale";"EPMO_19";"Equihen";"EPMO_19_2";"Equihen_Platier Equihen Nord";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429152;"2020-01-13-EPMO-FRE-001";429154;"Estuaires Picards et Mer d'Opale";"EPMO_19";"Equihen";"EPMO_19_3";"Equihen_Platier Equihen Sud";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429156;"2020-01-13-EPMO-FRE-003";429157;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_3";"Portel-Equihen_Platier Equihen";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429156;"2020-01-13-EPMO-FRE-003";429158;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_2";"Portel-Equihen_Platier Cap Alprech";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429156;"2020-01-13-EPMO-FRE-003";429159;"Estuaires Picards et Mer d'Opale";"EPMO_33";"Portel-Equihen";"EPMO_33_4";"Portel-Equihen_Platier Ningles";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429161;"2020-01-13-EPMO-FRE-004";429162;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_3";"Le Portel_Platier Fort de l'Heurt";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429161;"2020-01-13-EPMO-FRE-004";429163;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_4";"Le Portel_Platier Rieu de Cat";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429161;"2020-01-13-EPMO-FRE-004";429164;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_1";"Le Portel_Cap d'Alprech";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429166;"2020-01-13-EPMO-FRE-005";429167;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_2";"Boulogne-sur-Mer_Platier quelques rochers";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429166;"2020-01-13-EPMO-FRE-005";429168;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_4";"Boulogne-sur-Mer_Platier proche crèche";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429166;"2020-01-13-EPMO-FRE-005";429169;"Estuaires Picards et Mer d'Opale";"EPMO_08";"Boulogne-sur-Mer";"EPMO_08_5";"Boulogne-sur-Mer_Digue Nord";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429171;"2020-01-13-EPMO-FRE-006";429172;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_3";"Wimereux_Platier crèche";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429171;"2020-01-13-EPMO-FRE-006";429173;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429171;"2020-01-13-EPMO-FRE-006";429174;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_2";"Wimereux_Platier Ailette";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429176;"2020-01-13-EPMO-FRE-007";429177;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_3";"Ambleteuse_Platier d'Ambleteuse";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429176;"2020-01-13-EPMO-FRE-007";429178;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_5";"Ambleteuse_Platier langue chien";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429176;"2020-01-13-EPMO-FRE-007";429179;"Estuaires Picards et Mer d'Opale";"EPMO_01";"Ambleteuse";"EPMO_01_1";"Ambleteuse_Platier Liettes";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+429181;"2020-01-13-EPMO-FRE-008";429182;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_2";"Pointe aux oies_Platier";"07:45";"total de pêcheurs à pied de loisir";0;;;"";
+430129;"2020-03-11-EPMO-FRE-005";430131;"Estuaires Picards et Mer d'Opale";"EPMO_32";"Pointe aux oies";"EPMO_32_2";"Pointe aux oies_Platier";"09:00";"pêcheurs récréatifs de moules adultes sur rochers";2;2;0;"";
+430132;"2020-03-12-EPMO-FRE-002";430134;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_3";"Le Portel_Platier Fort de l'Heurt";"08:00";"pêcheurs récréatifs de moules adultes sur rochers";4;4;0;"";
+430132;"2020-03-12-EPMO-FRE-002";430135;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_4";"Le Portel_Platier Rieu de Cat";"09:00";"pêcheurs récréatifs de moules adultes sur rochers";5;5;0;"";
+430132;"2020-03-12-EPMO-FRE-002";430136;"Estuaires Picards et Mer d'Opale";"EPMO_27";"Le Portel";"EPMO_27_1";"Le Portel_Cap d'Alprech";"09:00";"pêcheurs récréatifs de moules adultes sur rochers";4;4;0;"";
+430222;"2020-03-11-EPMO-FRE-006";430224;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_2";"Wimereux_Platier Ailette";"09:00";"total de pêcheurs à pied de loisir";0;0;0;"";
+430222;"2020-03-11-EPMO-FRE-006";430231;"Estuaires Picards et Mer d'Opale";"EPMO_39";"Wimereux";"EPMO_39_6";"Wimereux_Platier Fort de Wimereux";"08:00";"total de pêcheurs à pied de loisir";0;0;0;"";
+431401;"2020-03-11-GONB-FRE-013";433573;"Golfe Normand Breton";"GONB_02B";"Pointe du Décollé à la Pointe de la roche Pelée";"GONB_02B_1";"Pointe du Décollé à la Pointe du Nick";"14:45";"total de pêcheurs à pied de loisir";125;;;"";
+431403;"2020-03-12-GONB-FRE-004";433569;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_1";"Pointe de Saint Caast le Guildo à Pointe de la Garde";"15:35";"total de pêcheurs à pied de loisir";109;;;"";
+431403;"2020-03-12-GONB-FRE-004";433570;"Golfe Normand Breton";"GONB_01B";"Pointe de Saint-Cast-le-guildo à la Pointe du Bay";"GONB_01B_2";"Pointe de la Garde à la Pointe de la Bay";"15:25";"total de pêcheurs à pied de loisir";0;;;"";
