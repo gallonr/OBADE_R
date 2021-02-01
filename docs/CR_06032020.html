@@ -13,12 +13,16 @@
 
 <title>Compte-rendu du 06/03/2020</title>
 
+<script src="site_libs/header-attrs-2.3.5/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -251,6 +255,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -258,6 +325,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -311,27 +388,26 @@ $(document).ready(function () {
     </li>
   </ul>
 </li>
-<li>
-  <a href="bibliographie.html">
-    <span class="fa fa-newspaper"></span>
-     
-    Bibliographie
-  </a>
-</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Divers
+    <span class="fa fa-newspaper"></span>
+     
+    Rapportage
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="obade_descriptbasePAP.html">Description des données d'usage</a>
-    </li>
-    <li>
-      <a href="analyse_usage.docx">Exemple fiche doc</a>
+      <a href="./presentation/rapport_patin_etienne.pdf">Stage Etienne Patin</a>
     </li>
   </ul>
+</li>
+<li>
+  <a href="https://regisgallon.shinyapps.io/OBADE_Shiny/">
+    <span class="fa fa-r-project"></span>
+     
+    Interface shiny
+  </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -374,9 +450,16 @@ $(document).ready(function () {
 <p>« Présentation du projet PAMPA en vue d’un transfert de connaissance pour le projet OBADE »</p>
 <div id="ouverture-de-la-réunion-ag-et-rg" class="section level2">
 <h2>Ouverture de la réunion : AG et RG</h2>
-<p>Après un tour de table, l’ouverture de la réunion s’est faite par la présentation du projet OBADE, de ses objectifs ainsi qu’un état des lieux de la complétude de la base de données ESTAMP. Le projet OBADE est issu d’un appel à projet (mai 2019) du Ministère de la Transition Ecologique et Solidaire ayant pour objectif l’évaluation de l’efficacité écologique et économique de mesures de gestion prises en faveur de l’environnement marin dans le cadre de la DCSMM. Le projet OBADE veut fournir un outil facilitant la compréhension et l’analyse de la base de données ESTAMP, qui est un outil d’accompagnement à la saisie, à la bancarisation, et à la diffusion de données regroupant des données d’usage (sensibilisation, comptages et enquêtes auprès des pécheurs à pied) et des données biologiques (herbier de zostères, champs de blocs, récif d’hermelles, gisement de coques) en zone intertidale. Une précision a été portée sur l’objectif final de l’outil OBADE qu’il serait une aide pour l’interprétation de la base donnée ESTAMP et non un outil d’analyse. Une discussion a eu lieu sur l’état de la base de données après une présentation des travaux déjà effectués. Des éclaircissements ont été apportés sur des données manquantes, de possible ajout dans la base de données venant de futur ou d’ancien projet de suivi d’activité de loisir sur l’estran (Projet FEAMP, LIFE pêche à pied…) mais aussi des données non validées disponibles sur la base.</p>
+<p>Après un tour de table, l’ouverture de la réunion s’est faite par la présentation du projet OBADE, de ses objectifs ainsi qu’un état des lieux de la complétude de la base de données ESTAMP.
+Le projet OBADE est issu d’un appel à projet (mai 2019) du Ministère de la Transition Ecologique et Solidaire ayant pour objectif l’évaluation de l’efficacité écologique et économique de mesures de gestion prises en faveur de l’environnement marin dans le cadre de la DCSMM.
+Le projet OBADE veut fournir un outil facilitant la compréhension et l’analyse de la base de données ESTAMP, qui est un outil d’accompagnement à la saisie, à la bancarisation, et à la diffusion de données regroupant des données d’usage (sensibilisation, comptages et enquêtes auprès des pécheurs à pied) et des données biologiques (herbier de zostères, champs de blocs, récif d’hermelles, gisement de coques) en zone intertidale.
+Une précision a été portée sur l’objectif final de l’outil OBADE qu’il serait une aide pour l’interprétation de la base donnée ESTAMP et non un outil d’analyse.
+Une discussion a eu lieu sur l’état de la base de données après une présentation des travaux déjà effectués. Des éclaircissements ont été apportés sur des données manquantes, de possible ajout dans la base de données venant de futur ou d’ancien projet de suivi d’activité de loisir sur l’estran (Projet FEAMP, LIFE pêche à pied…) mais aussi des données non validées disponibles sur la base.</p>
 <p>Il a été proposé de d’inviter au COPIL Valentin Guyonnard, le coordinateur du programme VALOBS (Valorisation de données et conception d’un observatoire des usages de loisir dans le Parc naturel marin de l’estuaire de la Gironde et de la mer des Pertuis)</p>
-<p>Dominique Pelletier (Biostat, écologue, halieutique) - Dvpt AMP évaluation des écosystèmes côtiers (ressources, usages non pro, gouvernance) - Développement indicateurs et statistiques - Evalutation intégré des écosystèmes côtiers (aspect usage, écologie)</p>
+<p>Dominique Pelletier (Biostat, écologue, halieutique)
+- Dvpt AMP évaluation des écosystèmes côtiers (ressources, usages non pro, gouvernance)
+- Développement indicateurs et statistiques
+- Evalutation intégré des écosystèmes côtiers (aspect usage, écologie)</p>
 </div>
 <div id="présentation-du-projet-pampa-dp" class="section level2">
 <h2>Présentation du projet PAMPA (DP)</h2>
@@ -387,16 +470,20 @@ $(document).ready(function () {
 </div>
 <div id="la-présentation-sest-finie-par-la-découverte-du-volet-usage." class="section level3">
 <h3>La présentation s’est finie par la découverte du volet usage.</h3>
-<p>L’extrapolation des données et la sélection de l’unité géographique est une étape indispensable. La création de graphiques a été expliquée et une attention particulière a été portée sur la sélection et la personnalisation des jeux de données.</p>
+<p>L’extrapolation des données et la sélection de l’unité géographique est une étape indispensable.
+La création de graphiques a été expliquée et une attention particulière a été portée sur la sélection et la personnalisation des jeux de données.</p>
 </div>
 </div>
 <div id="conclusion" class="section level2">
 <h2>Conclusion</h2>
-<p>Le projet PAMPA présente des similitudes avec le projet OBADE. Un partenariat a été envisagé pour que l’outil PAMPA serve de base de départ pour la création de l’outil OBADE. De futures réunions sont à prévoir pour exposer l’avancement de la réalisation de l’outil OBADE ainsi que la création d’un comité de pilotage technique, d’un comité technique et d’un comité consultatif.</p>
+<p>Le projet PAMPA présente des similitudes avec le projet OBADE. Un partenariat a été envisagé pour que l’outil PAMPA serve de base de départ pour la création de l’outil OBADE.
+De futures réunions sont à prévoir pour exposer l’avancement de la réalisation de l’outil OBADE ainsi que la création d’un comité de pilotage technique, d’un comité technique et d’un comité consultatif.</p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -429,6 +516,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

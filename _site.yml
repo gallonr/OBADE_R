@@ -20,26 +20,26 @@ navbar:
           href: copil22042020.html
         - text: "Réunion du 04-05-2020"
           href: CT_04052020.html
-    - text: "Bibliographie"
+    - text: "Rapportage"
       icon: fa-newspaper
-      href: bibliographie.html
-    - text: "Divers"
       menu:
-        - text: "Description des données d'usage"
-          href: obade_descriptbasePAP.html
-        - text: "Exemple fiche doc"
-          href: analyse_usage.docx
-
-
+        - text: "Stage Etienne Patin"
+          href: ./presentation/rapport_patin_etienne.pdf
+    - text: "Interface shiny"
+      icon: fa-r-project
+      href: https://regisgallon.shinyapps.io/OBADE_Shiny/
   right:
     - icon: fa-envelope
       href: mailto:Projet_OBADE<par_obade@CNAM.onmicrosoft.com>?subject=[OBADE]
     - icon: fa-github
       href: https://github.com/gallonr/OBADE_R
-      
+
 output:
-  html_document:
+  bookdown::html_document2:
     theme: cosmo
+    number_sections: FALSE
     df_print: kable
     fig_caption: yes
-    css: styles.css
+    css: "styles.css"
+    toc: TRUE
+    toc_float: TRUE

@@ -1,9 +1,9 @@
 {
-    "path" : "C:/Users/regisgallon/OneDrive - LECNAM/2019-2020/6-recherche/OBADE/OBADE_R",
-    "sortOrder" : [
+    "path": "C:/Users/regisgallon/OneDrive - LECNAM/2019-2020/6-recherche/OBADE/OBADE_R",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }
